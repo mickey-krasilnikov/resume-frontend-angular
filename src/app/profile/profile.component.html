@@ -1,1 +1,79 @@
-<p>profile works!</p>
+<section class="module" id="profile">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="m-title c-align">
+          <h2>TITLE</h2>
+          <h6>SUB TITLE</h6>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="titleheadshot">
+          <div class="headshot"></div>
+        </div>
+      </div>
+      <div class="col-md-5" style="text-align:justify;">
+        <h5>{{profile.title}}</h5>
+        <div [innerHTML]="profile.data"></div>
+      </div>
+      <div class="col-md-4">
+        <h5>CONTACT</h5>
+        <ul class="contacts">
+          <li>
+            <a target="_blank" href="https://wa.me/+14084444444">
+              <i class="fab fa-whatsapp fa-lg"></i>
+              &nbsp;&nbsp;(408) 444-4444
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="mailto:your_email">
+              <i class="fa fa-envelope fa-lg"></i>
+              &nbsp;&nbsp;temporary.fake@email.com
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-map-marker fa-lg"></i>
+              &nbsp;&nbsp;Temp, CA, 94085
+            </a>
+          </li>
+        </ul>
+
+        <div class="profile-widget">
+          <h5>SOCIAL PROFILES</h5>
+          <ul class="widget-social">
+            <!-- https://fontawesome.com/v4/icons/ -->
+            <li>
+              <a target="_blank" href="https://github.com/mickey-krasilnikov">
+                <i class="fab fa-github-square fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/mickeykrasilnikov">
+                <i class="fab fa-linkedin fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.instagram.com/mickey.krasilnikov/">
+                <i class="fab fa-instagram fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.facebook.com/mickey.krasilnikov">
+                <i class="fab fa-facebook fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://twitter.com/mickey_kras">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

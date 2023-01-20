@@ -1,1 +1,24 @@
-<p>certification works!</p>
+<section class="module module-gray" id="certs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="m-title c-align">
+          <h2>{{head.title}}</h2>
+          <h6>{{head.subtitle}}</h6>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-borderless">
+          <tbody>
+            <tr *ngFor="let cert of certification;">
+              <td><i class="fabiconawards fa fa-trophy fa-lg text-warning "></i></td>
+              <td>{{ cert.title }} - <strong> {{ cert.name }} </strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>

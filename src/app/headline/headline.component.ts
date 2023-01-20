@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './headline.component.html',
   styleUrls: ['./headline.component.css']
 })
-export class HeadlineComponent {
 
+export class HeadlineComponent {
+  public name: string = "Hi, my name is Mikhail";
+  public title = "and I am full-stack software developer";
 }
