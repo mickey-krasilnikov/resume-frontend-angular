@@ -1,4 +1,4 @@
-<section class="module module-gray" id="certs">
+<section class="module module-gray" id="certification">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -13,7 +13,9 @@
         <table class="table table-borderless">
           <tbody>
             <tr *ngFor="let cert of certification;">
-              <td><i class="fabiconawards fa fa-trophy fa-lg text-warning "></i></td>
+              <td>
+                <fa-icon class="text-warning" [icon]="['fas', 'trophy']" size="lg"></fa-icon>
+              </td>
               <td>{{ cert.title }} - <strong> {{ cert.name }} </strong></td>
             </tr>
           </tbody>

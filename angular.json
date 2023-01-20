@@ -21,13 +21,10 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css",
-              "src/assets/css/fontawesome-all.min.css",
-              "src/assets/css/template.css"
+              "src/styles.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "src/assets/js/jquery-ui.min.js",
               "src/assets/js/plugins.js"
             ]
           },
