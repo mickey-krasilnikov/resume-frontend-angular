@@ -1,47 +1,22 @@
 <header class="header header-center">
   <div class="container-fluid">
-    <div class="nav-toggle">
-      <a href="#" data-toggle="collapse" data-target=".inner-navigation"
-        (click)="isNavbarCollapsed = !isNavbarCollapsed">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-    </div>
+    <div class="nav-toggle"><a href="#" data-toggle="collapse" data-target=".inner-navigation"
+        (click)="isMenuCollapsed = !isMenuCollapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span
+          class="icon-bar"></span></a></div>
 
-    <div class="inner-navigation collapse" [ngbCollapse]="isNavbarCollapsed">
+    <div class="inner-navigation collapse" [ngbCollapse]="isMenuCollapsed">
       <div class="inner-nav onepage-nav" id="navbarContent">
         <ul>
-          <li>
-            <a href="#home" (click)="isNavbarCollapsed = !isNavbarCollapsed">
-              <span class="menu-item-span">HOME</span>
-            </a>
+          <li><a href="#home" (click)="isMenuCollapsed = !isMenuCollapsed"><span class="menu-item-span">Home</span></a>
           </li>
-          <li>
-            <a href="#profile" (click)="isNavbarCollapsed = !isNavbarCollapsed">
-              <span class="menu-item-span">PROFILE</span>
-            </a>
-          </li>
-          <li>
-            <a href="#skills" (click)="isNavbarCollapsed = !isNavbarCollapsed">
-              <span class="menu-item-span">SKILLS</span>
-            </a>
-          </li>
-          <li>
-            <a href="#experience" (click)="isNavbarCollapsed = !isNavbarCollapsed">
-              <span class="menu-item-span">EXPERIENCE</span>
-            </a>
-          </li>
-          <li>
-            <a href="#certification" (click)="isNavbarCollapsed = !isNavbarCollapsed">
-              <span class="menu-item-span">CERTIFICATION</span>
-            </a>
-          </li>
-          <li>
-            <a href="#education" (click)="isNavbarCollapsed = !isNavbarCollapsed">
-              <span class="menu-item-span">EDUCATION</span>
-            </a>
-          </li>
+          <li><a href="#profile" (click)="isMenuCollapsed = !isMenuCollapsed"><span
+                class="menu-item-span">Profile</span></a></li>
+          <li><a href="#skills" (click)="isMenuCollapsed = !isMenuCollapsed"><span
+                class="menu-item-span">Skills</span></a></li>
+          <li><a href="#experience" (click)="isMenuCollapsed = !isMenuCollapsed"><span
+                class="menu-item-span">Experience</span></a></li>
+          <li><a href="#certification" (click)="isMenuCollapsed = !isMenuCollapsed"><span
+                class="menu-item-span">Certification</span></a></li>
         </ul>
       </div>
     </div>

@@ -1793,9 +1793,9 @@ button {
   background-color: transparent;
   position: fixed;
   z-index: 1040;
-  height: 80px;
+  height: 44px;
   width: 100%;
-  padding: 0 50px;
+  padding: 0 0px;
   transition: height 0.3s ease-out, background 0.3s ease-out, box-shadow 0.5s,
     left 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.5s;
   transition: height 0.3s ease-out, background 0.3s ease-out, transform 0.5s,
@@ -1813,12 +1813,12 @@ button {
 
 .header.header-small {
   background-color: #fff;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .header.header-shadow {
-  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
-  height: 58px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  height: 42px;
 }
 
 .header .container,
@@ -2108,7 +2108,7 @@ header.header-small .inner-nav > ul > app-login > li.sub-menu-open > a {
 
 .nav-toggle {
   display: none;
-  padding: 0 0 0 25px;
+  padding: 5px 0 0 25px;
 }
 
 .nav-toggle {
@@ -2503,7 +2503,7 @@ header.header-small .inner-nav > ul > app-login > li.sub-menu-open > a {
 
 @media (max-width: 992px) {
   .wrapper {
-    padding-top: 80px;
+    padding-top: 44px;
   }
 
   .module-header {
