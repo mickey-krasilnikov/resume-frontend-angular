@@ -35,3 +35,79 @@ h6,
   padding-right: 10px;
   color: #e55d87;
 }
+
+.btn {
+  border-width: 0;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  font-family: "Montserrat", Arial, serif;
+  font-size: 14px;
+  padding: 0.8rem 1.5rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.btn > span {
+  position: relative;
+  z-index: 1;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 0;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  right: 0;
+  border-radius: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn:hover:before {
+  height: 450%;
+  width: 120%;
+  transition: all 350ms linear;
+}
+
+.btn:focus,
+.btn.focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn:active.focus,
+.btn:active:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn.btn-brand {
+  background: #202020;
+  color: #fff;
+}
+
+.btn.btn-brand:before {
+  background: #e55d87;
+}
+
+.btn.btn-brand.btn-outline {
+  background: transparent;
+  border: 1px solid #202020;
+  color: #525252;
+}
+
+.btn.btn-brand.btn-outline:before {
+  background: #202020;
+}
+
+.btn.btn-brand.btn-outline:hover {
+  border-color: #202020;
+  color: #fff;
+}

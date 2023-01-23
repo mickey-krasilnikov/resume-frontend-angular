@@ -50,11 +50,20 @@ ol > li {
 .widget select,
 .widget textarea {
   width: 100%;
-  border: 2px solid #44a6c7;
+  border: 2px solid;
   border-radius: 5px;
   font-family: "Montserrat", Arial, serif;
+  font-size: 14px;
   padding: 0.5rem;
   margin: 5px;
+}
+
+.widget input:focus,
+.widget select:focus,
+.widget textarea:focus {
+  border: 2px solid #e55d87;
+  outline: #e55d87;
+  transition: 350ms;
 }
 
 .widget-social li a {
