@@ -1,0 +1,129 @@
+.wrap,
+.row,
+.tab-row {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.nav {
+  position: fixed;
+  z-index: 3;
+  height: 60px;
+  width: 100%;
+  transition: 300ms ease;
+}
+.brand {
+  float: left;
+  line-height: 60px;
+  color: white;
+  font-weight: 500;
+  padding-left: 1rem;
+}
+.brand span {
+  font-size: 0.9em;
+  font-weight: 700;
+}
+.brand img {
+  vertical-align: middle;
+  height: calc(60px - 1rem);
+  margin-right: 0.5rem;
+}
+.top-menu {
+  display: none;
+  position: relative;
+  float: right;
+  transition: 200ms ease;
+  font-weight: 300;
+  height: 60px;
+}
+@media screen and (min-width: 640px) {
+  .top-menu {
+    display: block;
+  }
+}
+.top-menu li {
+  display: block;
+  float: left;
+  height: 60px;
+}
+.top-menu li a {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 1em;
+  font-size: 14px;
+  font-family: "Montserrat", Arial, serif;
+}
+.top-menu li a:hover {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+}
+.mobile-open {
+  display: block;
+}
+.hamburger-btn {
+  float: right;
+  display: block;
+  border: none;
+  background: transparent;
+  color: #fff;
+  height: 60px;
+  width: calc(60px - 1rem);
+  padding: 0 1em;
+  position: relative;
+}
+@media screen and (min-width: 640px) {
+  .hamburger-btn {
+    display: none;
+  }
+}
+.hamburger-btn:hover {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+}
+.hamburger-btn .hamburger-line {
+  height: 2px;
+  width: calc(50px - 2rem);
+  background: #fff;
+  display: block;
+  position: absolute;
+  left: calc(0.8rem - 1px);
+  transition: transform 150ms ease-in, top 150ms ease-out 150ms,
+    bottom 150ms ease-out 150ms, opacity 150ms ease 75ms;
+}
+
+.hamburger-btn .hamburger-line:first-child {
+  top: 1.4rem;
+}
+.hamburger-btn .hamburger-line:nth-child(2) {
+  top: calc(50% - 1px);
+}
+.hamburger-btn .hamburger-line:last-child {
+  bottom: 1.4rem;
+}
+.hamburger-cross .hamburger-line {
+  transition: transform 150ms ease-out 150ms, top 150ms ease-in,
+    bottom 150ms ease-in, opacity 150ms ease 75ms;
+}
+.hamburger-cross .hamburger-line:first-child {
+  transform: rotate(45deg);
+  top: calc(50% - 1px);
+}
+.hamburger-cross .hamburger-line:nth-child(2) {
+  top: calc(50% - 1px);
+  opacity: 0;
+}
+.hamburger-cross .hamburger-line:last-child {
+  transform: rotate(-45deg);
+  bottom: calc(50% - 1px);
+}
+.scroll {
+  background: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.scroll .top-menu li a,
+.scroll .brand {
+  color: black;
+}
+.scroll .hamburger-line {
+  background: #000;
+}

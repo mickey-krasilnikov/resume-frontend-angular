@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-declare var jQuery: any;
-declare var $: any;
 
 @Component({
   selector: 'app-header',
@@ -11,127 +9,55 @@ declare var $: any;
 export class HeaderComponent implements OnInit {
   isMenuCollapsed: boolean = true;
 
-
-
-
   ngOnInit() {
-
-    // mobile detect
-    this.bindAngularMenu();
-
-    //header animation
-    this.headerStyles();
-
-    // setting background of modules
-    this.setBackgrounds();
-
-    $('.onepage-nav').singlePageNav({
-      filter: ':not(.external)',
-      currentClass: 'active',
-      offset: '58',
-    });
-  }
-
-  headerStyles() {
-     const header = jQuery('.header');
-    jQuery(window).scroll(function() {
-      const scroll = jQuery(window).scrollTop();
-      if (scroll >= 5) {
-        header.addClass('header-small');
-        header.addClass('header-shadow');
-      } else {
-        header.removeClass('header-small');
-        header.removeClass('header-shadow');
+    (function () {
+      var menuId:any;
+      function init () {
+        menuId = document.getElementById("menu");
+        document.addEventListener("scroll",scrollMenu,false);
       }
-      if ( ( jQuery('.module-header').length <= 0 ) && ( jQuery('.module-slides').length <= 0 ) ) {
-        header.addClass('header-small');
+      function scrollMenu () {
+        if (document.documentElement.scrollTop > 50) {
+          menuId.classList.add("scroll");
+          console.log('scroll');
+        }
+        else {
+          menuId.classList.remove("scroll");
+          console.log('no-scroll');
+        }
       }
-    }).scroll();
+      document.addEventListener("DOMContentLoaded",init,false);
+    })();
 
-    /* ---------------------------------------------- /*
-     * Light/dark header
-    /* ---------------------------------------------- */
+    (function (){
+      var mobBtn:any, topMenu:any;
 
-    const module_header = jQuery('.module-header');
-
-    if ( module_header.length >= 0 ) {
-      if (module_header.hasClass('bg-dark') ) {
-        header.addClass('header-light');
-      } else {
-        header.removeClass('header-light');
+      function init() {
+        mobBtn = document.getElementById("mobile-btn");
+        topMenu = document.getElementById("top-menu");
+        mobBtn.addEventListener("click",mobileMenu,false);
       }
-    }
+
+      function mobileMenu() {
+        if(topMenu.classList.contains("mobile-open")) {
+          topMenu.classList.remove("mobile-open");
+        }
+        else {
+          topMenu.classList.add("mobile-open");
+        }
+
+        if (mobBtn.classList.contains("hamburger-cross")) {
+          mobBtn.classList.remove("hamburger-cross");
+        }
+        else {
+          mobBtn.classList.add("hamburger-cross");
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded",init);
+
+    })();
   }
 
-  setBackgrounds() {
-    jQuery('[data-background]').each(() => {
-      jQuery(this).css('background-image', 'url(' + jQuery(this).attr('data-background') + ')');
-    });
-
-    jQuery('[data-background-color]').each(() => {
-      jQuery(this).css('background-color', jQuery(this).attr('data-background-color') );
-    });
-
-    jQuery('[data-color]').each(() => {
-      jQuery(this).css('color', jQuery(this).attr('data-color') );
-    });
-  }
-
-  bindAngularMenu() {
-    const navBreakpoint: number = 991;
-    let mobileTest: boolean;
-
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      mobileTest = true;
-    } else {
-      mobileTest = false;
-    }
-    const width = Math.max(jQuery(window).width(), window.innerWidth);
-    const menuItem = jQuery('.menu-item-has-children').not('.mega-menu-col');
-
-    // Remove old margins from sub-menus
-    menuItem.children('.sub-menu, .mega-menu').removeClass('sub-menu-left');
-
-    if (width > navBreakpoint) {
-      menuItem.removeClass('sub-menu-open');
-    }
-
-    if ((width > navBreakpoint) && (mobileTest !== true)) {
-      menuItem.children('a').unbind('click');
-      menuItem.unbind('mouseenter mouseleave');
-      menuItem.on({
-        mouseenter: function () {
-          jQuery(this).addClass('sub-menu-open');
-        },
-        mouseleave: function () {
-          jQuery(this).removeClass('sub-menu-open');
-        }
-      });
-    } else {
-      menuItem.unbind('mouseenter mouseleave');
-      menuItem.children('a').unbind('click').click( (e: any) => {
-        e.preventDefault();
-        jQuery(this).parent().toggleClass('sub-menu-open');
-        // If device has big screen
-        if ((width > navBreakpoint) && (mobileTest === true)) {
-          jQuery(this).parent().siblings().removeClass('sub-menu-open');
-          jQuery(this).parent().siblings().find('.sub-menu-open').removeClass('sub-menu-open');
-        }
-      });
-    }
-
-    if ((width > navBreakpoint) && (mobileTest !== true)) {
-      menuItem.children('.sub-menu, .mega-menu').each( () => {
-        const a = jQuery(this).offset();
-        const b = jQuery(this).width() + a.left;
-
-        if (b > width) {
-          jQuery(this).addClass('sub-menu-left');
-        } else {
-          jQuery(this).removeClass('sub-menu-left');
-        }
-      });
-    }
-  }
 }
 

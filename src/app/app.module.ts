@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { HeadlineComponent } from './headline/headline.component';
-import { ProfileComponent } from './profile/profile.component';
+import { ContactsComponent } from './contacts/contacts.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
@@ -23,7 +23,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
     HomeComponent,
     HeaderComponent,
     HeadlineComponent,
-    ProfileComponent,
+    ContactsComponent,
     SkillsComponent,
     ExperienceComponent,
     EducationComponent,

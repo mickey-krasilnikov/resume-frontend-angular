@@ -1,0 +1,54 @@
+/* @import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,700");
+
+body {
+  font-family: "Comfortaa", cursive;
+} */
+
+h6,
+.h6 {
+  font-family: "Montserrat", Arial, serif;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.chip {
+  padding: 0 12px;
+  background-color: #e0e0e0;
+  border-radius: 100px;
+  display: inline-flex;
+  margin: 4px;
+  color: rgba(0, 0, 0, 0.87);
+  align-items: center;
+  height: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+}
+
+.chip .icon {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.54);
+  width: 20px;
+  text-align: center;
+}
+
+.chip .icon--leadind {
+  margin: 2px 4px 0 -4px;
+}
+
+.chip .icon--trailing {
+  margin: 2px -4px 0 4px;
+}
+/*
+.chips__choice .chip.chip--active {
+  color: #ff502f;
+  background-color: #ff522f2f;
+}
+
+.chips__filter .chip .chip--check {
+  display: none;
+}
+
+.chips__filter .chip.chip--active .chip--check {
+  display: block;
+} */

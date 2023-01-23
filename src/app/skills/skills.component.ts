@@ -8,25 +8,59 @@ import {Component } from '@angular/core';
 export class SkillsComponent {
   public skills: any = [
     {
-      title: 'skill 1',
+      title: 'Backend',
       info: [
-        [{ title: 'SUB SKILL 1', progress: 95 }],
-        [{ title: 'SUB SKILL 2', progress: 90 }],
-        [{ title: 'SUB SKILL 3', progress: 85 }]
+        { title: 'C# (.NET/.NET Core)', progress: 95 },
+        { title: 'GoLang (Gin)', progress: 90 },
+        { title: 'JavaScript / TypeScript', progress: 85 },
+        { title: 'Python', progress: 85 }
       ]
     },
     {
-      title: 'skill 2',
+      title: 'Frontend',
       info: [
-        [{ title: 'SUB SKILL 1', progress: 90 }],
-        [{ title: 'SUB SKILL 2', progress: 95 }]
+        { title: 'Angular', progress: 90 },
+        { title: 'Vue.js', progress: 90 },
+        { title: 'ASP.NET', progress: 90 },
+        { title: 'JavaScript / TypeScript', progress: 90 },
+        { title: 'HTML', progress: 90 },
+        { title: 'CSS', progress: 90 },
+        { title: 'WPF', progress: 95 }
       ]
     },
     {
-      title: 'skill 3',
+      title: 'Database',
       info: [
-        [{ title: 'SUB SKILL 1', progress: 90 }],
-        [{ title: 'SUB SKILL 2', progress: 95 }]
+        { title: 'T-SQL (MS SQL)', progress: 90 },
+        { title: 'SQL/PSM (MySQL)', progress: 90 },
+        { title: 'PL-SQL (PostgreSQL, Oracle)', progress: 90 },
+        { title: 'MongoDB', progress: 90 },
+        { title: 'Redis', progress: 90 },
+        { title: 'CosmosDB', progress: 90 },
+        { title: 'DynamoDB', progress: 90 }
+      ]
+    },
+    {
+      title: 'Tools',
+      info: [
+        { title: 'Docker', progress: 90 },
+        { title: 'Kubernetes', progress: 90 },
+        { title: 'Azure DevOps', progress: 90 },
+        { title: 'GitHub Actions', progress: 90 },
+        { title: 'AWS CodePipeline', progress: 90 },
+        { title: 'Octopus', progress: 90 },
+        { title: 'Jenkins', progress: 90 },
+        { title: 'TeamCity', progress: 90 },
+        { title: 'Okta', progress: 90 },
+        { title: 'Jira', progress: 95 }
+      ]
+    },
+    {
+      title: 'Clouds',
+      info: [
+        { title: 'Azure', progress: 90 },
+        { title: 'AWS', progress: 95 },
+        { title: 'GCP', progress: 95 }
       ]
     },
   ];
