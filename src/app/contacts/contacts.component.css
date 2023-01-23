@@ -97,3 +97,8 @@ ol > li {
 .widget-social li a:hover {
   background: #000000;
 }
+
+.contacts,
+.profile-widget {
+  margin: 5px;
+}

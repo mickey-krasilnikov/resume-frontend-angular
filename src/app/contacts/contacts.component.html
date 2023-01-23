@@ -11,48 +11,34 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-8 widget">
-        <input type="text" name="name" placeholder="Name" /><br />
-        <input type="email" name="email" placeholder="Email" /><br />
-        <textarea type="text" name="message" placeholder="Message"></textarea><br />
 
-        <button class="btn btn-brand" id="sendMessage" type="submit">
-          <span>Send Message</span>
-        </button>
-      </div>
-      <!-- <div class="col-md-3">
-        <div class="titlephoto">
-          <div class="photo"></div>
-        </div>
-      </div> -->
-      <!-- <div class="col-md-5" style="text-align:justify;">
-        <div [innerHTML]="profile.data"></div>
-      </div> -->
       <div class="col-md-4">
-        <h5>CONTACT</h5>
-        <ul class="contacts">
-          <li>
-            <a target="_blank" href="https://wa.me/+14084444444">
-              <fa-icon [icon]="['fab', 'whatsapp']" size="lg"></fa-icon>
-              &nbsp;&nbsp;(408) 480-3600
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="mailto:your_email">
-              <fa-icon [icon]="['far', 'envelope']" size="lg"></fa-icon>
-              &nbsp;&nbsp;mickey.krasilnikov@gmail.com
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <fa-icon [icon]="['fas', 'location-dot']" size="lg"></fa-icon>
-              &nbsp;&nbsp;Sunyvale, CA, 94085
-            </a>
-          </li>
-        </ul>
+        <div class="contacts">
+          <!-- <h5>Contacts</h5> -->
+          <ul>
+            <li>
+              <a target="_blank" href="https://wa.me/+14084444444">
+                <fa-icon [icon]="['fab', 'whatsapp']" size="lg"></fa-icon>
+                &nbsp;&nbsp;(408) 480-3600
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="mailto:your_email">
+                <fa-icon [icon]="['far', 'envelope']" size="lg"></fa-icon>
+                &nbsp;&nbsp;mickey.krasilnikov@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <fa-icon [icon]="['fas', 'location-dot']" size="lg"></fa-icon>
+                &nbsp;&nbsp;Sunyvale, CA, 94085
+              </a>
+            </li>
+          </ul>
+        </div>
 
         <div class="profile-widget">
-          <h5>SOCIAL PROFILES</h5>
+          <h5>Social Profiles</h5>
           <ul class="widget-social">
             <li>
               <a target="_blank" href="https://github.com/mickey-krasilnikov">
@@ -82,6 +68,23 @@
           </ul>
         </div>
       </div>
+      <div class="col-md-8 widget">
+        <input type="text" name="name" placeholder="Name" /><br />
+        <input type="email" name="email" placeholder="Email" /><br />
+        <textarea type="text" name="message" placeholder="Message"></textarea><br />
+
+        <button class="btn btn-brand" id="sendMessage" type="submit">
+          <span>Send Message</span>
+        </button>
+      </div>
+      <!-- <div class="col-md-3">
+        <div class="titlephoto">
+          <div class="photo"></div>
+        </div>
+      </div> -->
+      <!-- <div class="col-md-5" style="text-align:justify;">
+        <div [innerHTML]="profile.data"></div>
+      </div> -->
     </div>
   </div>
 </section>
