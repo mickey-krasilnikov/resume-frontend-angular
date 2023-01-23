@@ -1,1 +1,25 @@
-<p>education works!</p>
+<section class="module module-gray" id="education">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="m-title c-align">
+          <h2>
+            <fa-icon class="module-icon" [icon]="['fas', 'school']" size="lg"></fa-icon>
+            Education
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-borderless">
+          <tbody>
+            <tr *ngFor="let e of education;">
+              <td>{{ e.title }} - <strong> {{ e.name }} </strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>

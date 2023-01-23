@@ -3,7 +3,10 @@
     <div class="row">
       <div class="col-md-12">
         <div class="m-title c-align">
-          <h2>Certification</h2>
+          <h2>
+            <fa-icon class="module-icon" [icon]="['fas', 'award']" size="lg"></fa-icon>
+            Certification
+          </h2>
         </div>
       </div>
     </div>
@@ -13,7 +16,7 @@
           <tbody>
             <tr *ngFor="let cert of certification;">
               <td>
-                <fa-icon class="text-warning" [icon]="['fas', 'trophy']" size="lg"></fa-icon>
+                <fa-icon [icon]="['fab', cert.firmIcon ]" size="lg"></fa-icon>
               </td>
               <td>{{ cert.title }} - <strong> {{ cert.name }} </strong></td>
             </tr>

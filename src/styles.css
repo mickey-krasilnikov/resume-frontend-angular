@@ -30,3 +30,8 @@ h6,
   background-color: #fff;
   padding: 70px 0 70px;
 }
+
+.module-icon {
+  padding-right: 10px;
+  color: #e55d87;
+}
