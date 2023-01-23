@@ -3,7 +3,7 @@
   z-index: 1;
   height: 100vh;
   max-height: 1080px;
-  background-image: url(http://unsplash.it/g/1280/721);
+  background-image: url(https://picsum.photos/g/1280/721);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -20,8 +20,11 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
-  /* background: linear-gradient(to bottom right, #28e, #e14); */
+  background: linear-gradient(
+    135deg,
+    var(--primaryColor) 0%,
+    var(--secondaryColor) 100%
+  );
   opacity: 0.9;
   z-index: -1;
 }
@@ -50,7 +53,7 @@ h2 {
   line-height: 0.5;
 }
 a {
-  color: #e14;
+  color: var(--secondaryColor);
   text-decoration: none;
 }
 a:hover {
@@ -91,7 +94,7 @@ a:hover {
   height: 62vh;
 }
 .feature {
-  background-image: url(http://unsplash.it/g/1280/722);
+  background-image: url(https://picsum.photos/g/1280/722);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -169,7 +172,7 @@ button.cta {
   border-radius: 2px;
 }
 button.cta:hover {
-  color: #e14;
+  color: var(--secondaryColor);
   box-shadow: 0 0.25em 10px rgba(0, 0, 0, 0.2);
 }
 

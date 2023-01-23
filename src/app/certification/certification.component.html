@@ -7,6 +7,7 @@
             <fa-icon class="module-icon" [icon]="['fas', 'award']" size="lg"></fa-icon>
             Certification
           </h2>
+          <div class="block"></div>
         </div>
       </div>
     </div>
@@ -15,10 +16,16 @@
         <table class="table table-borderless">
           <tbody>
             <tr *ngFor="let cert of certification;">
-              <td>
-                <fa-icon [icon]="['fab', cert.firmIcon ]" size="lg"></fa-icon>
+              <td [width]="10">
+                <fa-icon [icon]="['fab', cert.issuerIcon ]" size="lg"></fa-icon>
               </td>
-              <td>{{ cert.title }} - <strong> {{ cert.name }} </strong></td>
+              <td>
+                <a target="_blank" href={{cert.verificationUrl}}>{{ cert.name }}</a>
+              </td>
+              <td><strong>{{ cert.issuer }}</strong></td>
+              <td><strong>{{ cert.issueDate | date:'MMM yyyy' }} - {{ cert.expirationDate | date:'MMM yyyy'
+                  }}</strong>
+              </td>
             </tr>
           </tbody>
         </table>

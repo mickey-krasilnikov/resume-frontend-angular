@@ -1,3 +1,8 @@
+:root {
+  --primaryColor: #e55d87;
+  --secondaryColor: #5fc3e4;
+}
+
 html,
 body,
 a,
@@ -17,6 +22,19 @@ h6,
   font-family: "Montserrat", Arial, serif;
 }
 
+a {
+  color: #44a6c7;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  outline: 0;
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
 .module,
 .module-sm {
   background-position: 50%;
@@ -33,7 +51,26 @@ h6,
 
 .module-icon {
   padding-right: 10px;
-  color: #e55d87;
+  color: var(--primaryColor);
+}
+
+.block {
+  width: 300px;
+  height: 4px;
+  background: var(--primaryColor); /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    var(--primaryColor) 0%,
+    transparent 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    var(--primaryColor) 0%,
+    transparent 100%
+  );
+  background: linear-gradient(135deg, var(--primaryColor) 0%, transparent 100%);
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .btn {
@@ -43,7 +80,7 @@ h6,
   overflow: hidden;
   font-family: "Montserrat", Arial, serif;
   font-size: 14px;
-  padding: 0.8rem 1.5rem;
+  padding: 9.5px 12px;
   margin: 5px;
 }
 
@@ -93,7 +130,7 @@ button {
 }
 
 .btn.btn-brand:before {
-  background: #e55d87;
+  background: var(--primaryColor);
 }
 
 .btn.btn-brand.btn-outline {

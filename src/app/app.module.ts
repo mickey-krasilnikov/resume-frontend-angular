@@ -16,6 +16,7 @@ import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontaweso
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
     SkillsComponent,
     ExperienceComponent,
     EducationComponent,
-    CertificationComponent
+    CertificationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

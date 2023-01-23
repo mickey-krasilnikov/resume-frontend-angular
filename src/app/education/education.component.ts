@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class EducationComponent {
 public education: any = [
-    { title: 'Bachelor\'s degree, Design and technology of radio-electronic devices', name: 'Penza State University - September 2006 – June 2013' },
+    { title: 'Bachelor\'s degree, Design and technology of radio-electronic devices', universityName: 'Penza State University', dates: 'September 2006 – June 2013' },
   ];
 }
