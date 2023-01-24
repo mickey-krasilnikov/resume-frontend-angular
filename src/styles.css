@@ -56,7 +56,7 @@ a:focus {
 
 .block {
   width: 300px;
-  height: 4px;
+  height: 2px;
   background: var(--primaryColor); /* Old browsers */
   background: -moz-linear-gradient(
     -45deg,

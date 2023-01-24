@@ -52,13 +52,13 @@ h2 {
   font-size: 2rem;
   line-height: 0.5;
 }
-a {
+/* a {
   color: var(--secondaryColor);
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-}
+} */
 .row:after,
 .tab-row:after {
   content: "";
@@ -161,7 +161,7 @@ a:hover {
     width: 50%;
   }
 }
-button.cta {
+/* button.cta {
   padding: 0.75em 1.5em;
   background: white;
   color: black;
@@ -174,9 +174,14 @@ button.cta {
 button.cta:hover {
   color: var(--secondaryColor);
   box-shadow: 0 0.25em 10px rgba(0, 0, 0, 0.2);
+} */
+.btn-brand {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
-
-#arrow-down {
+.btn-brand:hover {
+  box-shadow: 0 0.25em 10px rgba(0, 0, 0, 0.4);
+}
+.arrow-down-icon {
   color: #fff;
 }
 

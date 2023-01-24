@@ -10,10 +10,16 @@ export class HeaderComponent implements OnInit {
   isMenuCollapsed: boolean = true;
 
   ngOnInit() {
-    (function () {
-      var menuId:any;
+    drawBackgroundOnScroll();
+    handleMenuOnMobileView();
+  }
+
+}
+
+function drawBackgroundOnScroll() {
+  var menuId:HTMLElement;
       function init () {
-        menuId = document.getElementById("menu");
+        menuId = document.getElementById("menu")!;
         document.addEventListener("scroll",scrollMenu,false);
       }
       function scrollMenu () {
@@ -27,14 +33,14 @@ export class HeaderComponent implements OnInit {
         }
       }
       document.addEventListener("DOMContentLoaded",init,false);
-    })();
+}
 
-    (function (){
-      var mobBtn:any, topMenu:any;
+function handleMenuOnMobileView() {
+     var mobBtn:HTMLElement, topMenu:HTMLElement;
 
       function init() {
-        mobBtn = document.getElementById("mobile-btn");
-        topMenu = document.getElementById("top-menu");
+        mobBtn = document.getElementById("mobile-btn")!;
+        topMenu = document.getElementById("top-menu")!;
         mobBtn.addEventListener("click",mobileMenu,false);
       }
 
@@ -55,9 +61,5 @@ export class HeaderComponent implements OnInit {
       }
 
       document.addEventListener("DOMContentLoaded",init);
-
-    })();
-  }
-
 }
 

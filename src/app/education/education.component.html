@@ -11,27 +11,17 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row" *ngFor="let e of education;">
       <div class="col-md-12">
-        <table class="table table-borderless">
-          <tbody>
-            <tr *ngFor="let e of education;">
-              <td [width]="10">
-                <fa-icon [icon]="['fas', 'university' ]" size="lg"></fa-icon>
-              </td>
-              <td>
-                <a target="_blank" href={{e.url}}>{{ e.name }}</a>
-              </td>
-              <td><strong>{{ e.degree }}</strong></td>
-              <td>{{e.fieldOfStudy}}</td>
-              <td>
-                <strong>
-                  {{e.startDate | date:'MMM yyyy'}} - {{e.endDate | date:'MMM yyyy'}}
-                </strong>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <ul>
+          <li><a target="_blank" href={{e.url}}>{{ e.name }}</a></li>
+          <li><strong>{{ e.degree }}</strong>, {{e.fieldOfStudy}}</li>
+          <li>
+            <strong>
+              {{e.startDate | date:'MMM yyyy'}} - {{e.endDate | date:'MMM yyyy'}}
+            </strong>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
