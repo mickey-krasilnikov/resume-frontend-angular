@@ -1,4 +1,6 @@
 import {Component } from '@angular/core';
+import { Skill } from '../models/skill';
+import * as _ from 'lodash';
 
 @Component({
   selector: 'app-skills',
@@ -6,62 +8,47 @@ import {Component } from '@angular/core';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent {
-  public skills: any = [
-    {
-      title: 'Backend',
-      info: [
-        { title: 'C# (.NET/.NET Core)', progress: 95 },
-        { title: 'GoLang (Gin)', progress: 90 },
-        { title: 'JavaScript / TypeScript', progress: 85 },
-        { title: 'Python', progress: 85 }
-      ]
-    },
-    {
-      title: 'Frontend',
-      info: [
-        { title: 'Angular', progress: 90 },
-        { title: 'Vue.js', progress: 90 },
-        { title: 'ASP.NET', progress: 90 },
-        { title: 'JavaScript / TypeScript', progress: 90 },
-        { title: 'HTML', progress: 90 },
-        { title: 'CSS', progress: 90 },
-        { title: 'WPF', progress: 95 }
-      ]
-    },
-    {
-      title: 'Database',
-      info: [
-        { title: 'T-SQL (MS SQL)', progress: 90 },
-        { title: 'SQL/PSM (MySQL)', progress: 90 },
-        { title: 'PL-SQL (PostgreSQL, Oracle)', progress: 90 },
-        { title: 'MongoDB', progress: 90 },
-        { title: 'Redis', progress: 90 },
-        { title: 'CosmosDB', progress: 90 },
-        { title: 'DynamoDB', progress: 90 }
-      ]
-    },
-    {
-      title: 'Tools',
-      info: [
-        { title: 'Docker', progress: 90 },
-        { title: 'Kubernetes', progress: 90 },
-        { title: 'Azure DevOps', progress: 90 },
-        { title: 'GitHub Actions', progress: 90 },
-        { title: 'AWS CodePipeline', progress: 90 },
-        { title: 'Octopus', progress: 90 },
-        { title: 'Jenkins', progress: 90 },
-        { title: 'TeamCity', progress: 90 },
-        { title: 'Okta', progress: 90 },
-        { title: 'Jira', progress: 95 }
-      ]
-    },
-    {
-      title: 'Clouds',
-      info: [
-        { title: 'Azure', progress: 90 },
-        { title: 'AWS', progress: 95 },
-        { title: 'GCP', progress: 95 }
-      ]
-    },
+
+  public groupedSkills: _.Dictionary<Skill[]>;
+
+  constructor() {
+    this.groupedSkills = _.groupBy(this.typedSkills, 'skillGroup');
+
+  }
+
+  public typedSkills: Skill[] = [
+    new Skill('', 'Backend', 'C#', '.NET/.NET Core'),
+    new Skill('', 'Backend', 'GoLang', 'Gin'),
+    new Skill('', 'Backend', 'JavaScript'),
+    new Skill('', 'Backend', 'TypeScript'),
+    new Skill('', 'Backend', 'Python'),
+    new Skill('', 'Frontend', 'Angular'),
+    new Skill('', 'Frontend', 'Vue.js'),
+    new Skill('', 'Frontend', 'ASP.NET'),
+    new Skill('', 'Frontend', 'JavaScript'),
+    new Skill('', 'Frontend', 'TypeScript'),
+    new Skill('', 'Frontend', 'HTML'),
+    new Skill('', 'Frontend', 'CSS'),
+    new Skill('', 'Frontend', 'WPF'),
+    new Skill('', 'Database', 'T-SQL', 'MS SQL'),
+    new Skill('', 'Database', 'SQL/PSM', 'MySQL'),
+    new Skill('', 'Database', 'PL-SQL', 'PostgreSQL, Oracle'),
+    new Skill('', 'Database', 'MongoDB'),
+    new Skill('', 'Database', 'CosmosDB'),
+    new Skill('', 'Database', 'DynamoDB'),
+    new Skill('', 'Database', 'Redis'),
+    new Skill('', 'Tools', 'Docker'),
+    new Skill('', 'Tools', 'Kubernetes'),
+    new Skill('', 'Tools', 'Azure DevOps'),
+    new Skill('', 'Tools', 'GitHub Actions'),
+    new Skill('', 'Tools', 'AWS CodePipeline'),
+    new Skill('', 'Tools', 'Octopus'),
+    new Skill('', 'Tools', 'Jenkins'),
+    new Skill('', 'Tools', 'TeamCity'),
+    new Skill('', 'Tools', 'Okta'),
+    new Skill('', 'Tools', 'Jira'),
+    new Skill('', 'Clouds', 'Azure'),
+    new Skill('', 'Clouds', 'AWS'),
+    new Skill('', 'Clouds', 'GCP'),
   ];
 }

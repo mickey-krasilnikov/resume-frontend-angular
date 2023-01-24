@@ -12,9 +12,9 @@
       </div>
     </div>
 
-    <div class="chips__choice" *ngFor="let d of skills; let ixr = index;">
-      <h6>{{d.title}}</h6>
-      <div class="chip" *ngFor="let r of d.info; let ixr = index;">{{r.title}}</div>
+    <div class="chips__choice" *ngFor="let g of groupedSkills | keyvalue">
+      <h5>{{g.key}}</h5>
+      <div class="chip" *ngFor="let r of g.value">{{r.name}}</div>
     </div>
   </div>
 </section>

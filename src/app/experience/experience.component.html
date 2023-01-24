@@ -14,13 +14,23 @@
     <div class="row">
       <div class="col-md-12">
         <ul class="timeline">
-          <li *ngFor="let job of jobs">
+          <li *ngFor="let exp of experience">
             <div class="timeline-badge"></div>
             <div class="timeline-panel">
               <div class="timeline-body">
-                <h5 class="timeline-title">{{job.position}} | {{job.period}}</h5>
-                <h6 class="timeline-description">{{job.company}} </h6>
-                <div [innerHTML]="job.displayedDescription"></div>
+                <h5 class="timeline-title">
+                  {{exp.title}} |
+                  {{exp.startDate | date: 'MMM yyyy'}} -
+                  {{exp.endDate ? (exp.endDate | date: 'MMM yyyy') : 'Present'}}
+                </h5>
+                <h6 class="timeline-description">{{exp.company}} </h6>
+                <div>
+                  <div class="chip" *ngFor="let skill of exp.environment">{{skill.name}}</div>
+                  <ul *ngFor="let task of exp.taskPerformed">
+                    <li>{{task}}</li>
+                  </ul>
+                  <br />
+                </div>
               </div>
             </div>
           </li>

@@ -1,10 +1,32 @@
-ul,
-ol {
+.timeline {
   padding-left: 0;
   list-style: none;
 }
 
-ul > li,
-ol > li {
+.timeline > li {
   margin: 0 0 5px;
+}
+
+.chip {
+  padding: 0 12px;
+  /* background-color: var(--primaryColor); */
+  background-color: #e0e0e0;
+  border-radius: 100px;
+  display: inline-flex;
+  margin: 0 2px 4px 2px;
+  /* color: rgba(255, 255, 255); */
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.87);
+  align-items: center;
+  height: 25px;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+}
+
+.chip .icon {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.54);
+  width: 20px;
+  text-align: center;
 }

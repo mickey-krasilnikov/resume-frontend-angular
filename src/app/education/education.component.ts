@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Education } from '../models/education';
 
 @Component({
   selector: 'app-education',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./education.component.css']
 })
 export class EducationComponent {
-public education: any = [
-    { title: 'Bachelor\'s degree, Design and technology of radio-electronic devices', universityName: 'Penza State University', dates: 'September 2006 – June 2013' },
+  public education: Education[] = [
+    new Education('', 'Penza State University','Bachelor\'s degree', 'Design and technology of radio-electronic devices', new URL('https://international.pnzgu.ru/'), new Date(2006,8,1), new Date(2013, 5, 1))
   ];
 }

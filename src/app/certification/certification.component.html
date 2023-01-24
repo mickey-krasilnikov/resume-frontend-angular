@@ -23,8 +23,10 @@
                 <a target="_blank" href={{cert.verificationUrl}}>{{ cert.name }}</a>
               </td>
               <td><strong>{{ cert.issuer }}</strong></td>
-              <td><strong>{{ cert.issueDate | date:'MMM yyyy' }} - {{ cert.expirationDate | date:'MMM yyyy'
-                  }}</strong>
+              <td>
+                <strong>
+                  {{cert.issueDate | date:'MMM yyyy'}} - {{cert.expirationDate | date:'MMM yyyy'}}
+                </strong>
               </td>
             </tr>
           </tbody>
