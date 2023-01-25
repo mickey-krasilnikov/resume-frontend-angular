@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Contacts } from './contacts.model';
+import { ContactsService } from './contacts.service';
 
 @Component({
   selector: 'app-contacts',
@@ -7,12 +9,18 @@ import { Component } from '@angular/core';
 })
 
 export class ContactsComponent {
-  public contacts:any = {
-    title: 'SOME DESCRIPCTION:',
-    data:
-      '<p>I\'m a full-stack software developer with over 12 years of professional programming experience in designing and developing commercial applications.</p>' +
-      '<p>Certified cloud solution architect and developer (Azure, GCP, AWS)</p>' +
-      '<p>Experienced as a Team Leader</p>'+
-      '<p>Involved in full Software Development Life Cycle (SDLC)</p>',
-  };
+
+  public contacts: Contacts = { };
+
+  constructor(private contactsService: ContactsService) { }
+
+  ngOnInit(): void {
+    this.loadContacts();
+  }
+
+  loadContacts(): void {
+    this.contactsService
+      .getContacts()
+      .subscribe((data: Contacts) => this.contacts = { ...data });
+  }
 }

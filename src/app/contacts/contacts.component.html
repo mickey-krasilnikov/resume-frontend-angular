@@ -17,21 +17,21 @@
         <div class="contacts">
           <ul>
             <li>
-              <a target="_blank" href="https://wa.me/+14084444444">
+              <a target="_blank" href="https://wa.me/{{contacts['phone']}}">
                 <fa-icon [icon]="['fab', 'whatsapp']" size="lg"></fa-icon>
-                &nbsp;&nbsp;(408) 480-3600
+                &nbsp;&nbsp;{{contacts['phone'] | phone:'US' }}
               </a>
             </li>
             <li>
               <a target="_blank" href="mailto:your_email">
                 <fa-icon [icon]="['far', 'envelope']" size="lg"></fa-icon>
-                &nbsp;&nbsp;mickey.krasilnikov@gmail.com
+                &nbsp;&nbsp;{{contacts['email']}}
               </a>
             </li>
             <li>
-              <a href="#">
+              <a target="_blank" href="https://www.google.com/maps/place/{{contacts['location']}}/">
                 <fa-icon [icon]="['fas', 'location-dot']" size="lg"></fa-icon>
-                &nbsp;&nbsp;Sunyvale, CA, 94085
+                &nbsp;&nbsp;{{contacts['location']}}
               </a>
             </li>
           </ul>
@@ -41,27 +41,27 @@
           <h5>Social Profiles</h5>
           <ul class="widget-social">
             <li>
-              <a target="_blank" href="https://github.com/mickey-krasilnikov">
+              <a target="_blank" href="{{contacts['github']}}">
                 <fa-icon [icon]="['fab', 'github-square']" size="lg"></fa-icon>
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://www.linkedin.com/in/mickeykrasilnikov">
+              <a target="_blank" href="{{contacts['linkedin']}}">
                 <fa-icon [icon]="['fab', 'linkedin']" size="lg"></fa-icon>
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://www.instagram.com/mickey.krasilnikov/">
+              <a target="_blank" href="{{contacts['instagram']}}">
                 <fa-icon [icon]="['fab', 'instagram']" size="lg"></fa-icon>
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://www.facebook.com/mickey.krasilnikov">
+              <a target="_blank" href="{{contacts['facebook']}}">
                 <fa-icon [icon]="['fab', 'facebook']" size="lg"></fa-icon>
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://twitter.com/mickey_kras">
+              <a target="_blank" href="{{contacts['twitter']}}">
                 <fa-icon [icon]="['fab', 'twitter']" size="lg"></fa-icon>
               </a>
             </li>

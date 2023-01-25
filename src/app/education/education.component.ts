@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { Education } from '../models/education';
+import { Education } from './education.model';
+import { EducationService } from './education.service';
 
 @Component({
   selector: 'app-education',
@@ -7,7 +8,17 @@ import { Education } from '../models/education';
   styleUrls: ['./education.component.css']
 })
 export class EducationComponent {
-  public education: Education[] = [
-    new Education('', 'Penza State University','Bachelor\'s degree', 'Design and technology of radio-electronic devices', new URL('https://international.pnzgu.ru/'), new Date(2006,8,1), new Date(2013, 5, 1))
-  ];
+  public education: Education[] = [];
+
+  constructor(private educationService: EducationService) { }
+
+  ngOnInit(): void {
+    this.loadEducation();
+  }
+
+  loadEducation(): void {
+    this.educationService
+      .getEducation()
+      .subscribe((data: Education[]) => this.education = [ ...data ]);
+  }
 }
