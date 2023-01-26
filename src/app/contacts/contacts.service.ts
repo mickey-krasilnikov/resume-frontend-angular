@@ -16,8 +16,8 @@ export class ContactsService {
   getContacts(): Observable<Contacts>  {
     if (this.useMock) {
       const contacts: Contacts = {
-        'phone': '4084803600',
-        'email': 'mickey.krasilnikov@gmail.com',
+        'phone': '+14084803600',
+        'email': 'Mickey.Krasilnikov@gmail.com',
         'location': 'Sunyvale, CA, 94085',
         'github': 'https://github.com/mickey-krasilnikov',
         'linkedin': 'https://www.linkedin.com/in/mickeykrasilnikov',

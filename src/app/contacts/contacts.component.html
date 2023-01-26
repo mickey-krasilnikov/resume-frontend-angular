@@ -17,21 +17,33 @@
         <div class="contacts">
           <ul>
             <li>
+              <a target="_blank" href="tel:{{contacts['phone']}}">
+                <fa-icon class="contact-icon" [icon]="['fas', 'phone']" size="lg"></fa-icon>
+                {{contacts['phone'] | phone:'US' }}
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://t.me/{{contacts['phone']}}">
+                <fa-icon class="contact-icon" [icon]="['fab', 'telegram']" size="lg"></fa-icon>
+                Telegram
+              </a>
+            </li>
+            <li>
               <a target="_blank" href="https://wa.me/{{contacts['phone']}}">
-                <fa-icon [icon]="['fab', 'whatsapp']" size="lg"></fa-icon>
-                &nbsp;&nbsp;{{contacts['phone'] | phone:'US' }}
+                <fa-icon class="contact-icon" [icon]="['fab', 'whatsapp']" size="lg"></fa-icon>
+                Whatsapp
               </a>
             </li>
             <li>
               <a target="_blank" href="mailto:your_email">
-                <fa-icon [icon]="['far', 'envelope']" size="lg"></fa-icon>
-                &nbsp;&nbsp;{{contacts['email']}}
+                <fa-icon class="contact-icon" [icon]="['far', 'envelope']" size="lg"></fa-icon>
+                {{contacts['email']}}
               </a>
             </li>
             <li>
               <a target="_blank" href="https://www.google.com/maps/place/{{contacts['location']}}/">
-                <fa-icon [icon]="['fas', 'location-dot']" size="lg"></fa-icon>
-                &nbsp;&nbsp;{{contacts['location']}}
+                <fa-icon class="contact-icon" [icon]="['fas', 'location-dot']" size="lg"></fa-icon>
+                {{contacts['location']}}
               </a>
             </li>
           </ul>
@@ -71,7 +83,7 @@
       <div class="col-md-8 widget">
         <input type="text" name="name" placeholder="Name" /><br />
         <input type="email" name="email" placeholder="Email" /><br />
-        <textarea type="text" name="message" placeholder="Message"></textarea><br />
+        <textarea rows="4" type="text" name="message" placeholder="Message"></textarea><br />
 
         <button class="btn btn-brand" id="sendMessage" type="submit">
           <span>Send Message</span>
