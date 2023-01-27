@@ -31,7 +31,7 @@ export class CertificationService {
       return ObservableOf(certification);
     }
     else {
-      return this.http.get<Certification[]>(`${this.baseUrl}/${this.endpointUrl}`);
+      return this.http.get<Certification[]>(this.endpointUrl);
     }
   }
 
