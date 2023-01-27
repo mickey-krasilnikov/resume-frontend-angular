@@ -4,17 +4,22 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, throwError, of as ObservableOf } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
 import { Contacts } from './contacts.model';
+import { environment } from 'src/environments/environment';
 
 @Injectable({ providedIn: 'root' })
 export class ContactsService {
 
   private url: string = 'api/resumeservice/contacts';
-  private useMock: boolean = true;
+  private useMocks: boolean;
+  private baseUrl: string;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+    this.useMocks = environment.useMocks;
+    this.baseUrl = environment.apiBaseUrl;
+   }
 
   getContacts(): Observable<Contacts>  {
-    if (this.useMock) {
+    if (this.useMocks) {
       const contacts: Contacts = {
         'phone': '+14084803600',
         'email': 'Mickey.Krasilnikov@gmail.com',

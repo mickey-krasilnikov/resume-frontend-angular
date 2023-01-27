@@ -27,6 +27,12 @@
           },
           "configurations": {
             "production": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
               "budgets": [
                 {
                   "type": "initial",
@@ -78,36 +84,6 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.css"],
             "scripts": []
-          }
-        }
-      }
-    },
-    "testLib": {
-      "projectType": "library",
-      "root": "projects/test-lib",
-      "sourceRoot": "projects/test-lib/src",
-      "prefix": "lib",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-angular:ng-packagr",
-          "options": {
-            "project": "projects/test-lib/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "projects/test-lib/tsconfig.lib.prod.json"
-            },
-            "development": {
-              "tsConfig": "projects/test-lib/tsconfig.lib.json"
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "tsConfig": "projects/test-lib/tsconfig.spec.json",
-            "polyfills": ["zone.js", "zone.js/testing"]
           }
         }
       }

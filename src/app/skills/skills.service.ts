@@ -4,17 +4,22 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, throwError, of as ObservableOf } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
 import { Skill } from './skill.model';
+import { environment } from 'src/environments/environment';
 
 @Injectable({ providedIn: 'root' })
 export class SkillsService {
 
   private url: string = 'api/resumeservice/skills';
-  private useMock: boolean = true;
+  private useMocks: boolean;
+  private baseUrl: string;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+    this.useMocks = environment.useMocks;
+    this.baseUrl = environment.apiBaseUrl;
+   }
 
   getCertificates(): Observable<Skill[]>  {
-    if (this.useMock) {
+    if (this.useMocks) {
       const Skills: Skill[] = [
 
         new Skill('798110c8-7669-4c96-a90c-98b6aee4277c', 'Backend', 'C#', '.NET/.NET Core'),

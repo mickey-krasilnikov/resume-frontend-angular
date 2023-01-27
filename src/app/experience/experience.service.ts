@@ -5,17 +5,22 @@ import { Observable, throwError, of as ObservableOf } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
 import { Experience } from './experience.model';
 import { Skill } from '../skills/skill.model';
+import { environment } from 'src/environments/environment';
 
 @Injectable({ providedIn: 'root' })
 export class ExperienceService {
 
   private url: string = 'api/resumeservice/experience';
-  private useMock: boolean = true;
+  private useMocks: boolean;
+  private baseUrl: string;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+    this.useMocks = environment.useMocks;
+    this.baseUrl = environment.apiBaseUrl;
+   }
 
   getExperience(): Observable<Experience[]>  {
-    if (this.useMock) {
+    if (this.useMocks) {
       const experience: Experience[] = [
         new Experience(
           '3cf5c116-a819-49f8-a89a-9197b4e444b0',

@@ -4,17 +4,22 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, throwError, of as ObservableOf } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
 import { Certification } from './certification.model';
+import { environment } from 'src/environments/environment';
 
 @Injectable({ providedIn: 'root' })
 export class CertificationService {
 
-  private url: string = 'api/resumeservice/certification';
-  private useMock: boolean = true;
+  private endpointUrl: string = 'api/resumeservice/certification';
+  private useMocks: boolean;
+  private baseUrl: string;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+    this.useMocks = environment.useMocks;
+    this.baseUrl = environment.apiBaseUrl;
+   }
 
   getCertificates(): Observable<Certification[]>  {
-    if (this.useMock) {
+    if (this.useMocks) {
       const certification: Certification[] = [
         new Certification('9fd195f9-e53d-4a2e-8019-a1b276372ab5', 'Azure Solutions Architect Expert', 'Microsoft', 'microsoft', new URL('https://www.credly.com/badges/8ea21901-34c7-4cb4-bc48-71e0c5cf3e85'), new Date(2020, 5, 10), new Date(2023, 5, 10)),
         new Certification('fa79fbf3-184f-4a49-a94e-d59fbf4a9b43', 'DevOps Engineer Expert', 'Microsoft', 'microsoft', new URL('https://www.credly.com/badges/eaedb35f-5ea9-45b2-b551-acad69b94488'), new Date(2020, 11, 10), new Date(2023, 11, 10)),
@@ -26,7 +31,7 @@ export class CertificationService {
       return ObservableOf(certification);
     }
     else {
-      return this.http.get<Certification[]>(this.url);
+      return this.http.get<Certification[]>(`${this.baseUrl}/${this.endpointUrl}`);
     }
   }
 
