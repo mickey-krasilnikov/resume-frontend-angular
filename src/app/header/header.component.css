@@ -12,9 +12,17 @@
   --bs-navbar-toggler-font-size: 1.75rem;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 999px) {
   .navbar-expand-lg .navbar-collapse {
     justify-content: space-around;
+  }
+
+  .menuIcon {
+    display: none;
+  }
+
+  .navbar-nav li a {
+    padding: 0 1em;
   }
 }
 
@@ -43,21 +51,17 @@
       rgba(0, 0, 0, 0)
     );
   }
-  /*
-  .navbar-collapse.collapse {
-    transition: 350ms;
 
-    background-color: rgba(50, 50, 50, 0.7);
-  } */
-  /*
-  .navbar-collapse.collapsing {
-    transition: 350ms;
-    background-color: rgba(50, 50, 50, 0.5);
+  .navbar-nav li a {
+    padding: 0;
   }
 
-  .navbar-collapse.collapse.show {
-    background-color: rgba(50, 50, 50, 0.5);
-  } */
+  .menuIcon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+  }
 }
 
 .navbar-nav li {
@@ -70,7 +74,6 @@
   height: 60px;
   line-height: 60px;
   text-decoration: none;
-  padding: 0 1em;
   font-size: 14px;
 
   font-family: "Montserrat", Arial, serif;
