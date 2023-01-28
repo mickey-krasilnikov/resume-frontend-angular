@@ -1,6 +1,6 @@
 :root {
-  --primaryColor: #e55d87;
-  --secondaryColor: #5fc3e4;
+  --primaryColor: #159957;
+  --secondaryColor: #0a4cb7;
 }
 
 html,
@@ -23,7 +23,7 @@ h6,
 }
 
 a {
-  color: #44a6c7;
+  color: var(--primaryColor);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -32,7 +32,7 @@ a:hover,
 a:focus {
   outline: 0;
   text-decoration: none;
-  color: var(--primaryColor);
+  color: var(--secondaryColor);
 }
 
 .module,
