@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     drawBackgroundOnScroll();
-    handleMenuOnMobileView();
+    //handleMenuOnMobileView();
   }
 
 }
@@ -25,41 +25,45 @@ function drawBackgroundOnScroll() {
       function scrollMenu () {
         if (document.documentElement.scrollTop > 50) {
           menuId.classList.add("scroll");
+          menuId.classList.remove("navbar-dark");
+          menuId.classList.add("navbar-light");
           console.log('scroll');
         }
         else {
           menuId.classList.remove("scroll");
+          menuId.classList.remove("navbar-light");
+          menuId.classList.add("navbar-dark");
           console.log('no-scroll');
         }
       }
       document.addEventListener("DOMContentLoaded",init,false);
 }
 
-function handleMenuOnMobileView() {
-     var mobBtn:HTMLElement, topMenu:HTMLElement;
+// function handleMenuOnMobileView() {
+//      var mobBtn:HTMLElement, topMenu:HTMLElement;
 
-      function init() {
-        mobBtn = document.getElementById("mobile-btn")!;
-        topMenu = document.getElementById("top-menu")!;
-        mobBtn.addEventListener("click",mobileMenu,false);
-      }
+//       function init() {
+//         mobBtn = document.getElementById("mobile-btn")!;
+//         topMenu = document.getElementById("top-menu")!;
+//         mobBtn.addEventListener("click",mobileMenu,false);
+//       }
 
-      function mobileMenu() {
-        if(topMenu.classList.contains("mobile-open")) {
-          topMenu.classList.remove("mobile-open");
-        }
-        else {
-          topMenu.classList.add("mobile-open");
-        }
+//       function mobileMenu() {
+//         if(topMenu.classList.contains("mobile-open")) {
+//           topMenu.classList.remove("mobile-open");
+//         }
+//         else {
+//           topMenu.classList.add("mobile-open");
+//         }
 
-        if (mobBtn.classList.contains("hamburger-cross")) {
-          mobBtn.classList.remove("hamburger-cross");
-        }
-        else {
-          mobBtn.classList.add("hamburger-cross");
-        }
-      }
+//         if (mobBtn.classList.contains("hamburger-cross")) {
+//           mobBtn.classList.remove("hamburger-cross");
+//         }
+//         else {
+//           mobBtn.classList.add("hamburger-cross");
+//         }
+//       }
 
-      document.addEventListener("DOMContentLoaded",init);
-}
+//       document.addEventListener("DOMContentLoaded",init);
+// }
 
