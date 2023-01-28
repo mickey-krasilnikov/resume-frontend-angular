@@ -1,90 +1,47 @@
-<!-- <nav class="nav" id="menu">
-
-  <div class="wrap">
-    <button id="mobile-btn" class="hamburger-btn">
-      <span class="hamburger-line"></span>
-      <span class="hamburger-line"></span>
-      <span class="hamburger-line"></span>
-    </button>
-    <ul class="top-menu" id="top-menu">
-      <li>
-        <a href="#home">
-          <span>Home</span>
-          <fa-icon [icon]="['fas', 'home']"></fa-icon>
-        </a>
-      </li>
-      <li>
-        <a href="#skills">
-          <span>Skills</span>
-          <fa-icon [icon]="['fas', 'tools']"></fa-icon>
-        </a>
-      </li>
-      <li>
-        <a href="#experience">
-          <span>Experience</span>
-          <fa-icon [icon]="['fas', 'business-time']"></fa-icon>
-        </a>
-      </li>
-      <li>
-        <a href="#certification">
-          <span>Certification</span>
-          <fa-icon [icon]="['fas', 'award']"></fa-icon>
-        </a>
-      </li>
-      <li>
-        <a href="#education">
-          <span>Education</span>
-          <fa-icon [icon]="['fas', 'school']"></fa-icon>
-        </a>
-      </li>
-      <li>
-        <a href="#contacts">
-          <span>Contacts</span>
-          <fa-icon [icon]="['fas', 'contact-card']"></fa-icon>
-        </a>
-      </li>
-    </ul>
-  </div>
-</nav> -->
-
 <nav class="nav navbar navbar-expand-lg navbar-dark" id="menu">
   <div class="container-fluid">
-    <!-- <a class="navbar-brand" [routerLink]="'.'">Responsive navbar</a> -->
 
     <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">&#9776;</button>
 
     <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
       <ul class="navbar-nav" id="top-menu">
         <li class="nav-item">
-          <a class="nav-link" href="#home" (click)="isMenuCollapsed = true">Home</a>
+          <a class="nav-link" href="#home" (click)="isMenuCollapsed = true">
+            <fa-icon class="menuIcon" [icon]="['fas', 'home']"></fa-icon>
+            <span>Home</span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#skills" (click)="isMenuCollapsed = true">Skills</a>
+          <a class="nav-link" href="#skills" (click)="isMenuCollapsed = true">
+            <fa-icon class="menuIcon" [icon]="['fas', 'tools']"></fa-icon>
+            <span>Skills</span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#experience" (click)="isMenuCollapsed = true">Experience</a>
+          <a class="nav-link" href="#experience" (click)="isMenuCollapsed = true">
+            <fa-icon class="menuIcon" [icon]="['fas', 'business-time']"></fa-icon>
+            <span>Experience</span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#certification" (click)="isMenuCollapsed = true">Certification</a>
+          <a class="nav-link" href="#certification" (click)="isMenuCollapsed = true">
+            <fa-icon class="menuIcon" [icon]="['fas', 'award']"></fa-icon>
+            <span>Certification</span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#education" (click)="isMenuCollapsed = true">Education</a>
+          <a class="nav-link" href="#education" (click)="isMenuCollapsed = true">
+            <fa-icon class="menuIcon" [icon]="['fas', 'school']"></fa-icon>
+            <span>Education</span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contacts" (click)="isMenuCollapsed = true">Contacts</a>
+          <a class="nav-link" href="#contacts" (click)="isMenuCollapsed = true">
+            <fa-icon class="menuIcon" [icon]="['fas', 'contact-card']"></fa-icon>
+            <span>Contacts</span>
+          </a>
         </li>
       </ul>
-      <!-- <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Examples</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">About</a>
-        </li>
-      </ul> -->
     </div>
   </div>
 </nav>

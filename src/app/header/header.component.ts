@@ -10,60 +10,31 @@ export class HeaderComponent implements OnInit {
   isMenuCollapsed: boolean = true;
 
   ngOnInit() {
-    drawBackgroundOnScroll();
-    //handleMenuOnMobileView();
+    this.addMenuBackgroundDrawer();
   }
 
+  private addMenuBackgroundDrawer():void {
+    var menu:HTMLElement;
+        function init () {
+          menu = document.getElementById("menu")!;
+          document.addEventListener("scroll",scrollMenu,false);
+        }
+        function scrollMenu () {
+          if (document.documentElement.scrollTop > 50) {
+            menu.classList.add("scroll");
+            menu.classList.remove("navbar-dark");
+            menu.classList.add("navbar-light");
+            console.log('scroll');
+          }
+          else {
+            menu.classList.remove("scroll");
+            menu.classList.remove("navbar-light");
+            menu.classList.add("navbar-dark");
+            console.log('no-scroll');
+          }
+        }
+        document.addEventListener("DOMContentLoaded",init,false);
+  }
 }
 
-function drawBackgroundOnScroll() {
-  var menuId:HTMLElement;
-      function init () {
-        menuId = document.getElementById("menu")!;
-        document.addEventListener("scroll",scrollMenu,false);
-      }
-      function scrollMenu () {
-        if (document.documentElement.scrollTop > 50) {
-          menuId.classList.add("scroll");
-          menuId.classList.remove("navbar-dark");
-          menuId.classList.add("navbar-light");
-          console.log('scroll');
-        }
-        else {
-          menuId.classList.remove("scroll");
-          menuId.classList.remove("navbar-light");
-          menuId.classList.add("navbar-dark");
-          console.log('no-scroll');
-        }
-      }
-      document.addEventListener("DOMContentLoaded",init,false);
-}
-
-// function handleMenuOnMobileView() {
-//      var mobBtn:HTMLElement, topMenu:HTMLElement;
-
-//       function init() {
-//         mobBtn = document.getElementById("mobile-btn")!;
-//         topMenu = document.getElementById("top-menu")!;
-//         mobBtn.addEventListener("click",mobileMenu,false);
-//       }
-
-//       function mobileMenu() {
-//         if(topMenu.classList.contains("mobile-open")) {
-//           topMenu.classList.remove("mobile-open");
-//         }
-//         else {
-//           topMenu.classList.add("mobile-open");
-//         }
-
-//         if (mobBtn.classList.contains("hamburger-cross")) {
-//           mobBtn.classList.remove("hamburger-cross");
-//         }
-//         else {
-//           mobBtn.classList.add("hamburger-cross");
-//         }
-//       }
-
-//       document.addEventListener("DOMContentLoaded",init);
-// }
 
