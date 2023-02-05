@@ -34,15 +34,13 @@
   z-index: -1;
 }
 .hero h1 {
-  font-size: 4em;
-  margin-bottom: 1rem;
+  font-size: 3em;
 }
 .hero p {
   font-size: 2em;
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  font-weight: 300;
 }
 .hero .content {
   display: table-cell;
