@@ -1,3 +1,3 @@
-export class Contacts {
-   [key: string]: string;
+export class Contact {
+  constructor(public key: string, public value: string, public url: string) {}
 }

@@ -1,9 +1,14 @@
+@media screen and (min-width: 999px) {
+  .hero {
+    background-image: url(https://picsum.photos/g/1280/721);
+  }
+}
+
 .hero {
   position: relative;
   z-index: 1;
   height: 100vh;
   max-height: 1080px;
-  background-image: url(https://picsum.photos/g/1280/721);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;

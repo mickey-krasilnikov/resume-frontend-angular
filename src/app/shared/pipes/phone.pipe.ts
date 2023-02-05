@@ -5,7 +5,7 @@ import { parsePhoneNumber, CountryCode } from 'libphonenumber-js/min';
   name: 'phone'
 })
 export class PhonePipe implements PipeTransform {
-  transform(phoneValue: number | string, country: string): any {
+  transform(phoneValue: number | string | undefined, country: string): any {
     try {
       return parsePhoneNumber(phoneValue + '', country as CountryCode).formatNational();
     } catch (error) {

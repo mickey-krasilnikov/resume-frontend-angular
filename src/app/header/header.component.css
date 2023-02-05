@@ -26,16 +26,18 @@
   }
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 998px) {
   .nav-item {
     float: none;
     margin-left: 0;
     border-bottom: 2px solid rgba(130, 130, 130, 0.15);
   }
+
   #menu.navbar-dark {
     padding: 0;
     background-color: rgba(50, 50, 50, 0.3);
   }
+
   .container-fluid {
     padding: 0;
     backdrop-filter: blur(5px);

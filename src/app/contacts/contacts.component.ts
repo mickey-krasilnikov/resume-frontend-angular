@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Contacts } from './contacts.model';
+import { Contact } from './contacts.model';
 import { ContactsService } from './contacts.service';
 
 @Component({
@@ -10,7 +10,7 @@ import { ContactsService } from './contacts.service';
 
 export class ContactsComponent {
 
-  public contacts: Contacts = { };
+  public contacts: Map<string, Contact> = new Map<string, Contact>();
 
   constructor(private contactsService: ContactsService) { }
 
@@ -21,6 +21,6 @@ export class ContactsComponent {
   loadContacts(): void {
     this.contactsService
       .getContacts()
-      .subscribe((data: Contacts) => this.contacts = { ...data });
+      .subscribe((data: Contact[]) => this.contacts = new Map(data.map((o) => [o.key, o])));
   }
 }
