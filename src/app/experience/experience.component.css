@@ -10,6 +10,9 @@
 .timeline > li {
   margin: 0 0 5px;
 }
+.timeline-tasks > li {
+  margin: 5px 0;
+}
 
 .chip {
   padding: 0 12px;

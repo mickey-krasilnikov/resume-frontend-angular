@@ -23,12 +23,12 @@ export class ContactsService {
       contacts.push(new Contact('phone', '+14084803600', 'tel:+14084803600'));
       contacts.push(new Contact(
         'telegram',
-        'Whatsapp',
+        'Telegram',
         'https://t.me/+14084803600'
       ));
       contacts.push(new Contact(
         'whatsapp',
-        'Telegram',
+        'Whatsapp',
         'https://wa.me/+14084803600'
       ));
       contacts.push(new Contact(

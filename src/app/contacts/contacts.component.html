@@ -31,8 +31,7 @@
             <li>
               <a target="_blank" href="{{contacts.get('whatsapp')?.url}}">
                 <fa-icon class="contact-icon" [icon]="['fab', 'whatsapp']" size="lg"></fa-icon>
-                {{contacts.get('telegram')?.value }}
-
+                {{contacts.get('whatsapp')?.value }}
               </a>
             </li>
             <li>
@@ -90,7 +89,7 @@
         <input type="email" name="email" placeholder="Email" /><br />
         <textarea rows="4" type="text" name="message" placeholder="Message"></textarea><br />
 
-        <button class="btn btn-brand" id="sendMessage" type="submit">
+        <button class="btn btn-brand" id="sendMessage" type="submit" disabled>
           <span>Send Message</span>
         </button>
       </div>

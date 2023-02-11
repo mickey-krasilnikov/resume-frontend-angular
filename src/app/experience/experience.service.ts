@@ -126,7 +126,7 @@ export class ExperienceService {
             new Skill('d7af6c33-a33d-48cc-9c1c-23cf40b6bff6', 'Tools', 'TeamCity'),
           ],
           [
-            'Developed a payment system that allows employees to pay for lunch at nearby cafes and restaurants with the office access card (RFID tag)',
+            'Developed a payment system that allows employees to pay for lunch at nearby cafes and restaurants with the office access card (RFID)',
             'Developed a personal page for users, a desktop application for administrators, and payment service middleware.',
             'Participated in the software integration process.'
           ],
