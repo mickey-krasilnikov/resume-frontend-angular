@@ -12,7 +12,7 @@ This frontend app provides a user-friendly interface for accessing the informati
 ## Getting Started
 
 You can access the running app by visiting the following URL:
-http://mickey-krasilnikov.com/
+https://mickey-krasilnikov.com/
 
 ## Technical Details
 
