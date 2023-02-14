@@ -27,4 +27,4 @@ If you would like to contribute to this project, please reach out to the reposit
 
 ## License
 
-This project is licensed under the MIT license. Please see the `LICENSE` file for more details.
+This project is licensed under the MIT license.
