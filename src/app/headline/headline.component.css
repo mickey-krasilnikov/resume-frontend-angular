@@ -1,8 +1,5 @@
-@media screen and (min-width: 999px) {
-  .hero {
-    /* background-image: url(https://picsum.photos/g/1280/721); */
-    background-image: url("src/assets/images/background.png");
-  }
+.hero {
+  background-image: url("src/assets/images/background.png");
 }
 
 .hero {
