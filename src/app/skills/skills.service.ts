@@ -11,11 +11,9 @@ export class SkillsService {
 
   private url: string = 'api/resumeservice/skills';
   private useMocks: boolean;
-  private baseUrl: string;
 
   constructor(private http: HttpClient) {
     this.useMocks = environment.useMocks;
-    this.baseUrl = environment.apiBaseUrl;
    }
 
   getCertificates(): Observable<Skill[]>  {

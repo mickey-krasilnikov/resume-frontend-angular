@@ -12,11 +12,9 @@ export class ExperienceService {
 
   private url: string = 'api/resumeservice/experience';
   private useMocks: boolean;
-  private baseUrl: string;
 
   constructor(private http: HttpClient) {
     this.useMocks = environment.useMocks;
-    this.baseUrl = environment.apiBaseUrl;
    }
 
   getExperience(): Observable<Experience[]>  {

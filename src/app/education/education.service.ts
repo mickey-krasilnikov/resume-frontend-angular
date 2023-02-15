@@ -11,11 +11,9 @@ export class EducationService {
 
   private url: string = 'api/resumeservice/education';
   private useMocks: boolean;
-  private baseUrl: string;
 
   constructor(private http: HttpClient) {
     this.useMocks = environment.useMocks;
-    this.baseUrl = environment.apiBaseUrl;
    }
 
   getEducation(): Observable<Education[]>  {

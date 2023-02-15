@@ -10,11 +10,9 @@ import { environment } from 'src/environments/environment';
 export class ContactsService {
   private url: string = 'api/resumeservice/contacts';
   private useMocks: boolean;
-  private baseUrl: string;
 
   constructor(private http: HttpClient) {
     this.useMocks = environment.useMocks;
-    this.baseUrl = environment.apiBaseUrl;
   }
 
   getContacts(): Observable<Contact[]> {

@@ -11,11 +11,9 @@ export class CertificationService {
 
   private endpointUrl: string = 'api/resumeservice/certification';
   private useMocks: boolean;
-  private baseUrl: string;
 
   constructor(private http: HttpClient) {
     this.useMocks = environment.useMocks;
-    this.baseUrl = environment.apiBaseUrl;
    }
 
   getCertificates(): Observable<Certification[]>  {
