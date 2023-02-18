@@ -1,9 +1,9 @@
-import packageJson from "../../package.json";
+import packageJson from '../../package.json';
 
 export const environment = {
   production: true,
   useMocks: true,
   environmentName: 'PROD',
-  apiBaseUrl: 'TBD',
+  apiUrl: '',
   version: packageJson.version,
 };
