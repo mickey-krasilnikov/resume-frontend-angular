@@ -1,3 +1,8 @@
 export class Contact {
-  constructor(public key: string, public value: string, public url: string) {}
+  constructor(
+    public id: string,
+    public key: string,
+    public value: string,
+    public link: string
+  ) {}
 }

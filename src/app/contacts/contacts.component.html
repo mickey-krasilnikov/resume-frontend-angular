@@ -17,31 +17,31 @@
         <div class="contacts">
           <ul>
             <li>
-              <a target="_blank" href="tel:{{contacts.get('phone')?.url}}">
+              <a target="_blank" href="tel:{{contacts.get('phone')?.link}}">
                 <fa-icon class="contact-icon" [icon]="['fas', 'phone']" size="lg"></fa-icon>
                 {{contacts.get('phone')?.value | phone:'US' }}
               </a>
             </li>
             <li>
-              <a target="_blank" href="{{contacts.get('telegram')?.url}}">
+              <a target="_blank" href="{{contacts.get('telegram')?.link}}">
                 <fa-icon class="contact-icon" [icon]="['fab', 'telegram']" size="lg"></fa-icon>
                 {{contacts.get('telegram')?.value }}
               </a>
             </li>
             <li>
-              <a target="_blank" href="{{contacts.get('whatsapp')?.url}}">
+              <a target="_blank" href="{{contacts.get('whatsapp')?.link}}">
                 <fa-icon class="contact-icon" [icon]="['fab', 'whatsapp']" size="lg"></fa-icon>
                 {{contacts.get('whatsapp')?.value }}
               </a>
             </li>
             <li>
-              <a target="_blank" href="{{contacts.get('email')?.url}}">
+              <a target="_blank" href="{{contacts.get('email')?.link}}">
                 <fa-icon class="contact-icon" [icon]="['far', 'envelope']" size="lg"></fa-icon>
                 {{contacts.get('email')?.value}}
               </a>
             </li>
             <li>
-              <a target="_blank" href="{{contacts.get('location')?.url}}">
+              <a target="_blank" href="{{contacts.get('location')?.link}}">
                 <fa-icon class="contact-icon" [icon]="['fas', 'location-dot']" size="lg"></fa-icon>
                 {{contacts.get('location')?.value}}
               </a>
@@ -53,30 +53,30 @@
           <h5>Social Profiles</h5>
           <ul class="widget-social">
             <li>
-              <a target="_blank" href="{{contacts.get('github')?.url}}" ngbTooltip="{{contacts.get('github')?.value}}">
+              <a target="_blank" href="{{contacts.get('github')?.link}}" ngbTooltip="{{contacts.get('github')?.value}}">
                 <fa-icon [icon]="['fab', 'github-square']" size="lg"></fa-icon>
               </a>
             </li>
             <li>
-              <a target="_blank" href="{{contacts.get('linkedin')?.url}}"
+              <a target="_blank" href="{{contacts.get('linkedin')?.link}}"
                 ngbTooltip="{{contacts.get('linkedin')?.value}}">
                 <fa-icon [icon]="['fab', 'linkedin']" size="lg"></fa-icon>
               </a>
             </li>
             <li>
-              <a target="_blank" href="{{contacts.get('instagram')?.url}}"
+              <a target="_blank" href="{{contacts.get('instagram')?.link}}"
                 ngbTooltip="{{contacts.get('instagram')?.value}}">
                 <fa-icon [icon]="['fab', 'instagram']" size="lg"></fa-icon>
               </a>
             </li>
             <li>
-              <a target="_blank" href="{{contacts.get('facebook')?.url}}"
+              <a target="_blank" href="{{contacts.get('facebook')?.link}}"
                 ngbTooltip="{{contacts.get('facebook')?.value}}">
                 <fa-icon [icon]="['fab', 'facebook']" size="lg"></fa-icon>
               </a>
             </li>
             <li>
-              <a target="_blank" href="{{contacts.get('twitter')?.url}}"
+              <a target="_blank" href="{{contacts.get('twitter')?.link}}"
                 ngbTooltip="{{contacts.get('facebook')?.value}}">
                 <fa-icon [icon]="['fab', 'twitter']" size="lg"></fa-icon>
               </a>
