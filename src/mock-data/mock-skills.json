@@ -1,337 +1,463 @@
 [
   {
-    "id": "5498dd83-f3db-49f3-91b8-0c12fdd9e33f",
-    "name": "MySQL",
-    "skillGroup": "Database",
+    "id": "1f71b23e-6eb8-444b-945f-04dc3b6e6dcc",
+    "name": "Jenkins",
+    "skillGroup": "Tools",
+    "priority": 506,
+    "isHighlighted": true,
     "experienceIds": [
-      "f38b7451-ad35-4f0f-8135-3b296738939f",
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b"
+      "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+      "bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"
     ]
   },
   {
-    "id": "d573787a-8021-48f7-acbc-0f16fc7ecb80",
-    "name": "Redis",
-    "skillGroup": "Database",
-    "experienceIds": [
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c"
-    ]
-  },
-  {
-    "id": "9dd966f9-47d0-4c8e-aee4-13ebeaf24c02",
-    "name": "MS SQL",
-    "skillGroup": "Database",
-    "experienceIds": [
-      "4a3d0a26-55dd-458e-a2d6-34be27f9466a",
-      "f38b7451-ad35-4f0f-8135-3b296738939f",
-      "4d99f5fe-c1e3-4008-8946-69324331ed01",
-      "11896c54-51ef-4ecb-9d76-d47f98ecf703",
-      "d40c5c03-514b-4c52-9c16-e0f212d2a709"
-    ]
-  },
-  {
-    "id": "7861c16e-d82f-4527-8914-175384a7272f",
-    "name": "Cosmos DB",
-    "skillGroup": "Database",
-    "experienceIds": [
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c"
-    ]
-  },
-  {
-    "id": "d0f0c657-3ab6-41a2-9303-18cab0a8dfe6",
-    "name": "TypeScript",
-    "skillGroup": "Frontend",
-    "experienceIds": [
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b",
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c"
-    ]
-  },
-  {
-    "id": "f71e817d-978c-4c3c-b43b-212b658b9861",
-    "name": ".NET",
+    "id": "f6fc53fe-eac7-41c0-a278-062b77a10809",
+    "name": "C#",
     "skillGroup": "Backend",
+    "priority": 201,
+    "isHighlighted": true,
     "experienceIds": [
-      "4a3d0a26-55dd-458e-a2d6-34be27f9466a",
-      "f38b7451-ad35-4f0f-8135-3b296738939f",
-      "4d99f5fe-c1e3-4008-8946-69324331ed01",
-      "11896c54-51ef-4ecb-9d76-d47f98ecf703",
-      "d40c5c03-514b-4c52-9c16-e0f212d2a709"
+      "1ac11019-b63f-43d8-b9cb-22ac33aa1558",
+      "51baeba6-a565-4887-8ba4-4754a1d2a5d1",
+      "c22a7471-6c35-42c2-9def-6fa83a0df8db",
+      "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+      "55181ac6-56a8-47ed-90b2-86ca0d83c7b8",
+      "540881aa-5796-4a06-8c78-c6e80179ab5b",
+      "bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"
     ]
   },
   {
-    "id": "38bfe8d8-8498-45b0-bc6e-292ba75ded7b",
-    "name": "ASP.NET",
+    "id": "c329e836-2e60-47ed-bcca-0e8b2b3cbef0",
+    "name": "TeamCity",
+    "skillGroup": "Tools",
+    "priority": 507,
+    "isHighlighted": true,
+    "experienceIds": [
+      "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+      "55181ac6-56a8-47ed-90b2-86ca0d83c7b8",
+      "540881aa-5796-4a06-8c78-c6e80179ab5b"
+    ]
+  },
+  {
+    "id": "d61e2f58-e592-4550-aad3-14b2da1abe5c",
+    "name": "xUnit",
     "skillGroup": "Backend",
-    "experienceIds": [
-      "f38b7451-ad35-4f0f-8135-3b296738939f",
-      "d40c5c03-514b-4c52-9c16-e0f212d2a709"
-    ]
+    "priority": 215,
+    "isHighlighted": false,
+    "experienceIds": ["c22a7471-6c35-42c2-9def-6fa83a0df8db"]
   },
   {
-    "id": "63ed5300-cebd-4167-b383-348c98695ee5",
+    "id": "1d205562-0906-4fa3-b410-1994000b8b91",
+    "name": "OKTA",
+    "skillGroup": "Tools",
+    "priority": 508,
+    "isHighlighted": true,
+    "experienceIds": ["c22a7471-6c35-42c2-9def-6fa83a0df8db"]
+  },
+  {
+    "id": "4bc1fa9d-d2f2-4aa2-a3fb-1d7760106726",
     "name": "XAML",
     "skillGroup": "Frontend",
+    "priority": 310,
+    "isHighlighted": true,
     "experienceIds": [
-      "f38b7451-ad35-4f0f-8135-3b296738939f",
-      "4d99f5fe-c1e3-4008-8946-69324331ed01",
-      "11896c54-51ef-4ecb-9d76-d47f98ecf703",
-      "d40c5c03-514b-4c52-9c16-e0f212d2a709"
+      "1ac11019-b63f-43d8-b9cb-22ac33aa1558",
+      "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+      "55181ac6-56a8-47ed-90b2-86ca0d83c7b8",
+      "540881aa-5796-4a06-8c78-c6e80179ab5b"
     ]
   },
   {
-    "id": "b2545caa-91d4-4363-b48c-3a9685d90725",
-    "name": "WPF",
-    "skillGroup": "Frontend",
+    "id": "66721da3-eef3-4fb0-94ab-1ddd99814606",
+    "name": "Azure",
+    "skillGroup": "Clouds",
+    "priority": 101,
+    "isHighlighted": true,
+    "experienceIds": ["c22a7471-6c35-42c2-9def-6fa83a0df8db"]
+  },
+  {
+    "id": "6730c197-4fde-452d-a2e2-1e9b93e82872",
+    "name": ".NET Core",
+    "skillGroup": "Backend",
+    "priority": 202,
+    "isHighlighted": true,
     "experienceIds": [
-      "f38b7451-ad35-4f0f-8135-3b296738939f",
-      "4d99f5fe-c1e3-4008-8946-69324331ed01",
-      "11896c54-51ef-4ecb-9d76-d47f98ecf703",
-      "d40c5c03-514b-4c52-9c16-e0f212d2a709"
+      "c22a7471-6c35-42c2-9def-6fa83a0df8db",
+      "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+      "bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"
     ]
   },
   {
-    "id": "0cc1df6b-654b-4037-b3f0-3c88c5c842fa",
-    "name": "Entity Framework Core",
+    "id": "5205ec9e-f063-45cb-a587-21bca1a74892",
+    "name": "Cosmos DB",
+    "skillGroup": "Database",
+    "priority": 404,
+    "isHighlighted": true,
+    "experienceIds": ["c22a7471-6c35-42c2-9def-6fa83a0df8db"]
+  },
+  {
+    "id": "db5b7c7c-e7d7-4b4a-8462-28bbc6ce2a2c",
+    "name": "AWS DevOps",
     "skillGroup": "Tools",
+    "priority": 505,
+    "isHighlighted": true,
+    "experienceIds": ["bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"]
+  },
+  {
+    "id": "e73e86d9-8c82-4aa8-87f5-29007d4842a0",
+    "name": "TypeScript",
+    "skillGroup": "Frontend",
+    "priority": 306,
+    "isHighlighted": true,
     "experienceIds": [
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c",
-      "11896c54-51ef-4ecb-9d76-d47f98ecf703"
+      "c22a7471-6c35-42c2-9def-6fa83a0df8db",
+      "bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"
     ]
   },
   {
-    "id": "85e045bf-f5d8-428a-9ea7-4403b8459176",
+    "id": "2fd77f7a-4f3e-4ba6-a1af-2ab1628471a6",
+    "name": "ASP.NET Core Web API",
+    "skillGroup": "Backend",
+    "priority": 204,
+    "isHighlighted": true,
+    "experienceIds": [
+      "c22a7471-6c35-42c2-9def-6fa83a0df8db",
+      "bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"
+    ]
+  },
+  {
+    "id": "e370472b-07c1-441f-8161-2c9ad7ed921b",
     "name": "Azure DevOps",
     "skillGroup": "Tools",
-    "experienceIds": [
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c"
-    ]
+    "priority": 503,
+    "isHighlighted": true,
+    "experienceIds": ["c22a7471-6c35-42c2-9def-6fa83a0df8db"]
   },
   {
-    "id": "d2b44131-4f80-4a59-a60d-4828e3f90866",
-    "name": "Docker",
-    "skillGroup": "Tools",
-    "experienceIds": [
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b"
-    ]
+    "id": "494ed162-b23f-4ef3-a97f-3f6770ed821e",
+    "name": "ASP.NET",
+    "skillGroup": "Frontend",
+    "priority": 304,
+    "isHighlighted": true,
+    "experienceIds": ["540881aa-5796-4a06-8c78-c6e80179ab5b"]
   },
   {
-    "id": "5c5e078a-4826-4c07-a75c-5f770a134a69",
+    "id": "0d007ad4-4379-4e5e-aa12-40c62927998c",
+    "name": "Python3",
+    "skillGroup": "Backend",
+    "priority": 210,
+    "isHighlighted": true,
+    "experienceIds": ["bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"]
+  },
+  {
+    "id": "bb99c612-e5e2-43c6-a8f6-4a8bc82fa47a",
     "name": "JavaScript",
     "skillGroup": "Frontend",
+    "priority": 305,
+    "isHighlighted": true,
     "experienceIds": [
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b",
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c",
-      "d40c5c03-514b-4c52-9c16-e0f212d2a709"
+      "c22a7471-6c35-42c2-9def-6fa83a0df8db",
+      "540881aa-5796-4a06-8c78-c6e80179ab5b",
+      "bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"
     ]
   },
   {
-    "id": "5f1e1abf-d068-4d06-b176-698c2c6fd38d",
-    "name": "xUnit",
-    "skillGroup": "Tools",
-    "experienceIds": [
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c"
-    ]
-  },
-  {
-    "id": "b5a6230a-be9f-4197-8169-6a6db0cebeaa",
-    "name": "Gin Web Framework",
+    "id": "25f84d31-59d4-41af-bba4-4a96bd67e373",
+    "name": ".NET",
     "skillGroup": "Backend",
+    "priority": 203,
+    "isHighlighted": true,
     "experienceIds": [
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c"
+      "1ac11019-b63f-43d8-b9cb-22ac33aa1558",
+      "51baeba6-a565-4887-8ba4-4754a1d2a5d1",
+      "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+      "55181ac6-56a8-47ed-90b2-86ca0d83c7b8",
+      "540881aa-5796-4a06-8c78-c6e80179ab5b"
     ]
   },
   {
-    "id": "edf93b3f-e56a-4e37-8910-70b59655efd9",
+    "id": "0f16ede3-0bc2-47b2-8a98-4b348f4b8202",
+    "name": "MySQL",
+    "skillGroup": "Database",
+    "priority": 401,
+    "isHighlighted": true,
+    "experienceIds": [
+      "55181ac6-56a8-47ed-90b2-86ca0d83c7b8",
+      "bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"
+    ]
+  },
+  {
+    "id": "16f6207a-e38c-4fa5-967d-4d4e1fd330dd",
+    "name": "Entity Framework",
+    "skillGroup": "Backend",
+    "priority": 213,
+    "isHighlighted": false,
+    "experienceIds": [
+      "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+      "540881aa-5796-4a06-8c78-c6e80179ab5b"
+    ]
+  },
+  {
+    "id": "53065d38-ae20-4130-a2de-5dad4d7ab317",
+    "name": "WCF",
+    "skillGroup": "Backend",
+    "priority": 212,
+    "isHighlighted": false,
+    "experienceIds": [
+      "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+      "55181ac6-56a8-47ed-90b2-86ca0d83c7b8"
+    ]
+  },
+  {
+    "id": "3c071533-0266-4ec6-bc24-5e38f4a26bb5",
+    "name": "WinForms",
+    "skillGroup": "Frontend",
+    "priority": 311,
+    "isHighlighted": false,
+    "experienceIds": ["51baeba6-a565-4887-8ba4-4754a1d2a5d1"]
+  },
+  {
+    "id": "4087555e-8e8c-474b-8970-62b0149ed194",
+    "name": "Entity Framework Core",
+    "skillGroup": "Backend",
+    "priority": 214,
+    "isHighlighted": false,
+    "experienceIds": [
+      "c22a7471-6c35-42c2-9def-6fa83a0df8db",
+      "feb5ed7e-8df7-4da3-8d86-83499d25d6da"
+    ]
+  },
+  {
+    "id": "99f1aca2-fcf3-42be-a7c9-62c84f54b02e",
+    "name": "MSTest",
+    "skillGroup": "Backend",
+    "priority": 217,
+    "isHighlighted": false,
+    "experienceIds": ["1ac11019-b63f-43d8-b9cb-22ac33aa1558"]
+  },
+  {
+    "id": "447457f9-4a41-4e58-9b24-718e171b965d",
     "name": "GCP",
     "skillGroup": "Clouds",
+    "priority": 103,
+    "isHighlighted": true,
     "experienceIds": []
   },
   {
-    "id": "45404f69-3e14-4107-8b5f-77dacbd1736c",
-    "name": "C#",
-    "skillGroup": "Backend",
-    "experienceIds": [
-      "4a3d0a26-55dd-458e-a2d6-34be27f9466a",
-      "f38b7451-ad35-4f0f-8135-3b296738939f",
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b",
-      "4d99f5fe-c1e3-4008-8946-69324331ed01",
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c",
-      "11896c54-51ef-4ecb-9d76-d47f98ecf703",
-      "d40c5c03-514b-4c52-9c16-e0f212d2a709"
-    ]
-  },
-  {
-    "id": "2f179910-d592-4b5c-82b8-7c0b7383fce7",
-    "name": "Jenkins",
+    "id": "e705f66c-af17-4011-b9f4-77155ca17fba",
+    "name": "Jira",
     "skillGroup": "Tools",
+    "priority": 509,
+    "isHighlighted": true,
     "experienceIds": [
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b",
-      "11896c54-51ef-4ecb-9d76-d47f98ecf703"
+      "c22a7471-6c35-42c2-9def-6fa83a0df8db",
+      "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+      "55181ac6-56a8-47ed-90b2-86ca0d83c7b8",
+      "540881aa-5796-4a06-8c78-c6e80179ab5b",
+      "bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"
     ]
   },
   {
-    "id": "837daf5d-2d2c-4bde-a944-7fd722a3a5d9",
-    "name": "Vue.js",
-    "skillGroup": "Frontend",
-    "experienceIds": [
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b"
-    ]
-  },
-  {
-    "id": "d494d01f-a939-48db-bcc2-88a3021a8d06",
-    "name": "MS SSAS",
-    "skillGroup": "Database",
-    "experienceIds": [
-      "11896c54-51ef-4ecb-9d76-d47f98ecf703"
-    ]
-  },
-  {
-    "id": "f64a7f5a-1ed0-4bed-a39e-8a952ad295c4",
-    "name": "ASP.NET Core",
-    "skillGroup": "Backend",
-    "experienceIds": [
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b",
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c"
-    ]
-  },
-  {
-    "id": "b7b6a8ae-3713-4427-a2c2-8b78258ab802",
-    "name": "OKTA",
-    "skillGroup": "Tools",
-    "experienceIds": [
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c"
-    ]
-  },
-  {
-    "id": "27deee5d-937a-4801-a028-97226a9d97d6",
-    "name": "Entity Framework",
-    "skillGroup": "Tools",
-    "experienceIds": [
-      "11896c54-51ef-4ecb-9d76-d47f98ecf703",
-      "d40c5c03-514b-4c52-9c16-e0f212d2a709"
-    ]
-  },
-  {
-    "id": "06c18dc9-80b6-494f-8bb0-a2cede682f9e",
-    "name": "Esri ArcGIS",
-    "skillGroup": "Tools",
-    "experienceIds": [
-      "f38b7451-ad35-4f0f-8135-3b296738939f"
-    ]
-  },
-  {
-    "id": "d6e10246-2b24-4a87-b6b7-aae4e8ffa04d",
-    "name": "MSTest",
-    "skillGroup": "Tools",
-    "experienceIds": [
-      "4d99f5fe-c1e3-4008-8946-69324331ed01"
-    ]
-  },
-  {
-    "id": "8c277707-ef89-48c7-9e11-b3da5a2f55d2",
-    "name": ".NET Core",
-    "skillGroup": "Backend",
-    "experienceIds": [
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b",
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c",
-      "11896c54-51ef-4ecb-9d76-d47f98ecf703"
-    ]
-  },
-  {
-    "id": "b6988db9-10e0-4bad-9b1d-bd2ef54bdc62",
-    "name": "Python3",
-    "skillGroup": "Backend",
-    "experienceIds": [
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b"
-    ]
-  },
-  {
-    "id": "fdf6c906-5b27-40a8-bfd3-c20d9d2a62cc",
-    "name": "Angular 8+",
-    "skillGroup": "Frontend",
-    "experienceIds": [
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c"
-    ]
-  },
-  {
-    "id": "71977b8e-458e-4fd1-bdac-c608325777d9",
-    "name": "WinForms",
-    "skillGroup": "Frontend",
-    "experienceIds": [
-      "4a3d0a26-55dd-458e-a2d6-34be27f9466a"
-    ]
-  },
-  {
-    "id": "ce64e8ef-238d-4e65-8a7e-c9564c9340bc",
-    "name": "TeamCity",
-    "skillGroup": "Tools",
-    "experienceIds": [
-      "f38b7451-ad35-4f0f-8135-3b296738939f",
-      "11896c54-51ef-4ecb-9d76-d47f98ecf703",
-      "d40c5c03-514b-4c52-9c16-e0f212d2a709"
-    ]
-  },
-  {
-    "id": "c546ed63-b96a-4f78-8562-cd55b6562a68",
-    "name": "HTML",
-    "skillGroup": "Frontend",
-    "experienceIds": [
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b",
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c",
-      "d40c5c03-514b-4c52-9c16-e0f212d2a709"
-    ]
-  },
-  {
-    "id": "48a6631b-2edc-45fd-b3fe-cdbbe624ce04",
-    "name": "NUnit",
-    "skillGroup": "Tools",
-    "experienceIds": [
-      "f38b7451-ad35-4f0f-8135-3b296738939f",
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b",
-      "11896c54-51ef-4ecb-9d76-d47f98ecf703",
-      "d40c5c03-514b-4c52-9c16-e0f212d2a709"
-    ]
-  },
-  {
-    "id": "ed19e565-ad16-427d-9965-d8122f88e635",
-    "name": "CSS",
-    "skillGroup": "Frontend",
-    "experienceIds": [
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b",
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c",
-      "d40c5c03-514b-4c52-9c16-e0f212d2a709"
-    ]
-  },
-  {
-    "id": "f90c4279-a314-4960-8bf7-da6606cee19c",
+    "id": "a079055b-d4b7-4b96-afc3-7cb503e7e76e",
     "name": "GoLang",
     "skillGroup": "Backend",
-    "experienceIds": [
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c"
-    ]
+    "priority": 208,
+    "isHighlighted": true,
+    "experienceIds": ["c22a7471-6c35-42c2-9def-6fa83a0df8db"]
   },
   {
-    "id": "c2430241-81bd-4ca8-8f52-e0739e43877d",
-    "name": "WCF",
-    "skillGroup": "Backend",
-    "experienceIds": [
-      "f38b7451-ad35-4f0f-8135-3b296738939f",
-      "11896c54-51ef-4ecb-9d76-d47f98ecf703"
-    ]
-  },
-  {
-    "id": "6b028ae2-734d-453a-8ecb-f37a7202c1a2",
+    "id": "1dc5e010-6f0e-4651-a6e0-7e7061d6c781",
     "name": "AWS",
     "skillGroup": "Clouds",
+    "priority": 102,
+    "isHighlighted": true,
+    "experienceIds": ["bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"]
+  },
+  {
+    "id": "27d65041-3a7b-4443-af7c-7ff20a0cff11",
+    "name": "Express.js Web Framework",
+    "skillGroup": "Backend",
+    "priority": 207,
+    "isHighlighted": true,
+    "experienceIds": []
+  },
+  {
+    "id": "918a79ca-a2ec-4878-9d3f-802c4bd10a64",
+    "name": "Angular 8+",
+    "skillGroup": "Frontend",
+    "priority": 301,
+    "isHighlighted": true,
+    "experienceIds": ["c22a7471-6c35-42c2-9def-6fa83a0df8db"]
+  },
+  {
+    "id": "81786180-7ffc-4d9e-a3e1-812acf9ed04b",
+    "name": "Gin Web Framework",
+    "skillGroup": "Backend",
+    "priority": 209,
+    "isHighlighted": true,
+    "experienceIds": ["c22a7471-6c35-42c2-9def-6fa83a0df8db"]
+  },
+  {
+    "id": "3978f616-4c26-43ea-953f-84c62279106e",
+    "name": "Flask Web Framework",
+    "skillGroup": "Backend",
+    "priority": 211,
+    "isHighlighted": true,
+    "experienceIds": []
+  },
+  {
+    "id": "faedd3e4-ac78-455f-a2a6-8787cc5d2724",
+    "name": "HTML",
+    "skillGroup": "Frontend",
+    "priority": 307,
+    "isHighlighted": true,
     "experienceIds": [
-      "42647a6a-5498-4a76-8ef2-3c5f2932989b"
+      "c22a7471-6c35-42c2-9def-6fa83a0df8db",
+      "540881aa-5796-4a06-8c78-c6e80179ab5b",
+      "bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"
     ]
   },
   {
-    "id": "595c5389-0d7a-446a-bcaa-f8ce30e5152a",
-    "name": "Azure",
-    "skillGroup": "Clouds",
+    "id": "22135820-bfc4-4f17-b0f2-8cbdba10a2a9",
+    "name": "Node.js",
+    "skillGroup": "Backend",
+    "priority": 206,
+    "isHighlighted": true,
+    "experienceIds": []
+  },
+  {
+    "id": "19a964ee-362a-4f52-82c7-901ec92b190d",
+    "name": "WPF",
+    "skillGroup": "Frontend",
+    "priority": 309,
+    "isHighlighted": true,
     "experienceIds": [
-      "b229a58a-9799-462e-a69a-b0443e0f5f0c"
+      "1ac11019-b63f-43d8-b9cb-22ac33aa1558",
+      "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+      "55181ac6-56a8-47ed-90b2-86ca0d83c7b8",
+      "540881aa-5796-4a06-8c78-c6e80179ab5b"
+    ]
+  },
+  {
+    "id": "c7499348-ae6f-41a8-8739-92e575988976",
+    "name": "Dynamo DB",
+    "skillGroup": "Database",
+    "priority": 405,
+    "isHighlighted": true,
+    "experienceIds": []
+  },
+  {
+    "id": "2d7e5810-b437-49b5-9801-9d57b1bd0c2f",
+    "name": "MS SSAS",
+    "skillGroup": "Database",
+    "priority": 403,
+    "isHighlighted": true,
+    "experienceIds": ["feb5ed7e-8df7-4da3-8d86-83499d25d6da"]
+  },
+  {
+    "id": "f36deae8-083d-496f-8895-b3e98e7f6a96",
+    "name": "Kubernetes",
+    "skillGroup": "Tools",
+    "priority": 502,
+    "isHighlighted": true,
+    "experienceIds": []
+  },
+  {
+    "id": "888a9550-f2dd-4e7d-a010-bb21411ab52a",
+    "name": "MS SQL",
+    "skillGroup": "Database",
+    "priority": 402,
+    "isHighlighted": true,
+    "experienceIds": [
+      "1ac11019-b63f-43d8-b9cb-22ac33aa1558",
+      "51baeba6-a565-4887-8ba4-4754a1d2a5d1",
+      "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+      "55181ac6-56a8-47ed-90b2-86ca0d83c7b8",
+      "540881aa-5796-4a06-8c78-c6e80179ab5b"
+    ]
+  },
+  {
+    "id": "e187b2ef-0a5d-4f5c-bd42-c288b0484bce",
+    "name": "Vue.js",
+    "skillGroup": "Frontend",
+    "priority": 302,
+    "isHighlighted": true,
+    "experienceIds": ["bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"]
+  },
+  {
+    "id": "a120ba72-3a02-47b0-b626-dc37208d0747",
+    "name": "Esri ArcGIS",
+    "skillGroup": "Tools",
+    "priority": 510,
+    "isHighlighted": true,
+    "experienceIds": ["55181ac6-56a8-47ed-90b2-86ca0d83c7b8"]
+  },
+  {
+    "id": "014d3588-b7d8-40a9-af5e-dfc15c339c85",
+    "name": "Docker",
+    "skillGroup": "Tools",
+    "priority": 501,
+    "isHighlighted": true,
+    "experienceIds": ["bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"]
+  },
+  {
+    "id": "96eef699-0493-4389-8508-e0e5ac7a10ff",
+    "name": "CSS",
+    "skillGroup": "Frontend",
+    "priority": 308,
+    "isHighlighted": true,
+    "experienceIds": [
+      "c22a7471-6c35-42c2-9def-6fa83a0df8db",
+      "540881aa-5796-4a06-8c78-c6e80179ab5b",
+      "bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"
+    ]
+  },
+  {
+    "id": "d4f46599-5251-48f8-9097-eaee336b8993",
+    "name": "ASP.NET Core (Blazor)",
+    "skillGroup": "Frontend",
+    "priority": 303,
+    "isHighlighted": true,
+    "experienceIds": []
+  },
+  {
+    "id": "7c4cc9e6-deb5-41e7-85d5-f32ed2d5f771",
+    "name": "ASP.NET Web API",
+    "skillGroup": "Backend",
+    "priority": 205,
+    "isHighlighted": false,
+    "experienceIds": [
+      "55181ac6-56a8-47ed-90b2-86ca0d83c7b8",
+      "540881aa-5796-4a06-8c78-c6e80179ab5b"
+    ]
+  },
+  {
+    "id": "f2a2aa0c-46d2-4500-aae5-f85f93327eb8",
+    "name": "Redis",
+    "skillGroup": "Database",
+    "priority": 406,
+    "isHighlighted": true,
+    "experienceIds": ["c22a7471-6c35-42c2-9def-6fa83a0df8db"]
+  },
+  {
+    "id": "afee880a-2ef7-4597-b41d-faa595811aa0",
+    "name": "GitHub Actions",
+    "skillGroup": "Tools",
+    "priority": 504,
+    "isHighlighted": true,
+    "experienceIds": []
+  },
+  {
+    "id": "36f830dc-864f-45bd-a567-ff35d34aa403",
+    "name": "NUnit",
+    "skillGroup": "Backend",
+    "priority": 216,
+    "isHighlighted": false,
+    "experienceIds": [
+      "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+      "55181ac6-56a8-47ed-90b2-86ca0d83c7b8",
+      "540881aa-5796-4a06-8c78-c6e80179ab5b",
+      "bdc4ad5c-646f-4e79-9466-f77bac4bf6f5"
     ]
   }
 ]

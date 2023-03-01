@@ -14,7 +14,7 @@ export class ExperienceService {
   private baseUrl: string;
 
   constructor(private http: HttpClient) {
-    this.baseUrl = environment.apiUrl;
+    this.baseUrl = environment.useMocks ? '' : environment.apiUrl;
     this.experienceUrl = environment.useMocks
       ? '../../mock-data/mock-experience.json'
       : 'api/resumeservice/experience';
@@ -39,16 +39,19 @@ export class ExperienceService {
     for (const exp of experience) {
       const relatedSkills = skills.filter((s) => exp.skillIds.includes(s.id));
 
-      mergedData.push({
-        id: exp.id,
-        title: exp.title,
-        company: exp.company,
-        location: exp.location,
-        environment: relatedSkills,
-        taskPerformed: exp.taskPerformed,
-        startDate: exp.startDate,
-        endDate: exp.endDate,
-      });
+      mergedData.push(
+        new ExperienceWithSkills(
+          exp.id,
+          exp.title,
+          exp.company,
+          exp.location,
+          exp.skillIds,
+          relatedSkills.sort((a, b) => a.priority - b.priority),
+          exp.taskPerformed,
+          exp.startDate,
+          exp.endDate
+        )
+      );
     }
 
     return mergedData;

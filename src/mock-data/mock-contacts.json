@@ -1,74 +1,74 @@
 [
   {
-    "id": "a44a818a-47fb-4b31-b7c5-06e7d84221e5",
-    "key": "Instagram",
-    "value": "@mickey.krasilnikov",
-    "link": "https://www.instagram.com/mickey.krasilnikov"
-  },
-  {
-    "id": "d4b0c82d-55e3-4ab4-bea1-11cd56635640",
-    "key": "Twitter",
-    "value": "@mickey_kras",
-    "link": "https://twitter.com/mickey_kras"
-  },
-  {
-    "id": "aa60daa6-7474-416f-aaea-1df70aee2f5a",
-    "key": "Telegram",
-    "value": "+1(408)480-3600",
-    "link": "https://t.me/+14084803600"
-  },
-  {
-    "id": "5319715d-9d2b-4453-86dd-3339b6dfdcd7",
-    "key": "Credly",
-    "value": "@mickey-krasilnikov",
-    "link": "https://www.credly.com/users/mickey-krasilnikov/badges"
-  },
-  {
-    "id": "b9a5e6ef-64ac-415c-bd98-3df641eebe1f",
-    "key": "Github",
-    "value": "@mickey-krasilnikov",
-    "link": "https://github.com/mickey-krasilnikov"
-  },
-  {
-    "id": "0d07ede7-68cf-45f3-af42-74c2be4c3696",
-    "key": "Whatsapp",
-    "value": "+1(408)480-3600",
-    "link": "https://wa.me/+14084803600"
-  },
-  {
-    "id": "d74d843d-a55b-493a-ae1a-9d6d3121bf57",
-    "key": "Location",
-    "value": "Sunyvale, CA, 94085",
-    "link": "https://www.google.com/maps/place/Sunyvale%20CA%2094085/"
-  },
-  {
-    "id": "a46aee19-f5cb-4c90-8150-9d7e8c276567",
-    "key": "LinkedIn",
-    "value": "@mickeykrasilnikov",
-    "link": "https://www.linkedin.com/in/mickeykrasilnikov"
-  },
-  {
-    "id": "02a4cae9-d308-4f64-b007-a8c0ed0b33f9",
-    "key": "Email",
-    "value": "Mickey.Krasilnikov@gmail.com",
-    "link": "mailto:your_email"
-  },
-  {
-    "id": "93039dbe-5c88-4fb6-9dc4-aa4037cb725c",
-    "key": "Accredible",
+    "id": "9ea39ee0-cd93-4c82-8fa3-06c301d3b7ab",
+    "key": "accredible",
     "value": "@mikhailkrasilnikov328966",
     "link": "https://www.credential.net/profile/mikhailkrasilnikov328966/wallet"
   },
   {
-    "id": "700cb581-aea0-4bfd-9e01-d479b36cc979",
-    "key": "Facebook",
+    "id": "5e0076ab-34cc-4702-a9dd-26b70dfcca71",
+    "key": "phone",
+    "value": "+14084803600",
+    "link": "tel:+14084803600"
+  },
+  {
+    "id": "52d23e7b-8078-434a-8045-535e9420effd",
+    "key": "credly",
+    "value": "@mickey-krasilnikov",
+    "link": "https://www.credly.com/users/mickey-krasilnikov/badges"
+  },
+  {
+    "id": "a9028523-6999-4f8c-b9f5-6bbb371b11c9",
+    "key": "linkedIn",
+    "value": "@mickeykrasilnikov",
+    "link": "https://www.linkedin.com/in/mickeykrasilnikov"
+  },
+  {
+    "id": "e2ae7016-b312-4738-acc5-79850a69deb2",
+    "key": "facebook",
     "value": "@mickey.krasilnikov",
     "link": "https://www.facebook.com/mickey.krasilnikov"
   },
   {
-    "id": "f85b7a75-1df7-481c-b8e3-f9413d19d6d5",
-    "key": "Phone",
-    "value": "+14084803600",
-    "link": "tel:+14084803600"
+    "id": "0f1c366e-54ff-43e0-ba89-7c5409caf466",
+    "key": "twitter",
+    "value": "@mickey_kras",
+    "link": "https://twitter.com/mickey_kras"
+  },
+  {
+    "id": "df973f56-bd70-4b41-8110-933ce7966bf2",
+    "key": "email",
+    "value": "Mickey.Krasilnikov@gmail.com",
+    "link": "mailto:your_email"
+  },
+  {
+    "id": "75c5c94b-d830-486f-9a8d-9e771f5c0239",
+    "key": "instagram",
+    "value": "@mickey.krasilnikov",
+    "link": "https://www.instagram.com/mickey.krasilnikov"
+  },
+  {
+    "id": "f7210666-4526-4324-aee7-ae40ea9552a9",
+    "key": "telegram",
+    "value": "Telegram",
+    "link": "https://t.me/+14084803600"
+  },
+  {
+    "id": "d0af11d2-c3ca-49a1-a105-d71dd53fbac0",
+    "key": "whatsapp",
+    "value": "Whatsapp",
+    "link": "https://wa.me/+14084803600"
+  },
+  {
+    "id": "be4e59a9-52b6-42a9-b09a-d88a7eaa801b",
+    "key": "github",
+    "value": "@mickey-krasilnikov",
+    "link": "https://github.com/mickey-krasilnikov"
+  },
+  {
+    "id": "8ce4a50a-3fb9-4923-9eb6-e866af138a27",
+    "key": "location",
+    "value": "Sunyvale, CA, 94085",
+    "link": "https://www.google.com/maps/place/Sunyvale%20CA%2094085/"
   }
 ]

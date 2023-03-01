@@ -3,6 +3,8 @@ export class Skill {
     public id: string,
     public name: string,
     public skillGroup: string,
-    public experienceIds: string[]
+    public experienceIds: string[],
+    public priority: number,
+    public isHighlighted: boolean
   ) {}
 }

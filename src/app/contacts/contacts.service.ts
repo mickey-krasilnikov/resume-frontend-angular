@@ -12,7 +12,7 @@ export class ContactsService {
   private baseUrl: string;
 
   constructor(private http: HttpClient) {
-    this.baseUrl = environment.apiUrl;
+    this.baseUrl = environment.useMocks ? '' : environment.apiUrl;
     this.contactsUrl = environment.useMocks
       ? '../../mock-data/mock-contacts.json'
       : 'api/resumeservice/contacts';

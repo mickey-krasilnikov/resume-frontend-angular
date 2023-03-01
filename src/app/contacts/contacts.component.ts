@@ -19,7 +19,6 @@ export class ContactsComponent {
   loadContacts(): void {
     this.contactsService.getContacts().subscribe((data: Contact[]) => {
       this.contacts = new Map(data.map((o) => [o.key, o]));
-      console.log(this.contacts);
     });
   }
 }

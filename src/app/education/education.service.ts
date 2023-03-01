@@ -12,7 +12,7 @@ export class EducationService {
   private baseUrl: string;
 
   constructor(private http: HttpClient) {
-    this.baseUrl = environment.apiUrl;
+    this.baseUrl = environment.useMocks ? '' : environment.apiUrl;
     this.educationUrl = environment.useMocks
       ? '../../mock-data/mock-education.json'
       : 'api/resumeservice/education';

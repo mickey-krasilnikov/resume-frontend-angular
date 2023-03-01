@@ -12,7 +12,7 @@ export class SkillsService {
   private baseUrl: string;
 
   constructor(private http: HttpClient) {
-    this.baseUrl = environment.apiUrl;
+    this.baseUrl = environment.useMocks ? '' : environment.apiUrl;
     this.skillsUrl = environment.useMocks
       ? '../../mock-data/mock-skills.json'
       : 'api/resumeservice/skills';

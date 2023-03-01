@@ -18,14 +18,13 @@ export class SkillsComponent {
   }
 
   loadSkills(): void {
-    this.skillsService.getCertificates().subscribe(
-      (data: Skill[]) =>
-        (this.groupedSkills = _.groupBy(
-          [...data].sort(
-            (a, b) => b.experienceIds.length - a.experienceIds.length
-          ),
-          'skillGroup'
-        ))
-    );
+    this.skillsService.getCertificates().subscribe((data: Skill[]) => {
+      this.groupedSkills = _.groupBy(
+        [...data.filter((s) => s.isHighlighted)].sort(
+          (a, b) => a.priority - b.priority
+        ),
+        'skillGroup'
+      );
+    });
   }
 }

@@ -12,7 +12,7 @@ export class CertificationService {
   private baseUrl: string;
 
   constructor(private http: HttpClient) {
-    this.baseUrl = environment.apiUrl;
+    this.baseUrl = environment.useMocks ? '' : environment.apiUrl;
     this.certUrl = environment.useMocks
       ? '../../mock-data/mock-certification.json'
       : 'api/resumeservice/certification';

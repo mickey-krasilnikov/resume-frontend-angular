@@ -19,9 +19,8 @@ export class ExperienceComponent {
 
   loadExperience(): void {
     this.experienceService.getExperience().subscribe(([experience, skills]) => {
-      const mergedData = this.experienceService.mergeData(experience, skills);
-      console.log(mergedData);
-      this.experience = [...mergedData].sort(
+      const data = this.experienceService.mergeData(experience, skills);
+      this.experience = [...data].sort(
         (a, b) =>
           new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
       );
