@@ -1,8 +1,10 @@
 export class Skill {
-   constructor(
+  constructor(
     public id: string,
-    public skillGroup: string,
     public name: string,
-    public additionalInfo?: string) {
-  }
+    public skillGroup: string,
+    public experienceIds: string[],
+    public priority: number,
+    public isHighlighted: boolean
+  ) {}
 }

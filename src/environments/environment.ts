@@ -4,6 +4,6 @@ export const environment = {
   production: true,
   useMocks: false,
   environmentName: 'DEV',
-  apiUrl: 'https://localhost:64568/',
+  apiUrl: 'https://localhost:55361/',
   version: packageJson.version,
 };

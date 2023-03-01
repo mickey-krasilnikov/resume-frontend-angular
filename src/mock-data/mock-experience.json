@@ -1,0 +1,194 @@
+[
+  {
+    "id": "1ac11019-b63f-43d8-b9cb-22ac33aa1558",
+    "title": "Software Engineer",
+    "company": "SGC",
+    "location": "Moscow, Russia",
+    "skillIds": [
+      "f6fc53fe-eac7-41c0-a278-062b77a10809",
+      "4bc1fa9d-d2f2-4aa2-a3fb-1d7760106726",
+      "25f84d31-59d4-41af-bba4-4a96bd67e373",
+      "99f1aca2-fcf3-42be-a7c9-62c84f54b02e",
+      "19a964ee-362a-4f52-82c7-901ec92b190d",
+      "888a9550-f2dd-4e7d-a010-bb21411ab52a"
+    ],
+    "taskPerformed": [
+      "Developed software that composes accurate construction cost estimates, which resulted in a 25% reduction in estimate preparation time.",
+      "Improved software flexibility and saved valuable time by adding the ability to convert estimates from other well-known systems.",
+      "Streamlined report creation process by enabling final estimate result export to various formats, providing customization options for users."
+    ],
+    "startDate": "2012-07-01",
+    "endDate": "2013-06-01"
+  },
+  {
+    "id": "51baeba6-a565-4887-8ba4-4754a1d2a5d1",
+    "title": "Software Engineer",
+    "company": "Research and Production Center 'Start'",
+    "location": "Penza, Russia",
+    "skillIds": [
+      "f6fc53fe-eac7-41c0-a278-062b77a10809",
+      "25f84d31-59d4-41af-bba4-4a96bd67e373",
+      "3c071533-0266-4ec6-bc24-5e38f4a26bb5",
+      "888a9550-f2dd-4e7d-a010-bb21411ab52a"
+    ],
+    "taskPerformed": [
+      "Developed an in-house CAD tool for designing microboards, including the ability to import AutoCAD files.",
+      "Implemented a feature that enables the printing of photomasks for microboards using specialized equipment.",
+      "Optimized the CAD tool for faster and more efficient microboard design, resulting in a 30% reduction in design time."
+    ],
+    "startDate": "2010-08-01",
+    "endDate": "2012-06-01"
+  },
+  {
+    "id": "c22a7471-6c35-42c2-9def-6fa83a0df8db",
+    "title": "Lead Software Engineer",
+    "company": "EPAM Systems",
+    "location": "Wroclaw, Poland",
+    "skillIds": [
+      "f6fc53fe-eac7-41c0-a278-062b77a10809",
+      "d61e2f58-e592-4550-aad3-14b2da1abe5c",
+      "1d205562-0906-4fa3-b410-1994000b8b91",
+      "66721da3-eef3-4fb0-94ab-1ddd99814606",
+      "6730c197-4fde-452d-a2e2-1e9b93e82872",
+      "5205ec9e-f063-45cb-a587-21bca1a74892",
+      "e73e86d9-8c82-4aa8-87f5-29007d4842a0",
+      "2fd77f7a-4f3e-4ba6-a1af-2ab1628471a6",
+      "e370472b-07c1-441f-8161-2c9ad7ed921b",
+      "bb99c612-e5e2-43c6-a8f6-4a8bc82fa47a",
+      "4087555e-8e8c-474b-8970-62b0149ed194",
+      "e705f66c-af17-4011-b9f4-77155ca17fba",
+      "a079055b-d4b7-4b96-afc3-7cb503e7e76e",
+      "918a79ca-a2ec-4878-9d3f-802c4bd10a64",
+      "81786180-7ffc-4d9e-a3e1-812acf9ed04b",
+      "faedd3e4-ac78-455f-a2a6-8787cc5d2724",
+      "96eef699-0493-4389-8508-e0e5ac7a10ff",
+      "f2a2aa0c-46d2-4500-aae5-f85f93327eb8"
+    ],
+    "taskPerformed": [
+      "Designed and developed a cloud-native microservice-based system for managing insurance claims, underwriting, and reporting.",
+      "Created an intuitive self-service portal using Angular, improving customer satisfaction while reducing customer support inquiries.",
+      "Developed highly scalable and reliable RESTful microservices in .NET Core, resulting in improved efficiency and cost savings.",
+      "Implemented performance-critical internal services using GoLang, resulting in faster and more accurate claims processing.",
+      "Ensured high software quality with 80% code coverage and automated quality gates in CI/CD, reducing maintenance costs."
+    ],
+    "startDate": "2019-04-01",
+    "endDate": "2021-10-01"
+  },
+  {
+    "id": "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+    "title": "Senior Software Engineer",
+    "company": "Credit Suisse",
+    "location": "Wroclaw, Poland",
+    "skillIds": [
+      "1f71b23e-6eb8-444b-945f-04dc3b6e6dcc",
+      "f6fc53fe-eac7-41c0-a278-062b77a10809",
+      "c329e836-2e60-47ed-bcca-0e8b2b3cbef0",
+      "4bc1fa9d-d2f2-4aa2-a3fb-1d7760106726",
+      "6730c197-4fde-452d-a2e2-1e9b93e82872",
+      "25f84d31-59d4-41af-bba4-4a96bd67e373",
+      "16f6207a-e38c-4fa5-967d-4d4e1fd330dd",
+      "53065d38-ae20-4130-a2de-5dad4d7ab317",
+      "4087555e-8e8c-474b-8970-62b0149ed194",
+      "e705f66c-af17-4011-b9f4-77155ca17fba",
+      "19a964ee-362a-4f52-82c7-901ec92b190d",
+      "2d7e5810-b437-49b5-9801-9d57b1bd0c2f",
+      "888a9550-f2dd-4e7d-a010-bb21411ab52a",
+      "36f830dc-864f-45bd-a567-ff35d34aa403"
+    ],
+    "taskPerformed": [
+      "Created a high-performing desktop application for Credit Suisse's front office to manage market risks in real time using WPF and C#.",
+      "Restructured an existing monolithic architecture into microservices, providing more flexibility and scalability while improving performance.",
+      "Implemented automated testing, reducing the likelihood of bugs and errors and increasing the overall reliability of the system.",
+      "Optimized the performance of the in-house distributed cache, leading to faster processing times and greater efficiency in C#."
+    ],
+    "startDate": "2015-08-01",
+    "endDate": "2019-03-01"
+  },
+  {
+    "id": "55181ac6-56a8-47ed-90b2-86ca0d83c7b8",
+    "title": "Software Engineer",
+    "company": "Gollard",
+    "location": "Moscow, Russia",
+    "skillIds": [
+      "f6fc53fe-eac7-41c0-a278-062b77a10809",
+      "c329e836-2e60-47ed-bcca-0e8b2b3cbef0",
+      "4bc1fa9d-d2f2-4aa2-a3fb-1d7760106726",
+      "25f84d31-59d4-41af-bba4-4a96bd67e373",
+      "0f16ede3-0bc2-47b2-8a98-4b348f4b8202",
+      "53065d38-ae20-4130-a2de-5dad4d7ab317",
+      "e705f66c-af17-4011-b9f4-77155ca17fba",
+      "19a964ee-362a-4f52-82c7-901ec92b190d",
+      "888a9550-f2dd-4e7d-a010-bb21411ab52a",
+      "a120ba72-3a02-47b0-b626-dc37208d0747",
+      "7c4cc9e6-deb5-41e7-85d5-f32ed2d5f771",
+      "36f830dc-864f-45bd-a567-ff35d34aa403"
+    ],
+    "taskPerformed": [
+      "Created a GIS desktop app for energy distribution company handling grids, stations, and facilities, improving overall operational efficiency.",
+      "Enabled real-time tracking of service transport location and engine state, enhancing the company's logistical capabilities.",
+      "Implemented an alerting system that utilizes biometric camera data and sensor events, increasing the company's security posture."
+    ],
+    "startDate": "2013-06-01",
+    "endDate": "2014-07-01"
+  },
+  {
+    "id": "540881aa-5796-4a06-8c78-c6e80179ab5b",
+    "title": "Senior Software Engineer",
+    "company": "Yandex",
+    "location": "Moscow, Russia",
+    "skillIds": [
+      "f6fc53fe-eac7-41c0-a278-062b77a10809",
+      "c329e836-2e60-47ed-bcca-0e8b2b3cbef0",
+      "4bc1fa9d-d2f2-4aa2-a3fb-1d7760106726",
+      "494ed162-b23f-4ef3-a97f-3f6770ed821e",
+      "bb99c612-e5e2-43c6-a8f6-4a8bc82fa47a",
+      "25f84d31-59d4-41af-bba4-4a96bd67e373",
+      "16f6207a-e38c-4fa5-967d-4d4e1fd330dd",
+      "e705f66c-af17-4011-b9f4-77155ca17fba",
+      "faedd3e4-ac78-455f-a2a6-8787cc5d2724",
+      "19a964ee-362a-4f52-82c7-901ec92b190d",
+      "888a9550-f2dd-4e7d-a010-bb21411ab52a",
+      "96eef699-0493-4389-8508-e0e5ac7a10ff",
+      "7c4cc9e6-deb5-41e7-85d5-f32ed2d5f771",
+      "36f830dc-864f-45bd-a567-ff35d34aa403"
+    ],
+    "taskPerformed": [
+      "Developed a payment system that streamlined the process of paying for lunch at nearby cafes and restaurants using the office access card (RFID tag), resulting in improved efficiency and convenience for employees.",
+      "Designed and developed a user-friendly personal page for employees, enabling them to view their transaction history and account balance.",
+      "Created a desktop application for administrators that simplified the process of managing employee accounts and generating reports."
+    ],
+    "startDate": "2014-08-01",
+    "endDate": "2015-08-01"
+  },
+  {
+    "id": "bdc4ad5c-646f-4e79-9466-f77bac4bf6f5",
+    "title": "Lead Software Engineer",
+    "company": "EPAM Systems",
+    "location": "San Jose, CA, USA",
+    "skillIds": [
+      "1f71b23e-6eb8-444b-945f-04dc3b6e6dcc",
+      "f6fc53fe-eac7-41c0-a278-062b77a10809",
+      "6730c197-4fde-452d-a2e2-1e9b93e82872",
+      "db5b7c7c-e7d7-4b4a-8462-28bbc6ce2a2c",
+      "e73e86d9-8c82-4aa8-87f5-29007d4842a0",
+      "2fd77f7a-4f3e-4ba6-a1af-2ab1628471a6",
+      "0d007ad4-4379-4e5e-aa12-40c62927998c",
+      "bb99c612-e5e2-43c6-a8f6-4a8bc82fa47a",
+      "0f16ede3-0bc2-47b2-8a98-4b348f4b8202",
+      "e705f66c-af17-4011-b9f4-77155ca17fba",
+      "1dc5e010-6f0e-4651-a6e0-7e7061d6c781",
+      "faedd3e4-ac78-455f-a2a6-8787cc5d2724",
+      "e187b2ef-0a5d-4f5c-bd42-c288b0484bce",
+      "014d3588-b7d8-40a9-af5e-dfc15c339c85",
+      "96eef699-0493-4389-8508-e0e5ac7a10ff",
+      "36f830dc-864f-45bd-a567-ff35d34aa403"
+    ],
+    "taskPerformed": [
+      "Created Execution Compliance and Trade Surveillance System for analysis of trading activities to ensure regulatory compliance.",
+      "Engineered a Vue.js-based web dashboard for monitoring, analyzing, and visualizing data.",
+      "Designed and developed high-performance .NET Core backend services, resulting in a scalable and maintainable architecture.",
+      "Implemented an event-driven workflow that utilized Amazon SQS and AWS Lambdas, written in Python, to efficiently load and parse large data files, reducing processing times and increasing overall system throughput."
+    ],
+    "startDate": "2021-10-01"
+  }
+]

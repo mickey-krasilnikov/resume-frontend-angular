@@ -25,7 +25,7 @@
                 </h5>
                 <h6 class="timeline-description">{{exp.company}} </h6>
                 <div>
-                  <div class="chip" *ngFor="let skill of exp.environment">{{skill.name}}</div>
+                  <div class="chip" *ngFor="let skill of exp.skills">{{skill.name}}</div>
                   <ul *ngFor="let task of exp.taskPerformed" class="timeline-tasks">
                     <li>{{task}}</li>
                   </ul>

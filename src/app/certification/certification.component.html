@@ -17,7 +17,7 @@
           <tbody>
             <tr *ngFor="let cert of certification;">
               <td [width]="10">
-                <fa-icon [icon]="['fab', cert.issuerIcon ]" size="lg"></fa-icon>
+                <fa-icon [icon]="[cert.issuerIconPrefix, cert.issuerIconName ]" size="lg"></fa-icon>
               </td>
               <td>
                 <a target="_blank" href={{cert.verificationUrl}}>{{ cert.name }}</a>
