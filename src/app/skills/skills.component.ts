@@ -10,6 +10,7 @@ import { SkillsService } from './skills.service';
 })
 export class SkillsComponent {
   public groupedSkills: _.Dictionary<Skill[]> = {};
+  public isLoading: boolean = false;
 
   constructor(private skillsService: SkillsService) {}
 
@@ -18,6 +19,7 @@ export class SkillsComponent {
   }
 
   loadSkills(): void {
+    this.isLoading = true;
     this.skillsService.getCertificates().subscribe((data: Skill[]) => {
       this.groupedSkills = _.groupBy(
         [...data.filter((s) => s.isHighlighted)].sort(
@@ -25,6 +27,7 @@ export class SkillsComponent {
         ),
         'skillGroup'
       );
+      this.isLoading = false;
     });
   }
 }

@@ -147,3 +147,43 @@ button {
   border-color: #202020;
   color: #fff;
 }
+
+.busy-indicator {
+  display: inline-block;
+  border: 9px solid #ccc;
+  border-radius: 50%;
+  border-top-color: var(--primaryColor);
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fade-in {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

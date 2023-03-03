@@ -10,6 +10,7 @@ import { ExperienceService } from './experience.service';
 })
 export class ExperienceComponent {
   public experience: ExperienceWithSkills[] = [];
+  public isLoading: boolean = false;
 
   constructor(private experienceService: ExperienceService) {}
 
@@ -18,12 +19,14 @@ export class ExperienceComponent {
   }
 
   loadExperience(): void {
+    this.isLoading = true;
     this.experienceService.getExperience().subscribe(([experience, skills]) => {
       const data = this.experienceService.mergeData(experience, skills);
       this.experience = [...data].sort(
         (a, b) =>
           new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
       );
+      this.isLoading = false;
     });
   }
 }

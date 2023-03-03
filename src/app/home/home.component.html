@@ -1,6 +1,10 @@
 <app-header></app-header>
 <app-headline></app-headline>
 <div class="wrapper">
+  <div class="center" [appBusyIndicator]="isLoading"></div>
+  <p class="center fade-in" *ngIf="isLoading && !isLongLoading">loading...</p>
+  <p class="center fade-in" *ngIf="isLoading && isLongLoading">
+    serverless database is used<br> so you may experience a "cold start"<br> when it's invoked first time in a while</p>
   <app-skills></app-skills>
   <app-experience></app-experience>
   <app-certification></app-certification>

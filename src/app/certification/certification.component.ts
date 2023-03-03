@@ -10,6 +10,7 @@ import { CertificationService } from './certification.service';
 })
 export class CertificationComponent implements OnInit {
   public certification: CertificationWithIcon[] = [];
+  public isLoading: boolean = false;
 
   constructor(private certificationService: CertificationService) {}
 
@@ -18,9 +19,11 @@ export class CertificationComponent implements OnInit {
   }
 
   loadCertification(): void {
-    this.certificationService.getCertificates().subscribe(
-      (data: Certification[]) =>
-        (this.certification = [...data]
+    this.isLoading = true;
+    this.certificationService
+      .getCertificates()
+      .subscribe((data: Certification[]) => {
+        this.certification = [...data]
           .map((i) => {
             let issuerIconPrefix: IconPrefix;
             let issuerIconName: IconName;
@@ -56,7 +59,9 @@ export class CertificationComponent implements OnInit {
             a.issuer != b.issuer
               ? b.issuer.localeCompare(a.issuer)
               : a.name.localeCompare(b.name)
-          ))
-    );
+          );
+
+        this.isLoading = false;
+      });
   }
 }

@@ -9,6 +9,7 @@ import { ContactsService } from './contacts.service';
 })
 export class ContactsComponent {
   public contacts: Map<string, Contact> = new Map<string, Contact>();
+  public isLoading: boolean = false;
 
   constructor(private contactsService: ContactsService) {}
 
@@ -17,8 +18,10 @@ export class ContactsComponent {
   }
 
   loadContacts(): void {
+    this.isLoading = true;
     this.contactsService.getContacts().subscribe((data: Contact[]) => {
       this.contacts = new Map(data.map((o) => [o.key, o]));
+      this.isLoading = false;
     });
   }
 }
