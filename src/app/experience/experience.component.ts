@@ -1,7 +1,5 @@
-import { Component } from '@angular/core';
-import { Experience, ExperienceWithSkills } from './experience.model';
-import { Skill } from '../skills/skill.model';
-import { ExperienceService } from './experience.service';
+import { Component, Input } from '@angular/core';
+import { ExperienceWithSkills } from './experience.model';
 
 @Component({
   selector: 'app-experience',
@@ -9,24 +7,5 @@ import { ExperienceService } from './experience.service';
   styleUrls: ['./experience.component.css'],
 })
 export class ExperienceComponent {
-  public experience: ExperienceWithSkills[] = [];
-  public isLoading: boolean = false;
-
-  constructor(private experienceService: ExperienceService) {}
-
-  ngOnInit(): void {
-    this.loadExperience();
-  }
-
-  loadExperience(): void {
-    this.isLoading = true;
-    this.experienceService.getExperience().subscribe(([experience, skills]) => {
-      const data = this.experienceService.mergeData(experience, skills);
-      this.experience = [...data].sort(
-        (a, b) =>
-          new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
-      );
-      this.isLoading = false;
-    });
-  }
+  @Input() experience!: ExperienceWithSkills[];
 }

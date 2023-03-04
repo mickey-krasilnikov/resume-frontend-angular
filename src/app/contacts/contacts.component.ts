@@ -1,6 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Contact } from './contacts.model';
-import { ContactsService } from './contacts.service';
 
 @Component({
   selector: 'app-contacts',
@@ -8,20 +7,5 @@ import { ContactsService } from './contacts.service';
   styleUrls: ['./contacts.component.css'],
 })
 export class ContactsComponent {
-  public contacts: Map<string, Contact> = new Map<string, Contact>();
-  public isLoading: boolean = false;
-
-  constructor(private contactsService: ContactsService) {}
-
-  ngOnInit(): void {
-    this.loadContacts();
-  }
-
-  loadContacts(): void {
-    this.isLoading = true;
-    this.contactsService.getContacts().subscribe((data: Contact[]) => {
-      this.contacts = new Map(data.map((o) => [o.key, o]));
-      this.isLoading = false;
-    });
-  }
+  @Input() contacts!: Map<string, Contact>;
 }

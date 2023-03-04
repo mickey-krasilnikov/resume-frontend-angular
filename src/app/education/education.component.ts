@@ -1,6 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Education } from './education.model';
-import { EducationService } from './education.service';
 
 @Component({
   selector: 'app-education',
@@ -8,20 +7,5 @@ import { EducationService } from './education.service';
   styleUrls: ['./education.component.css'],
 })
 export class EducationComponent {
-  public education: Education[] = [];
-  public isLoading: boolean = false;
-
-  constructor(private educationService: EducationService) {}
-
-  ngOnInit(): void {
-    this.loadEducation();
-  }
-
-  loadEducation(): void {
-    this.isLoading = true;
-    this.educationService.getEducation().subscribe((data: Education[]) => {
-      this.education = [...data];
-      this.isLoading = false;
-    });
-  }
+  @Input() education!: Education[];
 }

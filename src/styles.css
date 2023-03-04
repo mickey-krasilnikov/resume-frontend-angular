@@ -155,7 +155,7 @@ button {
   border-top-color: var(--primaryColor);
   width: 60px;
   height: 60px;
-  margin: 20px;
+  margin: 30px;
   animation: spin 1s ease-in-out infinite;
 }
 
@@ -176,7 +176,7 @@ button {
 }
 
 .fade-in {
-  animation: fadeIn 1s;
+  animation: fadeIn 2s;
 }
 
 @keyframes fadeIn {
