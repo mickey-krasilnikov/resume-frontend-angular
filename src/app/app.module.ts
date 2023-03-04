@@ -3,7 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
-import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import {
+  FontAwesomeModule,
+  FaIconLibrary,
+} from '@fortawesome/angular-fontawesome';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -18,7 +21,10 @@ import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
 import { CertificationComponent } from './certification/certification.component';
 import { FooterComponent } from './footer/footer.component';
+
 import { PhonePipe } from './shared/pipes/phone.pipe';
+
+import { BusyIndicatorDirective } from './shared/directives/busy-indicator.directive';
 
 @NgModule({
   declarations: [
@@ -32,17 +38,18 @@ import { PhonePipe } from './shared/pipes/phone.pipe';
     EducationComponent,
     CertificationComponent,
     FooterComponent,
-    PhonePipe
+    PhonePipe,
+    BusyIndicatorDirective,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     NgbModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {
   constructor(library: FaIconLibrary) {

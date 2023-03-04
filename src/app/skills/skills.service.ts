@@ -18,7 +18,7 @@ export class SkillsService {
       : 'api/resumeservice/skills';
   }
 
-  getCertificates(): Observable<Skill[]> {
+  getSkills(): Observable<Skill[]> {
     return this.http.get<Skill[]>(this.baseUrl + this.skillsUrl);
   }
 }

@@ -1,10 +1,14 @@
 <app-header></app-header>
 <app-headline></app-headline>
 <div class="wrapper">
-  <app-skills></app-skills>
-  <app-experience></app-experience>
-  <app-certification></app-certification>
-  <app-education></app-education>
-  <app-contacts></app-contacts>
+  <div class="center fade-in" [appBusyIndicator]="isLoading"></div>
+  <p class="center fade-in" *ngIf="isLoading && !isLongLoading">loading...</p>
+  <p class="center fade-in" *ngIf="isLoading && isLongLoading">
+    serverless database is used, you may experience a "cold start" when it's invoked first time after a while</p>
+  <app-skills [groupedSkills]="groupedSkills"></app-skills>
+  <app-experience [experience]="experience"></app-experience>
+  <app-certification [certification]="certification"></app-certification>
+  <app-education [education]="education"></app-education>
+  <app-contacts [contacts]="contacts"></app-contacts>
   <app-footer></app-footer>
 </div>
