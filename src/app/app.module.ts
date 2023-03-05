@@ -26,6 +26,8 @@ import { PhonePipe } from './shared/pipes/phone.pipe';
 
 import { BusyIndicatorDirective } from './shared/directives/busy-indicator.directive';
 
+import { register } from 'swiper/element/bundle';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -54,5 +56,6 @@ import { BusyIndicatorDirective } from './shared/directives/busy-indicator.direc
 export class AppModule {
   constructor(library: FaIconLibrary) {
     library.addIconPacks(fas, far, fab);
+    register();
   }
 }

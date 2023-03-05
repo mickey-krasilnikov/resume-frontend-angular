@@ -1,4 +1,13 @@
-import { Component, Input } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  Input,
+  OnInit,
+  Renderer2,
+  ViewChild,
+} from '@angular/core';
+import Swiper from 'swiper';
 import { ExperienceWithSkills } from './experience.model';
 
 @Component({
@@ -6,6 +15,71 @@ import { ExperienceWithSkills } from './experience.model';
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.css'],
 })
-export class ExperienceComponent {
+export class ExperienceComponent implements OnInit {
   @Input() experience!: ExperienceWithSkills[];
+  public swiper!: Swiper;
+
+  constructor(private renderer: Renderer2) {}
+
+  ngOnInit(): void {
+    this.swiper = new Swiper('.product-slider', {
+      spaceBetween: 30,
+      effect: 'fade',
+      loop: false,
+      navigation: {
+        nextEl: '.next',
+        prevEl: '.prev',
+      },
+      on: {
+        init: (swiper: Swiper) => {
+          var target = document
+            .querySelectorAll('.product-slider__item')
+            [swiper.activeIndex].getAttribute('data-target');
+
+          var imageElements = document.querySelectorAll('.product-img__item');
+          for (let i = 0; i < imageElements.length; i++) {
+            if (imageElements[i].id === target) {
+              this.renderer.addClass(imageElements[i], 'active');
+            } else {
+              this.renderer.removeClass(imageElements[i], 'active');
+            }
+          }
+        },
+        slideChange: (swiper: Swiper) => {
+          var target = document
+            .querySelectorAll('.product-slider__item')
+            [swiper.activeIndex].getAttribute('data-target');
+
+          var imageElements = document.querySelectorAll('.product-img__item');
+          for (let i = 0; i < imageElements.length; i++) {
+            if (imageElements[i].id === target) {
+              this.renderer.addClass(imageElements[i], 'active');
+            } else {
+              this.renderer.removeClass(imageElements[i], 'active');
+            }
+          }
+
+          // var target = $('.product-slider__item').eq(index).data('target');
+
+          // console.log(target);
+
+          // $('.product-img__item').removeClass('active');
+          // $('.product-img__item#' + target).addClass('active');
+
+          // if (swiper.isEnd) {
+          //   $('.prev').removeClass('disabled');
+          //   $('.next').addClass('disabled');
+          // } else {
+          //   $('.next').removeClass('disabled');
+          // }
+
+          // if (swiper.isBeginning) {
+          //   $('.prev').addClass('disabled');
+          // } else {
+          //   $('.prev').removeClass('disabled');
+          // }
+        },
+      },
+    });
+  }
 }
