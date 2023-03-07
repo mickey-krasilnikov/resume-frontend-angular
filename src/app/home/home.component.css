@@ -453,7 +453,7 @@ body {
   object-fit: cover;
   flex-shrink: 0;
   width: 200px;
-  height: 220px;
+  height: 200px;
   border-radius: 10px;
   transition: 0.3s;
   cursor: pointer;
