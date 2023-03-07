@@ -58,26 +58,6 @@ export class ExperienceComponent implements OnInit {
               this.renderer.removeClass(imageElements[i], 'active');
             }
           }
-
-          // var target = $('.product-slider__item').eq(index).data('target');
-
-          // console.log(target);
-
-          // $('.product-img__item').removeClass('active');
-          // $('.product-img__item#' + target).addClass('active');
-
-          // if (swiper.isEnd) {
-          //   $('.prev').removeClass('disabled');
-          //   $('.next').addClass('disabled');
-          // } else {
-          //   $('.next').removeClass('disabled');
-          // }
-
-          // if (swiper.isBeginning) {
-          //   $('.prev').addClass('disabled');
-          // } else {
-          //   $('.prev').removeClass('disabled');
-          // }
         },
       },
     });
