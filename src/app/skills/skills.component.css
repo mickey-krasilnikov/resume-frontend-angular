@@ -1,9 +1,9 @@
-.started {
+.skills {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
 }
-.started-boldtext {
+.skills-boldtext {
   margin: 0;
   align-self: center;
   font-family: "Poppins", sans-serif;
@@ -13,7 +13,7 @@
   font-size: 40px;
   line-height: 72px;
 }
-.started-slimtext {
+.skills-slimtext {
   margin: 0;
   align-self: center;
   font-family: "Poppins", sans-serif;
@@ -24,8 +24,8 @@
   letter-spacing: 0.5px;
   color: #e2e2e2;
 }
-.started-items {
-  padding: 60px 80px;
+.skills-items {
+  padding-top: 60px;
   position: relative;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
@@ -33,7 +33,7 @@
   grid-row-gap: 20px;
   justify-content: space-between;
 }
-.started-items:before {
+.skills-items:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -42,7 +42,7 @@
   filter: blur(80px);
   background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
 }
-.started-items .itemwrapper p {
+.skills-items .itemwrapper p {
   width: 100px;
   margin: 0;
   margin-top: 10px;
@@ -53,7 +53,7 @@
   font-size: 12px;
   color: #ffffff;
 }
-.started-items-item {
+.skills-items-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,4 +65,21 @@
   box-shadow: inset 2.01px -2.01px 20px rgba(214, 214, 214, 0.17),
     inset -3.01333px 3.01333px 3.01333px rgba(255, 255, 255, 0.39);
   backdrop-filter: blur(74.4293px);
+}
+
+@media screen and (max-width: 925px) {
+  .skills-slimtext {
+    text-align: center;
+  }
+  .skills-items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    padding: 50px 0;
+  }
+  .skills-items:before {
+    height: 200px;
+    top: 90px;
+    filter: blur(120px);
+  }
 }
