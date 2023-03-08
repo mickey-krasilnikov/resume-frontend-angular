@@ -43,7 +43,7 @@ a {
 
 .landingpage {
   margin: 0;
-  padding: 0 80px;
+  padding: 0 40px;
   position: relative;
 
   overflow-y: auto;
@@ -114,7 +114,7 @@ a {
   border: none;
   margin-right: 10px;
 }
-.navbar .createbtn {
+.navbar .signinbtn {
   cursor: pointer;
   background-color: transparent;
   border: none;
@@ -125,8 +125,14 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
+  transition: 0.3s;
 }
-.navbar .createbtn.selectedbtn {
+/* .navbar .signinbtn.selectedbtn {
+  border: 1px solid #d7d7d7;
+  border-radius: 10px;
+} */
+
+.navbar .signinbtn:hover {
   border: 1px solid #d7d7d7;
   border-radius: 10px;
 }
@@ -147,12 +153,19 @@ a {
   font-size: 12px;
   color: #bcbcbc;
 }
-.navbar .navlink.selectedlink {
+.navbar .navlink:hover {
   background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-bottom: 1.5px solid #9b51e0;
+  cursor: pointer;
 }
+/* .navbar .navlink.selectedlink {
+  background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1.5px solid #9b51e0;
+} */
 .navbar .navlink:not(:last-child) {
   margin-right: 32px;
 }
@@ -187,7 +200,7 @@ a {
 .box .infobox-btnwrapper {
   display: flex;
 }
-.box .infobox-explorebtn {
+/* .box .infobox-btn {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -201,8 +214,8 @@ a {
   font-size: 13px;
   letter-spacing: -0.5px;
   color: #ffffff;
-}
-.box .infobox-createbtn {
+} */
+.box .infobox-btn {
   cursor: pointer;
   margin-left: 20px;
   display: flex;
@@ -219,8 +232,22 @@ a {
   letter-spacing: -0.5px;
   color: #ffffff;
 }
-.box .infobox .selected {
-  border: none;
+
+.box .infobox-btn:hover {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1d2b;
+  padding: 8px 38px;
+  border-radius: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  border-color: transparent;
   background: linear-gradient(
     103.91deg,
     #9b51e0 21.01%,
@@ -606,12 +633,12 @@ a {
     align-items: center;
   }
 
-  .started-slimtext {
+  /* .started-slimtext {
     text-align: center;
-  }
+  } */
 }
 @media screen and (max-width: 825px) {
-  .started-items {
+  /* .started-items {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
@@ -621,7 +648,7 @@ a {
     height: 200px;
     top: 90px;
     filter: blur(120px);
-  }
+  } */
 
   .discover-items {
     grid-template-columns: auto auto;

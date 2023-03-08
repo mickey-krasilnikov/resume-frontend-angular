@@ -22,7 +22,7 @@ export class ExperienceComponent implements OnInit {
   constructor(private renderer: Renderer2) {}
 
   ngOnInit(): void {
-    this.swiper = new Swiper('.product-slider', {
+    this.swiper = new Swiper('.exprns-slider', {
       spaceBetween: 30,
       effect: 'fade',
       loop: false,
@@ -33,10 +33,10 @@ export class ExperienceComponent implements OnInit {
       on: {
         init: (swiper: Swiper) => {
           var target = document
-            .querySelectorAll('.product-slider__item')
+            .querySelectorAll('.exprns-slider__item')
             [swiper.activeIndex].getAttribute('data-target');
 
-          var imageElements = document.querySelectorAll('.product-img__item');
+          var imageElements = document.querySelectorAll('.exprns-img__item');
           for (let i = 0; i < imageElements.length; i++) {
             if (imageElements[i].id === target) {
               this.renderer.addClass(imageElements[i], 'active');
@@ -47,10 +47,10 @@ export class ExperienceComponent implements OnInit {
         },
         slideChange: (swiper: Swiper) => {
           var target = document
-            .querySelectorAll('.product-slider__item')
+            .querySelectorAll('.exprns-slider__item')
             [swiper.activeIndex].getAttribute('data-target');
 
-          var imageElements = document.querySelectorAll('.product-img__item');
+          var imageElements = document.querySelectorAll('.exprns-img__item');
           for (let i = 0; i < imageElements.length; i++) {
             if (imageElements[i].id === target) {
               this.renderer.addClass(imageElements[i], 'active');
