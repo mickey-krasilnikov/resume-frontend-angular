@@ -7,7 +7,7 @@ body {
   display: none;
 }
 
-a {
+.textlink {
   background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -151,6 +151,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
+  text-decoration: none;
   color: #bcbcbc;
 }
 .navbar .navlink:hover {
@@ -160,12 +161,6 @@ a {
   border-bottom: 1.5px solid #9b51e0;
   cursor: pointer;
 }
-/* .navbar .navlink.selectedlink {
-  background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  border-bottom: 1.5px solid #9b51e0;
-} */
 .navbar .navlink:not(:last-child) {
   margin-right: 32px;
 }
@@ -231,22 +226,10 @@ a {
   font-size: 13px;
   letter-spacing: -0.5px;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .box .infobox-btn:hover {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1f1d2b;
-  padding: 8px 38px;
-  border-radius: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  letter-spacing: -0.5px;
-  color: #ffffff;
   border-color: transparent;
   background: linear-gradient(
     103.91deg,
