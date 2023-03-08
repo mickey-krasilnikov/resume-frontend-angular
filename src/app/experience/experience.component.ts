@@ -1,12 +1,4 @@
-import {
-  AfterViewInit,
-  Component,
-  ElementRef,
-  Input,
-  OnInit,
-  Renderer2,
-  ViewChild,
-} from '@angular/core';
+import { Component, Input, OnInit, Renderer2 } from '@angular/core';
 import Swiper from 'swiper';
 import { ExperienceWithSkills } from './experience.model';
 

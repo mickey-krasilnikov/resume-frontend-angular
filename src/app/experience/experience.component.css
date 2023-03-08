@@ -504,15 +504,6 @@ a {
   transition: all 0.5s;
 }
 
-@media screen and (max-width: 1200px) {
-  .exprns-slider__details {
-  }
-}
-@media screen and (max-width: 576px) {
-  .exprns-slider__details {
-  }
-}
-
 .exprns-slider__details-location {
   display: flex;
   justify-content: center;
