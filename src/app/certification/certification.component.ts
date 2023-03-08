@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { CertificationWithIcon } from './certification.model';
+import { Certification } from './certification.model';
 
 @Component({
   selector: 'app-certification',
@@ -7,5 +7,5 @@ import { CertificationWithIcon } from './certification.model';
   styleUrls: ['./certification.component.css'],
 })
 export class CertificationComponent {
-  @Input() certification!: CertificationWithIcon[];
+  @Input() certification!: Certification[];
 }
