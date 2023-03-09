@@ -45,6 +45,23 @@
   color: #d7d7d7;
 }
 
+.footer-navigate .nav .navlink {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #d7d7d7;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-property: color;
+}
+.footer-navigate .nav .navlink:hover {
+  color: #be78ff;
+  cursor: pointer;
+}
+
 .footer2 p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -89,6 +106,10 @@
     line-height: 30px;
   }
   .footer-navigate .nav p {
+    font-size: 10px;
+    line-height: 18px;
+  }
+  .footer-navigate .nav .navlink {
     font-size: 10px;
     line-height: 18px;
   }
