@@ -1,0 +1,45 @@
+.showcase {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.showcase .showcase-boldtext {
+  margin: 0;
+  align-self: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 72px;
+}
+.showcase .showcase-slimtext .showcase-textlink {
+  background: linear-gradient(93.51deg, #be78ff 2.84%, #61a6ff 99.18%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* border-bottom: 1.5px solid #9b51e0; */
+}
+.showcase .showcase-slimtext .showcase-textlink:hover {
+  border-bottom: 1.5px solid #be78ff;
+}
+.showcase .showcase-slimtext {
+  margin: 24px 0;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+@media screen and (max-width: 600px) {
+  .showcase .showcase-slimtext {
+    font-size: 13px;
+    line-height: 1.5em;
+  }
+}
+@media screen and (max-width: 480px) {
+  .showcase .showcase-slimtext {
+    text-align: center;
+  }
+}

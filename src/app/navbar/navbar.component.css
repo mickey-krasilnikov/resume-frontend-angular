@@ -1,0 +1,89 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  width: 100%;
+}
+.navbar .navbar-hamburger {
+  display: none;
+  color: #d7d7d7;
+  background-color: #1f1d2b;
+  border: none;
+  margin-right: 10px;
+}
+
+.navbar .signinbtn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 126px;
+  height: 45px;
+  color: #bcbcbc;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+  transition-property: box-shadow;
+}
+
+.navbar .signinbtn:hover {
+  box-shadow: inset 0 0 0 1px #bcbcbc, 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.navbar .navlogo {
+  height: 100%;
+  background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+.navbar .navlink {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-decoration: none;
+  color: #bcbcbc;
+  transition-duration: 0.3s;
+  transition-property: color;
+}
+.navbar .navlink:hover {
+  color: #be78ff;
+  cursor: pointer;
+}
+.navbar .navlink:not(:last-child) {
+  margin-right: 32px;
+}
+
+@media screen and (max-width: 925px) {
+  .navlinkwrap {
+    display: none;
+  }
+
+  .buttonwrap {
+    display: none;
+  }
+
+  .navbar-hamburger {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 45px;
+    width: 45px;
+    color: #bcbcbc;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
+  }
+
+  .navbar .navbar-hamburger:hover {
+    box-shadow: inset 0 0 0 1px #bcbcbc, 0 0 1px rgba(0, 0, 0, 0);
+  }
+}
