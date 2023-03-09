@@ -1,0 +1,155 @@
+.cert {
+  display: flex;
+  flex-direction: column;
+}
+
+.cert-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cert-title p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+.cert-items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  justify-content: space-between;
+}
+.cert-loadbtn {
+  cursor: pointer;
+  margin-top: 20px;
+  align-self: center;
+  width: 161px;
+  height: 40px;
+  border: 1px solid #d7d7d7;
+  border-radius: 10px;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  color: #bcbcbc;
+}
+
+.cert-items__item {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+.cert-items__item-img {
+  object-fit: cover;
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  filter: drop-shadow(0 0 16px rgba(199, 114, 255, 0.4));
+}
+.cert-items__item-img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 4px rgba(199, 114, 255, 0.4));
+}
+.cert-items__item-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.cert-items__item-date {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #bcbcbc;
+}
+
+.cert-filters {
+  display: flex;
+  align-items: center;
+}
+.cert-filters .cert-filter {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}
+.cert-filters .cert-filter svg {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.cert-filters .cert-filterbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+  background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}
+.cert-filters .cert-filterbtn svg {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1040px) {
+  .cert-items {
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .cert-items {
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cert-title {
+    justify-content: center;
+  }
+  .cert-title .cert-filters {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cert-items {
+    grid-template-columns: auto;
+    justify-content: space-around;
+  }
+
+  .cert-items__item-img {
+    filter: none;
+  }
+  .cert-items__item-img:hover {
+    filter: none;
+  }
+}
