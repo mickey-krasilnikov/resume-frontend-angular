@@ -68,7 +68,7 @@
   width: 100px;
   height: 100px;
   border-radius: 18px;
-
+  background-color: #2d2f33;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -76,13 +76,6 @@
   -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 
-  /* padding: 3px; */
-  /* border: 1px solid; */
-  /* background: linear-gradient(
-    169.44deg,
-    rgba(58, 129, 191, 0.08) 1.85%,
-    rgba(65, 48, 90, 0.08) 98.72%
-  ); */
   overflow: hidden;
 }
 
