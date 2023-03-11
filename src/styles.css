@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .busy-indicator {
   position: relative;
   width: 55px;

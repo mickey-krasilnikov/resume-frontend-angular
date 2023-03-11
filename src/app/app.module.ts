@@ -18,7 +18,7 @@ import { PhonePipe } from './shared/pipes/phone.pipe';
 import { BusyIndicatorDirective } from './shared/directives/busy-indicator.directive';
 
 import { register } from 'swiper/element/bundle';
-import { ShowcaseComponent } from './showcase/showcase.component';
+import { AboutComponent } from './about/about.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
@@ -33,7 +33,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     FooterComponent,
     PhonePipe,
     BusyIndicatorDirective,
-    ShowcaseComponent,
+    AboutComponent,
     NavbarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, NgbModule],
