@@ -63,7 +63,6 @@
   transform: translate3d(0, 0, 0);
 }
 .cert-items__item-img:hover {
-  /* transform: scale(1.05); */
   filter: drop-shadow(0 0 4px rgba(199, 114, 255, 0.4));
 
   -webkit-backface-visibility: hidden;
@@ -102,10 +101,13 @@
   display: flex;
   align-items: center;
   margin-right: 30px;
+
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
+  text-decoration: none;
+
   color: #ffffff;
 }
 .cert-filters .cert-filter svg {
@@ -118,15 +120,35 @@
   justify-content: center;
   width: 100px;
   height: 30px;
-  background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
   border: none;
   border-radius: 10px;
+
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
-  color: #ffffff;
+  font-size: 13px;
+  text-decoration: none;
+
+  opacity: 0.7;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s ease-in-out;
+
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
+
+.cert-filters .cert-filterbtn:hover {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.cert-filters .cert-filterbtn:active {
+  -webkit-transform: translate3d(0, 0, 0) scale(0.95);
+  transform: translate3d(0, 0, 0) scale(0.95);
+}
+
 .cert-filters .cert-filterbtn svg {
   margin-right: 5px;
 }
