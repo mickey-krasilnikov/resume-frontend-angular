@@ -175,27 +175,26 @@
 }
 @media screen and (max-width: 600px) {
   .headline-box .infobox-boldtext {
-    /* font-size: 45px; */
     font-size: 55px;
     line-height: 50px;
   }
   .headline-box .infobox-slimtext {
     font-size: 13px;
     line-height: 1.5em;
+    text-align: justify;
   }
 }
 @media screen and (max-width: 480px) {
   .headline-box .infobox-boldtext {
-    /* font-size: 32px; */
     font-size: 55px;
     line-height: 1.4em;
     text-align: center;
   }
   .headline-box .infobox-slimtext {
-    text-align: center;
+    text-align: justify;
   }
   .headline-box .infobox-btnwrapper {
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 @keyframes leftslide {

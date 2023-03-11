@@ -27,8 +27,8 @@
 .about .about-innertext .about-textlink {
   background: linear-gradient(93.51deg, #be78ff 2.84%, #61a6ff 99.18%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* border-bottom: 1.5px solid #9b51e0; */
 }
 .about .about-innertext .about-textlink:hover {
   border-bottom: 1.5px solid #be78ff;
@@ -41,7 +41,7 @@
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.5px;
-  text-align: left;
+  text-align: justify;
 }
 @media screen and (max-width: 600px) {
   .about .about-innertext {
