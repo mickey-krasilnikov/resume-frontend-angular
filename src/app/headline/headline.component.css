@@ -95,6 +95,10 @@
   width: 300px;
   height: 300px;
   border-radius: 20px;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-select: none;
 }
 
 .headline-box .contactbox .infowrapper {

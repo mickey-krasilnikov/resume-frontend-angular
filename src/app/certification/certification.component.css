@@ -54,6 +54,10 @@
   transition: 0.3s;
   cursor: pointer;
   filter: drop-shadow(0 0 16px rgba(199, 114, 255, 0.4));
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-select: none;
 
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -62,6 +66,7 @@
   -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+
 .cert-items__item-img:hover {
   filter: drop-shadow(0 0 4px rgba(199, 114, 255, 0.4));
 

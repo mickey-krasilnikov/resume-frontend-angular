@@ -83,6 +83,10 @@
   border-radius: 15px;
   width: 100px;
   height: 100px;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-select: none;
 }
 
 @media screen and (max-width: 925px) {

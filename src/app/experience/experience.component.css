@@ -31,6 +31,10 @@
 
 img {
   max-width: 100%;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-select: none;
 }
 
 a {
