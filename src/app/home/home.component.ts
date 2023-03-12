@@ -20,7 +20,7 @@ import { SkillsService } from '../skills/skills.service';
 export class HomeComponent implements OnInit, AfterViewInit {
   isLoading: boolean = false;
   isLongLoading: boolean = false;
-  public groupedSkills!: Map<string, Skill[]>;
+  public highlightedSkills!: Skill[];
   public experience!: ExperienceWithSkills[];
   public certification!: Certification[];
   public contacts!: Map<string, Contact>;
@@ -55,7 +55,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
         responses[2],
         responses[3]
       );
-      this.groupedSkills = this.preprocessSkillData(responses[3]);
+      this.highlightedSkills = this.preprocessSkillData(responses[3]);
       this.isLoading = false;
     });
   }
@@ -72,18 +72,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
     return new Map(data.map((o) => [o.key, o]));
   }
 
-  preprocessSkillData(data: Skill[]): Map<string, Skill[]> {
-    const skills = [...data.filter((s) => s.isHighlighted)].sort(
+  preprocessSkillData(data: Skill[]): Skill[] {
+    return [...data.filter((s) => s.isHighlighted)].sort(
       (a, b) => a.priority - b.priority
     );
-
-    return skills.reduce((accumulator, skill) => {
-      const group = skill.skillGroup;
-      const values = accumulator.get(group) || [];
-      values.push(skill);
-      accumulator.set(group, values);
-      return accumulator;
-    }, new Map<string, Skill[]>());
   }
 
   preprocessExperienceData(

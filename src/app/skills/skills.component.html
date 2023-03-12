@@ -5,13 +5,13 @@
 
     <div class="skills-items">
 
-      <div class="itemwrapper">
+      <div class="itemwrapper" *ngFor="let skill of highlightedSkills">
         <div class="skills-items-item">
-          <img src="../../assets/images/skills/angular.png" />
+          <img src={{skill.imageUrl}} />
         </div>
-        <p>Angular</p>
+        <p>{{skill.name}}</p>
       </div>
-      <div class="itemwrapper">
+      <!-- <div class="itemwrapper">
         <div class="skills-items-item">
           <img src="../../assets/images/skills/vuejs.png" />
         </div>
@@ -85,7 +85,7 @@
       </div>
       <div class="itemwrapper">
         <div class="skills-items-item">
-          <img src="../../assets/images/skills/mySQL.png" />
+          <img src="../../assets/images/skills/mysql.png" />
         </div>
         <p>MySQL</p>
       </div>
@@ -112,7 +112,7 @@
           <img src="../../assets/images/skills/mongo.png" />
         </div>
         <p>Mongo DB</p>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
