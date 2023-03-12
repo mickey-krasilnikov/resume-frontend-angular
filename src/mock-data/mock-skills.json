@@ -1,75 +1,79 @@
 [
   {
-    "id": "f793ad76-c0e5-46b3-8bc8-e8b4e5bca44a",
+    "id": "d68e1fc9-265a-497d-9820-d85254cdd8f4",
     "name": "Angular 8+",
     "skillGroup": "Frontend",
     "priority": 101,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/angular.png",
-    "experienceIds": ["a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6"]
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/angular.png",
+    "experienceIds": [
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
+    ]
   },
   {
-    "id": "2f5300f0-40be-4435-a48e-34679687f84f",
+    "id": "6a4a375d-a175-42ae-8c28-6a5ad02344d6",
     "name": "Vue.js",
     "skillGroup": "Frontend",
     "priority": 102,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/vuejs.png",
-    "experienceIds": ["0e32adc1-c191-4089-b6ab-c880ccbd0d9a"]
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/vuejs.png",
+    "experienceIds": [
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5"
+    ]
   },
   {
-    "id": "8ff255e5-c3eb-4ff0-a01b-1e54d3a3b555",
+    "id": "f9696ba5-8f1a-4f62-a342-e1be1ad9497b",
     "name": "JavaScript",
     "skillGroup": "Frontend",
     "priority": 103,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/js.png",
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/js.png",
     "experienceIds": [
-      "a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6",
-      "61f87ca2-371a-42b1-9d36-b3b776acb1b9",
-      "0e32adc1-c191-4089-b6ab-c880ccbd0d9a"
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803",
+      "85c948f1-872d-4b47-9466-d09d5c1a9496"
     ]
   },
   {
-    "id": "5d880ffd-ae21-41fc-a884-30364d9b5a9e",
+    "id": "547bb631-a704-4bab-83b4-f10d9c76edc3",
     "name": "TypeScript",
     "skillGroup": "Frontend",
     "priority": 104,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/ts.png",
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/ts.png",
     "experienceIds": [
-      "a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6",
-      "0e32adc1-c191-4089-b6ab-c880ccbd0d9a"
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
     ]
   },
   {
-    "id": "45d40b1d-9cda-444b-b466-75a52a24b92b",
+    "id": "280fc41e-cf77-4d1a-aac4-542e052b5eac",
     "name": "HTML",
     "skillGroup": "Frontend",
     "priority": 105,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/html-5.png",
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/html-5.png",
     "experienceIds": [
-      "a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6",
-      "61f87ca2-371a-42b1-9d36-b3b776acb1b9",
-      "0e32adc1-c191-4089-b6ab-c880ccbd0d9a"
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803",
+      "85c948f1-872d-4b47-9466-d09d5c1a9496"
     ]
   },
   {
-    "id": "dfb52665-e119-43d2-81a3-5ba5fbed0ebb",
+    "id": "af365eb4-cda7-4fba-926c-e3c63c4bbb36",
     "name": "CSS",
     "skillGroup": "Frontend",
     "priority": 106,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/css-3.png",
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/css-3.png",
     "experienceIds": [
-      "a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6",
-      "61f87ca2-371a-42b1-9d36-b3b776acb1b9",
-      "0e32adc1-c191-4089-b6ab-c880ccbd0d9a"
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803",
+      "85c948f1-872d-4b47-9466-d09d5c1a9496"
     ]
   },
   {
-    "id": "31592b9b-42bd-4303-8770-d0af7c4beed4",
+    "id": "406ae116-e60e-4899-a1b9-03fb99c21411",
     "name": "ASP.NET Core (Blazor)",
     "skillGroup": "Frontend",
     "priority": 107,
@@ -77,114 +81,118 @@
     "experienceIds": []
   },
   {
-    "id": "be8d114b-15b4-4af2-a7f4-2dd7b2c27203",
+    "id": "71925c87-06d5-47e1-9ceb-1e007b75f7e9",
     "name": "ASP.NET",
     "skillGroup": "Frontend",
     "priority": 108,
     "isHighlighted": false,
-    "experienceIds": ["61f87ca2-371a-42b1-9d36-b3b776acb1b9"]
+    "experienceIds": [
+      "85c948f1-872d-4b47-9466-d09d5c1a9496"
+    ]
   },
   {
-    "id": "280fc62a-1ecb-45b7-a7bc-34008bbf8677",
+    "id": "502ca177-2510-4147-8db8-cc79f47d6ebf",
     "name": "WPF",
     "skillGroup": "Frontend",
     "priority": 109,
     "isHighlighted": false,
     "experienceIds": [
-      "f24d4214-1e39-4959-99bc-31bb254976ec",
-      "3b05b20f-5f00-4f18-8b7a-35b7c7bd331a",
-      "a5ad6a01-af05-4738-ab1d-ae3b8554c60c",
-      "61f87ca2-371a-42b1-9d36-b3b776acb1b9"
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
+      "af1e99ea-6383-4e5e-909a-947753cd2bfc",
+      "85c948f1-872d-4b47-9466-d09d5c1a9496",
+      "f248d143-172f-4c6f-a41f-e242a2adb4eb"
     ]
   },
   {
-    "id": "f90d3219-bb1e-442a-936b-2cd34f5b4bac",
+    "id": "c6c8d228-f485-45af-896d-73acb0f7790a",
     "name": "XAML",
     "skillGroup": "Frontend",
     "priority": 110,
     "isHighlighted": false,
     "experienceIds": [
-      "f24d4214-1e39-4959-99bc-31bb254976ec",
-      "3b05b20f-5f00-4f18-8b7a-35b7c7bd331a",
-      "a5ad6a01-af05-4738-ab1d-ae3b8554c60c",
-      "61f87ca2-371a-42b1-9d36-b3b776acb1b9"
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
+      "af1e99ea-6383-4e5e-909a-947753cd2bfc",
+      "85c948f1-872d-4b47-9466-d09d5c1a9496",
+      "f248d143-172f-4c6f-a41f-e242a2adb4eb"
     ]
   },
   {
-    "id": "89d1f9a1-defc-4fab-b760-7eb2e35bee36",
+    "id": "2aff5429-7459-4645-9299-92f85ed504f4",
     "name": "WinForms",
     "skillGroup": "Frontend",
     "priority": 111,
     "isHighlighted": false,
-    "experienceIds": ["7855de55-f38a-45a9-9052-00ae7cea6c3c"]
+    "experienceIds": [
+      "0286b7fa-35dd-403d-96ec-3645e3551b3f"
+    ]
   },
   {
-    "id": "27cd4e2e-c07f-47e9-9b02-daf9d22a00e7",
+    "id": "178f585d-0107-4db5-a0de-8ed87ea44edd",
     "name": "C#",
     "skillGroup": "Backend",
     "priority": 201,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/c-sharp.png",
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/c-sharp.png",
     "experienceIds": [
-      "7855de55-f38a-45a9-9052-00ae7cea6c3c",
-      "f24d4214-1e39-4959-99bc-31bb254976ec",
-      "3b05b20f-5f00-4f18-8b7a-35b7c7bd331a",
-      "a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6",
-      "a5ad6a01-af05-4738-ab1d-ae3b8554c60c",
-      "61f87ca2-371a-42b1-9d36-b3b776acb1b9",
-      "0e32adc1-c191-4089-b6ab-c880ccbd0d9a"
+      "0286b7fa-35dd-403d-96ec-3645e3551b3f",
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
+      "af1e99ea-6383-4e5e-909a-947753cd2bfc",
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803",
+      "85c948f1-872d-4b47-9466-d09d5c1a9496",
+      "f248d143-172f-4c6f-a41f-e242a2adb4eb"
     ]
   },
   {
-    "id": "9cad668f-9a7f-4497-b0d1-2d8bc4b96df1",
+    "id": "4f2831c8-1aac-43a1-ab5b-9e623fcf271a",
     "name": ".NET Core",
     "skillGroup": "Backend",
     "priority": 202,
     "isHighlighted": false,
     "experienceIds": [
-      "a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6",
-      "a5ad6a01-af05-4738-ab1d-ae3b8554c60c",
-      "0e32adc1-c191-4089-b6ab-c880ccbd0d9a"
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
     ]
   },
   {
-    "id": "a490817a-804c-40fc-bbc3-6b0e2893b9ff",
+    "id": "cf3878a7-9c27-4a4e-9c69-bbd1c0f5c811",
     "name": ".NET",
     "skillGroup": "Backend",
     "priority": 203,
     "isHighlighted": false,
     "experienceIds": [
-      "7855de55-f38a-45a9-9052-00ae7cea6c3c",
-      "f24d4214-1e39-4959-99bc-31bb254976ec",
-      "3b05b20f-5f00-4f18-8b7a-35b7c7bd331a",
-      "a5ad6a01-af05-4738-ab1d-ae3b8554c60c",
-      "61f87ca2-371a-42b1-9d36-b3b776acb1b9"
+      "0286b7fa-35dd-403d-96ec-3645e3551b3f",
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
+      "af1e99ea-6383-4e5e-909a-947753cd2bfc",
+      "85c948f1-872d-4b47-9466-d09d5c1a9496",
+      "f248d143-172f-4c6f-a41f-e242a2adb4eb"
     ]
   },
   {
-    "id": "c2822150-8f4e-4772-baeb-b31c8d0428bd",
+    "id": "c2ae4aeb-48c8-405c-8407-09cc31c947cf",
     "name": "ASP.NET Core Web API",
     "skillGroup": "Backend",
     "priority": 204,
     "isHighlighted": false,
     "experienceIds": [
-      "a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6",
-      "0e32adc1-c191-4089-b6ab-c880ccbd0d9a"
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
     ]
   },
   {
-    "id": "f2f533c5-bed5-4764-919c-6575dd799de3",
+    "id": "506bfc11-061a-49ae-b657-c1e1004fcca9",
     "name": "ASP.NET Web API",
     "skillGroup": "Backend",
     "priority": 205,
     "isHighlighted": false,
     "experienceIds": [
-      "3b05b20f-5f00-4f18-8b7a-35b7c7bd331a",
-      "61f87ca2-371a-42b1-9d36-b3b776acb1b9"
+      "af1e99ea-6383-4e5e-909a-947753cd2bfc",
+      "85c948f1-872d-4b47-9466-d09d5c1a9496"
     ]
   },
   {
-    "id": "bf62833f-5208-4aca-a254-5e1f6208c57a",
+    "id": "a14ae125-3292-4715-9492-58e7d847ea5a",
     "name": "Node.js",
     "skillGroup": "Backend",
     "priority": 206,
@@ -192,7 +200,7 @@
     "experienceIds": []
   },
   {
-    "id": "b7921dc1-6675-462f-b3ce-bd4afb0315e7",
+    "id": "6d4213ad-e09e-4470-9a6a-54c5e87804d6",
     "name": "Express.js Web Framework",
     "skillGroup": "Backend",
     "priority": 207,
@@ -200,33 +208,39 @@
     "experienceIds": []
   },
   {
-    "id": "428ef399-2a14-47a9-b1ef-2c0bc3f1f44e",
+    "id": "bd5af812-549b-4ce6-9679-669d5b5d3303",
     "name": "GoLang",
     "skillGroup": "Backend",
     "priority": 208,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/golang.png",
-    "experienceIds": ["a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6"]
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/golang.png",
+    "experienceIds": [
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
+    ]
   },
   {
-    "id": "ba00af17-45db-4aa6-91b4-d8fe0704b656",
+    "id": "115a7340-5110-4dd6-921d-54ac651dbd16",
     "name": "Gin Web Framework",
     "skillGroup": "Backend",
     "priority": 209,
     "isHighlighted": false,
-    "experienceIds": ["a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6"]
+    "experienceIds": [
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
+    ]
   },
   {
-    "id": "cb563692-fa3e-4c51-b690-ba2bed7ccc41",
+    "id": "9d5e1112-60c9-40f3-a0ca-02a521342d85",
     "name": "Python3",
     "skillGroup": "Backend",
     "priority": 210,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/python.png",
-    "experienceIds": ["0e32adc1-c191-4089-b6ab-c880ccbd0d9a"]
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/python.png",
+    "experienceIds": [
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5"
+    ]
   },
   {
-    "id": "3a85c51a-814a-4ba5-8b2a-7e22dbdededf",
+    "id": "398ed9ea-d248-4f91-bc48-401401e5c70d",
     "name": "Flask Web Framework",
     "skillGroup": "Backend",
     "priority": 211,
@@ -234,167 +248,181 @@
     "experienceIds": []
   },
   {
-    "id": "d2b7845e-7bdc-4d59-9538-4c584898731f",
+    "id": "612f0b9e-23d3-45f7-9425-26e5d1d36428",
     "name": "WCF",
     "skillGroup": "Backend",
     "priority": 212,
     "isHighlighted": false,
     "experienceIds": [
-      "3b05b20f-5f00-4f18-8b7a-35b7c7bd331a",
-      "a5ad6a01-af05-4738-ab1d-ae3b8554c60c"
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
+      "af1e99ea-6383-4e5e-909a-947753cd2bfc"
     ]
   },
   {
-    "id": "4c36701c-af00-492f-beef-d5df24290ca9",
+    "id": "393d2750-f2df-41d5-b0e4-6ab9fc71487e",
     "name": "Entity Framework",
     "skillGroup": "Backend",
     "priority": 213,
     "isHighlighted": false,
     "experienceIds": [
-      "a5ad6a01-af05-4738-ab1d-ae3b8554c60c",
-      "61f87ca2-371a-42b1-9d36-b3b776acb1b9"
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
+      "85c948f1-872d-4b47-9466-d09d5c1a9496"
     ]
   },
   {
-    "id": "2dca579a-ea84-4d4f-8c93-705a737b509f",
+    "id": "2f66b4c4-863a-40aa-8f11-18becb7da725",
     "name": "Entity Framework Core",
     "skillGroup": "Backend",
     "priority": 214,
     "isHighlighted": false,
     "experienceIds": [
-      "a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6",
-      "a5ad6a01-af05-4738-ab1d-ae3b8554c60c"
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
     ]
   },
   {
-    "id": "df672817-73cf-4a2d-ba62-b9459c5f6962",
+    "id": "5c593a35-9e2e-420a-a2c4-c7cf09cea3b2",
     "name": "xUnit",
     "skillGroup": "Backend",
     "priority": 215,
     "isHighlighted": false,
-    "experienceIds": ["a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6"]
+    "experienceIds": [
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
+    ]
   },
   {
-    "id": "07e17a06-2f97-4e5b-a449-3c26af91bde3",
+    "id": "3cf864dc-af87-471a-9009-f0f78195be1f",
     "name": "NUnit",
     "skillGroup": "Backend",
     "priority": 216,
     "isHighlighted": false,
     "experienceIds": [
-      "3b05b20f-5f00-4f18-8b7a-35b7c7bd331a",
-      "a5ad6a01-af05-4738-ab1d-ae3b8554c60c",
-      "61f87ca2-371a-42b1-9d36-b3b776acb1b9",
-      "0e32adc1-c191-4089-b6ab-c880ccbd0d9a"
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
+      "af1e99ea-6383-4e5e-909a-947753cd2bfc",
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
+      "85c948f1-872d-4b47-9466-d09d5c1a9496"
     ]
   },
   {
-    "id": "8fde85a6-52f2-4fda-9768-81c8bb123991",
+    "id": "e40f9138-42b4-4b98-ac28-fccd3b737252",
     "name": "MSTest",
     "skillGroup": "Backend",
     "priority": 217,
     "isHighlighted": false,
-    "experienceIds": ["f24d4214-1e39-4959-99bc-31bb254976ec"]
+    "experienceIds": [
+      "f248d143-172f-4c6f-a41f-e242a2adb4eb"
+    ]
   },
   {
-    "id": "7622db69-5ca1-44b7-b4f2-821a286b3896",
+    "id": "f43cba54-41e2-48e8-b584-00257f96bfec",
     "name": "Azure",
     "skillGroup": "Clouds",
     "priority": 301,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/azure.png",
-    "experienceIds": ["a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6"]
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/azure.png",
+    "experienceIds": [
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
+    ]
   },
   {
-    "id": "52427535-3fb3-4cc5-8474-a237856f113c",
+    "id": "57250f1c-f500-4988-8eb7-c1b26f589132",
     "name": "AWS",
     "skillGroup": "Clouds",
     "priority": 302,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/aws.png",
-    "experienceIds": ["0e32adc1-c191-4089-b6ab-c880ccbd0d9a"]
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/aws.png",
+    "experienceIds": [
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5"
+    ]
   },
   {
-    "id": "747f2b46-fca9-47e8-adea-beffb7087b2f",
+    "id": "74d495c7-3c06-475c-86ba-8bb3b8991d99",
     "name": "GCP",
     "skillGroup": "Clouds",
     "priority": 303,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/gcp.png",
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/gcp.png",
     "experienceIds": []
   },
   {
-    "id": "7fb3d735-b9c6-4393-910e-233cd0b9ce3f",
+    "id": "b6f47a46-1231-45cf-9a15-173fc66cdc20",
     "name": "MS SQL",
     "skillGroup": "Database",
     "priority": 401,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/mssql.png",
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/mssql.png",
     "experienceIds": [
-      "7855de55-f38a-45a9-9052-00ae7cea6c3c",
-      "f24d4214-1e39-4959-99bc-31bb254976ec",
-      "3b05b20f-5f00-4f18-8b7a-35b7c7bd331a",
-      "a5ad6a01-af05-4738-ab1d-ae3b8554c60c",
-      "61f87ca2-371a-42b1-9d36-b3b776acb1b9"
+      "0286b7fa-35dd-403d-96ec-3645e3551b3f",
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
+      "af1e99ea-6383-4e5e-909a-947753cd2bfc",
+      "85c948f1-872d-4b47-9466-d09d5c1a9496",
+      "f248d143-172f-4c6f-a41f-e242a2adb4eb"
     ]
   },
   {
-    "id": "1d0e298a-b1dd-4bc7-b750-38645ebf526c",
+    "id": "01597c16-b140-4133-83da-966f276c0c11",
     "name": "MySQL",
     "skillGroup": "Database",
     "priority": 402,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/mysql.png",
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/mysql.png",
     "experienceIds": [
-      "3b05b20f-5f00-4f18-8b7a-35b7c7bd331a",
-      "0e32adc1-c191-4089-b6ab-c880ccbd0d9a"
+      "af1e99ea-6383-4e5e-909a-947753cd2bfc",
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5"
     ]
   },
   {
-    "id": "5fb750b4-45dd-4bc7-bbd1-97166b36ddcf",
+    "id": "033515c1-c9db-4055-81c5-65aa9bdaaf95",
     "name": "PostgreSQL",
     "skillGroup": "Database",
     "priority": 403,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/postgresql.png",
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/postgresql.png",
     "experienceIds": []
   },
   {
-    "id": "37819c23-7030-4697-840f-1b8c6d7cc16c",
+    "id": "7efceebd-cc5c-437b-8230-5819d954aa80",
     "name": "MS SSAS",
     "skillGroup": "Database",
     "priority": 404,
     "isHighlighted": false,
-    "experienceIds": ["a5ad6a01-af05-4738-ab1d-ae3b8554c60c"]
+    "experienceIds": [
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b"
+    ]
   },
   {
-    "id": "c1a8bcc9-307c-4649-a8b8-06fdcf87b863",
+    "id": "d37d4816-a1e5-49fd-bfcb-47750241be14",
     "name": "Redis",
     "skillGroup": "Database",
     "priority": 405,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/redis.png",
-    "experienceIds": ["a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6"]
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/redis.png",
+    "experienceIds": [
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
+    ]
   },
   {
-    "id": "f5d34947-002b-41a4-9750-cc4ae5482855",
+    "id": "4c823607-d081-4561-bc5c-9c3ef09bdc0c",
     "name": "Cosmos DB",
     "skillGroup": "Database",
     "priority": 406,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/cosmosdb.png",
-    "experienceIds": ["a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6"]
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/cosmosdb.png",
+    "experienceIds": [
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
+    ]
   },
   {
-    "id": "dbc7bf19-59bc-4b0d-a533-92b4a82fb38d",
+    "id": "dd770899-aa73-430a-8d0a-d607797084df",
     "name": "Mongo DB",
     "skillGroup": "Database",
     "priority": 407,
     "isHighlighted": true,
-    "imageUrl": "../../assets/images/skills/mongo.png",
+    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/mongo.png",
     "experienceIds": []
   },
   {
-    "id": "da13db41-eaae-4507-911f-76c660044885",
+    "id": "4fc96112-d7e9-45cf-85eb-261d9881d4c6",
     "name": "Dynamo DB",
     "skillGroup": "Database",
     "priority": 408,
@@ -402,15 +430,17 @@
     "experienceIds": []
   },
   {
-    "id": "5b12def1-3f73-4418-89f1-7bb9cd433263",
+    "id": "65b067c7-0016-4933-9b7e-dcbe81514ae1",
     "name": "Docker",
     "skillGroup": "Tools",
     "priority": 501,
     "isHighlighted": false,
-    "experienceIds": ["0e32adc1-c191-4089-b6ab-c880ccbd0d9a"]
+    "experienceIds": [
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5"
+    ]
   },
   {
-    "id": "809bde0e-3539-49d1-bdaf-4bc1344bb04f",
+    "id": "da373955-3ae1-4ebc-980a-997271bd7d17",
     "name": "Kubernetes",
     "skillGroup": "Tools",
     "priority": 502,
@@ -418,15 +448,17 @@
     "experienceIds": []
   },
   {
-    "id": "fff41150-cfb7-46b6-9d42-f524816b9544",
+    "id": "3590eef7-19b9-4ea3-99d0-ecf14a27fb9b",
     "name": "Azure DevOps",
     "skillGroup": "Tools",
     "priority": 503,
     "isHighlighted": false,
-    "experienceIds": ["a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6"]
+    "experienceIds": [
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
+    ]
   },
   {
-    "id": "51157194-d049-4213-a181-79fb3bcef021",
+    "id": "06a717c6-9b92-4d43-8992-4dd6e14ca37a",
     "name": "GitHub Actions",
     "skillGroup": "Tools",
     "priority": 504,
@@ -434,64 +466,70 @@
     "experienceIds": []
   },
   {
-    "id": "29826de5-7bdd-420b-bd44-9bd9c9bd088e",
+    "id": "e51a3857-56e6-4052-bbd4-947171f84dda",
     "name": "AWS DevOps",
     "skillGroup": "Tools",
     "priority": 505,
     "isHighlighted": false,
-    "experienceIds": ["0e32adc1-c191-4089-b6ab-c880ccbd0d9a"]
+    "experienceIds": [
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5"
+    ]
   },
   {
-    "id": "d8e6caa1-d888-48db-bfa4-d095129571ca",
+    "id": "6d90cdd3-58b6-4242-8b7f-8c783a7041a7",
     "name": "Jenkins",
     "skillGroup": "Tools",
     "priority": 506,
     "isHighlighted": false,
     "experienceIds": [
-      "a5ad6a01-af05-4738-ab1d-ae3b8554c60c",
-      "0e32adc1-c191-4089-b6ab-c880ccbd0d9a"
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5"
     ]
   },
   {
-    "id": "7eed271b-c83e-49fd-be04-c9c879807bb2",
+    "id": "4576cdf1-6cc3-432c-911d-a03003bac8bc",
     "name": "TeamCity",
     "skillGroup": "Tools",
     "priority": 507,
     "isHighlighted": false,
     "experienceIds": [
-      "3b05b20f-5f00-4f18-8b7a-35b7c7bd331a",
-      "a5ad6a01-af05-4738-ab1d-ae3b8554c60c",
-      "61f87ca2-371a-42b1-9d36-b3b776acb1b9"
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
+      "af1e99ea-6383-4e5e-909a-947753cd2bfc",
+      "85c948f1-872d-4b47-9466-d09d5c1a9496"
     ]
   },
   {
-    "id": "0cd97fe9-b78b-4a5f-9b20-e15455f7c9a5",
+    "id": "d612e8d5-01f7-452d-9f8c-2f905cc13ef3",
     "name": "OKTA",
     "skillGroup": "Tools",
     "priority": 508,
     "isHighlighted": false,
-    "experienceIds": ["a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6"]
+    "experienceIds": [
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
+    ]
   },
   {
-    "id": "c269551b-4587-4b23-b2f0-3b46d4c9067b",
+    "id": "ad43f80f-71d5-47df-b721-f4ae13f85a2b",
     "name": "Jira",
     "skillGroup": "Tools",
     "priority": 509,
     "isHighlighted": false,
     "experienceIds": [
-      "3b05b20f-5f00-4f18-8b7a-35b7c7bd331a",
-      "a9ae8b2f-7cd6-4a7b-a9b0-ac680da500f6",
-      "a5ad6a01-af05-4738-ab1d-ae3b8554c60c",
-      "61f87ca2-371a-42b1-9d36-b3b776acb1b9",
-      "0e32adc1-c191-4089-b6ab-c880ccbd0d9a"
+      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
+      "af1e99ea-6383-4e5e-909a-947753cd2bfc",
+      "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803",
+      "85c948f1-872d-4b47-9466-d09d5c1a9496"
     ]
   },
   {
-    "id": "97a787e9-151a-4a75-b7d0-6419115a9ea6",
+    "id": "3095b2c3-72f8-4ffc-b735-54ae4cb0f7bc",
     "name": "Esri ArcGIS",
     "skillGroup": "Tools",
     "priority": 510,
     "isHighlighted": false,
-    "experienceIds": ["3b05b20f-5f00-4f18-8b7a-35b7c7bd331a"]
+    "experienceIds": [
+      "af1e99ea-6383-4e5e-909a-947753cd2bfc"
+    ]
   }
 ]
