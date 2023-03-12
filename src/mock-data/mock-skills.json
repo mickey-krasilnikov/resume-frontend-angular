@@ -5,10 +5,8 @@
     "skillGroup": "Frontend",
     "priority": 101,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/angular.png",
-    "experienceIds": [
-      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
-    ]
+    "imageUrl": "../../assets/images/skills/angular.png",
+    "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
   },
   {
     "id": "6a4a375d-a175-42ae-8c28-6a5ad02344d6",
@@ -16,10 +14,8 @@
     "skillGroup": "Frontend",
     "priority": 102,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/vuejs.png",
-    "experienceIds": [
-      "ac8d0e6b-05d9-405f-9959-a15851ea69d5"
-    ]
+    "imageUrl": "../../assets/images/skills/vuejs.png",
+    "experienceIds": ["ac8d0e6b-05d9-405f-9959-a15851ea69d5"]
   },
   {
     "id": "f9696ba5-8f1a-4f62-a342-e1be1ad9497b",
@@ -27,7 +23,7 @@
     "skillGroup": "Frontend",
     "priority": 103,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/js.png",
+    "imageUrl": "../../assets/images/skills/js.png",
     "experienceIds": [
       "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
       "6439facb-1c42-4460-bb17-c0cb3d0d5803",
@@ -40,7 +36,7 @@
     "skillGroup": "Frontend",
     "priority": 104,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/ts.png",
+    "imageUrl": "../../assets/images/skills/ts.png",
     "experienceIds": [
       "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
       "6439facb-1c42-4460-bb17-c0cb3d0d5803"
@@ -52,7 +48,7 @@
     "skillGroup": "Frontend",
     "priority": 105,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/html-5.png",
+    "imageUrl": "../../assets/images/skills/html-5.png",
     "experienceIds": [
       "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
       "6439facb-1c42-4460-bb17-c0cb3d0d5803",
@@ -65,7 +61,7 @@
     "skillGroup": "Frontend",
     "priority": 106,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/css-3.png",
+    "imageUrl": "../../assets/images/skills/css-3.png",
     "experienceIds": [
       "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
       "6439facb-1c42-4460-bb17-c0cb3d0d5803",
@@ -86,9 +82,7 @@
     "skillGroup": "Frontend",
     "priority": 108,
     "isHighlighted": false,
-    "experienceIds": [
-      "85c948f1-872d-4b47-9466-d09d5c1a9496"
-    ]
+    "experienceIds": ["85c948f1-872d-4b47-9466-d09d5c1a9496"]
   },
   {
     "id": "502ca177-2510-4147-8db8-cc79f47d6ebf",
@@ -122,9 +116,7 @@
     "skillGroup": "Frontend",
     "priority": 111,
     "isHighlighted": false,
-    "experienceIds": [
-      "0286b7fa-35dd-403d-96ec-3645e3551b3f"
-    ]
+    "experienceIds": ["0286b7fa-35dd-403d-96ec-3645e3551b3f"]
   },
   {
     "id": "178f585d-0107-4db5-a0de-8ed87ea44edd",
@@ -132,7 +124,7 @@
     "skillGroup": "Backend",
     "priority": 201,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/c-sharp.png",
+    "imageUrl": "../../assets/images/skills/c-sharp.png",
     "experienceIds": [
       "0286b7fa-35dd-403d-96ec-3645e3551b3f",
       "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
@@ -213,10 +205,8 @@
     "skillGroup": "Backend",
     "priority": 208,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/golang.png",
-    "experienceIds": [
-      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
-    ]
+    "imageUrl": "../../assets/images/skills/golang.png",
+    "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
   },
   {
     "id": "115a7340-5110-4dd6-921d-54ac651dbd16",
@@ -224,9 +214,7 @@
     "skillGroup": "Backend",
     "priority": 209,
     "isHighlighted": false,
-    "experienceIds": [
-      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
-    ]
+    "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
   },
   {
     "id": "9d5e1112-60c9-40f3-a0ca-02a521342d85",
@@ -234,10 +222,8 @@
     "skillGroup": "Backend",
     "priority": 210,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/python.png",
-    "experienceIds": [
-      "ac8d0e6b-05d9-405f-9959-a15851ea69d5"
-    ]
+    "imageUrl": "../../assets/images/skills/python.png",
+    "experienceIds": ["ac8d0e6b-05d9-405f-9959-a15851ea69d5"]
   },
   {
     "id": "398ed9ea-d248-4f91-bc48-401401e5c70d",
@@ -286,9 +272,7 @@
     "skillGroup": "Backend",
     "priority": 215,
     "isHighlighted": false,
-    "experienceIds": [
-      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
-    ]
+    "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
   },
   {
     "id": "3cf864dc-af87-471a-9009-f0f78195be1f",
@@ -309,9 +293,7 @@
     "skillGroup": "Backend",
     "priority": 217,
     "isHighlighted": false,
-    "experienceIds": [
-      "f248d143-172f-4c6f-a41f-e242a2adb4eb"
-    ]
+    "experienceIds": ["f248d143-172f-4c6f-a41f-e242a2adb4eb"]
   },
   {
     "id": "f43cba54-41e2-48e8-b584-00257f96bfec",
@@ -319,10 +301,8 @@
     "skillGroup": "Clouds",
     "priority": 301,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/azure.png",
-    "experienceIds": [
-      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
-    ]
+    "imageUrl": "../../assets/images/skills/azure.png",
+    "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
   },
   {
     "id": "57250f1c-f500-4988-8eb7-c1b26f589132",
@@ -330,10 +310,8 @@
     "skillGroup": "Clouds",
     "priority": 302,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/aws.png",
-    "experienceIds": [
-      "ac8d0e6b-05d9-405f-9959-a15851ea69d5"
-    ]
+    "imageUrl": "../../assets/images/skills/aws.png",
+    "experienceIds": ["ac8d0e6b-05d9-405f-9959-a15851ea69d5"]
   },
   {
     "id": "74d495c7-3c06-475c-86ba-8bb3b8991d99",
@@ -341,7 +319,7 @@
     "skillGroup": "Clouds",
     "priority": 303,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/gcp.png",
+    "imageUrl": "../../assets/images/skills/gcp.png",
     "experienceIds": []
   },
   {
@@ -350,7 +328,7 @@
     "skillGroup": "Database",
     "priority": 401,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/mssql.png",
+    "imageUrl": "../../assets/images/skills/mssql.png",
     "experienceIds": [
       "0286b7fa-35dd-403d-96ec-3645e3551b3f",
       "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
@@ -365,7 +343,7 @@
     "skillGroup": "Database",
     "priority": 402,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/mysql.png",
+    "imageUrl": "../../assets/images/skills/mysql.png",
     "experienceIds": [
       "af1e99ea-6383-4e5e-909a-947753cd2bfc",
       "ac8d0e6b-05d9-405f-9959-a15851ea69d5"
@@ -377,7 +355,7 @@
     "skillGroup": "Database",
     "priority": 403,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/postgresql.png",
+    "imageUrl": "../../assets/images/skills/postgresql.png",
     "experienceIds": []
   },
   {
@@ -386,9 +364,7 @@
     "skillGroup": "Database",
     "priority": 404,
     "isHighlighted": false,
-    "experienceIds": [
-      "a4ac9bf7-30ae-4ae9-af01-90b95e46818b"
-    ]
+    "experienceIds": ["a4ac9bf7-30ae-4ae9-af01-90b95e46818b"]
   },
   {
     "id": "d37d4816-a1e5-49fd-bfcb-47750241be14",
@@ -396,10 +372,8 @@
     "skillGroup": "Database",
     "priority": 405,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/redis.png",
-    "experienceIds": [
-      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
-    ]
+    "imageUrl": "../../assets/images/skills/redis.png",
+    "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
   },
   {
     "id": "4c823607-d081-4561-bc5c-9c3ef09bdc0c",
@@ -407,10 +381,8 @@
     "skillGroup": "Database",
     "priority": 406,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/cosmosdb.png",
-    "experienceIds": [
-      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
-    ]
+    "imageUrl": "../../assets/images/skills/cosmosdb.png",
+    "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
   },
   {
     "id": "dd770899-aa73-430a-8d0a-d607797084df",
@@ -418,7 +390,7 @@
     "skillGroup": "Database",
     "priority": 407,
     "isHighlighted": true,
-    "imageUrl": "https://stresumeapp.blob.core.windows.net/images/skills/mongo.png",
+    "imageUrl": "../../assets/images/skills/mongo.png",
     "experienceIds": []
   },
   {
@@ -435,9 +407,7 @@
     "skillGroup": "Tools",
     "priority": 501,
     "isHighlighted": false,
-    "experienceIds": [
-      "ac8d0e6b-05d9-405f-9959-a15851ea69d5"
-    ]
+    "experienceIds": ["ac8d0e6b-05d9-405f-9959-a15851ea69d5"]
   },
   {
     "id": "da373955-3ae1-4ebc-980a-997271bd7d17",
@@ -453,9 +423,7 @@
     "skillGroup": "Tools",
     "priority": 503,
     "isHighlighted": false,
-    "experienceIds": [
-      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
-    ]
+    "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
   },
   {
     "id": "06a717c6-9b92-4d43-8992-4dd6e14ca37a",
@@ -471,9 +439,7 @@
     "skillGroup": "Tools",
     "priority": 505,
     "isHighlighted": false,
-    "experienceIds": [
-      "ac8d0e6b-05d9-405f-9959-a15851ea69d5"
-    ]
+    "experienceIds": ["ac8d0e6b-05d9-405f-9959-a15851ea69d5"]
   },
   {
     "id": "6d90cdd3-58b6-4242-8b7f-8c783a7041a7",
@@ -504,9 +470,7 @@
     "skillGroup": "Tools",
     "priority": 508,
     "isHighlighted": false,
-    "experienceIds": [
-      "6439facb-1c42-4460-bb17-c0cb3d0d5803"
-    ]
+    "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
   },
   {
     "id": "ad43f80f-71d5-47df-b721-f4ae13f85a2b",
@@ -528,8 +492,6 @@
     "skillGroup": "Tools",
     "priority": 510,
     "isHighlighted": false,
-    "experienceIds": [
-      "af1e99ea-6383-4e5e-909a-947753cd2bfc"
-    ]
+    "experienceIds": ["af1e99ea-6383-4e5e-909a-947753cd2bfc"]
   }
 ]

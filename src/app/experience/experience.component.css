@@ -752,15 +752,15 @@ a {
   width: 300px;
   max-height: 300px;
   left: 25%;
-  transform: translateX(-45%);
+  transform: translateX(-115%) translateY(-3%);
   height: 100%;
   pointer-events: none;
 }
 @media screen and (max-width: 1200px) {
   .exprns-img {
-    width: 250px;
-    height: 250px;
-    left: 20%;
+    width: 265px;
+    height: 265px;
+    transform: translateX(-115%) translateY(10%);
   }
 }
 @media screen and (max-width: 992px) {
@@ -768,8 +768,8 @@ a {
     width: 250px;
     height: 250px;
     left: 50%;
-    transform: translateX(-50%);
     top: 50px;
+    transform: translateX(-50%) translateY(-90%);
   }
 }
 @media screen and (max-width: 767px) {
@@ -782,9 +782,10 @@ a {
 }
 @media screen and (max-width: 576px) {
   .exprns-img {
-    max-width: 200px;
-    height: 200px;
+    max-width: 250px;
+    height: 250px;
     top: 85px;
+    transform: translateX(-50%) translateY(-120%);
   }
 }
 .exprns-img__item {
@@ -795,19 +796,11 @@ a {
   pointer-events: none;
   user-select: none;
   top: 50%;
-
   border-radius: 50%;
   overflow: hidden;
-
-  transform: translateY(-50%) translateX(-130px);
-  opacity: 0;
   transition: all 0.3s;
 }
-.exprns-img__item.active {
-  opacity: 1;
-  transform: translateY(-50%) translateX(0);
-  transition-delay: 0.3s;
-}
+
 .exprns-img__item img {
   object-fit: contain;
   object-position: center right;

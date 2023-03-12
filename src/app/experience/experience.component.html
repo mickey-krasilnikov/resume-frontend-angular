@@ -8,7 +8,7 @@
         <div class="bg-shape">
         </div>
 
-        <div class="exprns-img">
+        <!-- <div class="exprns-img">
 
           <div class="exprns-img__item active" id="img0">
             <img src="../../assets/images/companies/geico.png" class="exprns-img__img">
@@ -42,7 +42,7 @@
             <img src="../../assets/images/companies/rosatom.png" class="exprns-img__img">
           </div>
 
-        </div>
+        </div> -->
 
         <div class="exprns-slider">
           <button class="prev disabled">
@@ -63,6 +63,13 @@
           <div class="exprns-slider__wrp swiper-wrapper">
 
             <div class="exprns-slider__item swiper-slide" data-target="img1" *ngFor="let exp of experience">
+
+              <div class="exprns-img">
+                <div class="exprns-img__item" id="img0">
+                  <img src={{exp.companyLogoImageUrl}} class="exprns-img__img">
+                </div>
+              </div>
+
               <div class="exprns-slider__card">
                 <img src="../../assets/images/backgrounds/swiper-bg.webp" class="exprns-slider__cover">
                 <div class="exprns-slider__content">
