@@ -1,68 +1,63 @@
 [
   {
-    "id": "1ac11019-b63f-43d8-b9cb-22ac33aa1558",
-    "title": "Software Engineer",
-    "company": "SGC",
-    "location": "Moscow, Russia",
-    "skillIds": [
-      "f6fc53fe-eac7-41c0-a278-062b77a10809",
-      "4bc1fa9d-d2f2-4aa2-a3fb-1d7760106726",
-      "25f84d31-59d4-41af-bba4-4a96bd67e373",
-      "99f1aca2-fcf3-42be-a7c9-62c84f54b02e",
-      "19a964ee-362a-4f52-82c7-901ec92b190d",
-      "888a9550-f2dd-4e7d-a010-bb21411ab52a"
-    ],
-    "taskPerformed": [
-      "Developed software that composes accurate construction cost estimates, which resulted in a 25% reduction in estimate preparation time.",
-      "Improved software flexibility and saved valuable time by adding the ability to convert estimates from other well-known systems.",
-      "Streamlined report creation process by enabling final estimate result export to various formats, providing customization options for users."
-    ],
-    "startDate": "2012-07-01",
-    "endDate": "2013-06-01"
-  },
-  {
-    "id": "51baeba6-a565-4887-8ba4-4754a1d2a5d1",
-    "title": "Software Engineer",
-    "company": "Research and Production Center 'Start'",
-    "location": "Penza, Russia",
-    "skillIds": [
-      "f6fc53fe-eac7-41c0-a278-062b77a10809",
-      "25f84d31-59d4-41af-bba4-4a96bd67e373",
-      "3c071533-0266-4ec6-bc24-5e38f4a26bb5",
-      "888a9550-f2dd-4e7d-a010-bb21411ab52a"
-    ],
-    "taskPerformed": [
-      "Developed an in-house CAD tool for designing microboards, including the ability to import AutoCAD files.",
-      "Implemented a feature that enables the printing of photomasks for microboards using specialized equipment.",
-      "Optimized the CAD tool for faster and more efficient microboard design, resulting in a 30% reduction in design time."
-    ],
-    "startDate": "2010-08-01",
-    "endDate": "2012-06-01"
-  },
-  {
-    "id": "c22a7471-6c35-42c2-9def-6fa83a0df8db",
+    "id": "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
     "title": "Lead Software Engineer",
     "company": "EPAM Systems",
-    "location": "Wroclaw, Poland",
+    "companyLogoImageUrl": "../../assets/images/companies/epam-us.png",
+    "location": "San Jose, CA, USA",
+    "countryFlagImageUrl": "../../assets/images/flags/us.png",
     "skillIds": [
-      "f6fc53fe-eac7-41c0-a278-062b77a10809",
-      "d61e2f58-e592-4550-aad3-14b2da1abe5c",
-      "1d205562-0906-4fa3-b410-1994000b8b91",
-      "66721da3-eef3-4fb0-94ab-1ddd99814606",
-      "6730c197-4fde-452d-a2e2-1e9b93e82872",
-      "5205ec9e-f063-45cb-a587-21bca1a74892",
-      "e73e86d9-8c82-4aa8-87f5-29007d4842a0",
-      "2fd77f7a-4f3e-4ba6-a1af-2ab1628471a6",
-      "e370472b-07c1-441f-8161-2c9ad7ed921b",
-      "bb99c612-e5e2-43c6-a8f6-4a8bc82fa47a",
-      "4087555e-8e8c-474b-8970-62b0149ed194",
-      "e705f66c-af17-4011-b9f4-77155ca17fba",
-      "a079055b-d4b7-4b96-afc3-7cb503e7e76e",
-      "918a79ca-a2ec-4878-9d3f-802c4bd10a64",
-      "81786180-7ffc-4d9e-a3e1-812acf9ed04b",
-      "faedd3e4-ac78-455f-a2a6-8787cc5d2724",
-      "96eef699-0493-4389-8508-e0e5ac7a10ff",
-      "f2a2aa0c-46d2-4500-aae5-f85f93327eb8"
+      "9d5e1112-60c9-40f3-a0ca-02a521342d85",
+      "c2ae4aeb-48c8-405c-8407-09cc31c947cf",
+      "280fc41e-cf77-4d1a-aac4-542e052b5eac",
+      "6a4a375d-a175-42ae-8c28-6a5ad02344d6",
+      "6d90cdd3-58b6-4242-8b7f-8c783a7041a7",
+      "178f585d-0107-4db5-a0de-8ed87ea44edd",
+      "e51a3857-56e6-4052-bbd4-947171f84dda",
+      "01597c16-b140-4133-83da-966f276c0c11",
+      "4f2831c8-1aac-43a1-ab5b-9e623fcf271a",
+      "57250f1c-f500-4988-8eb7-c1b26f589132",
+      "65b067c7-0016-4933-9b7e-dcbe81514ae1",
+      "f9696ba5-8f1a-4f62-a342-e1be1ad9497b",
+      "af365eb4-cda7-4fba-926c-e3c63c4bbb36",
+      "3cf864dc-af87-471a-9009-f0f78195be1f",
+      "547bb631-a704-4bab-83b4-f10d9c76edc3",
+      "ad43f80f-71d5-47df-b721-f4ae13f85a2b"
+    ],
+    "taskPerformed": [
+      "Created Execution Compliance and Trade Surveillance System for analysis of trading activities to ensure regulatory compliance.",
+      "Engineered a Vue.js-based web dashboard for monitoring, analyzing, and visualizing data.",
+      "Designed and developed high-performance .NET Core backend services, resulting in a scalable and maintainable architecture.",
+      "Implemented an event-driven workflow that utilized Amazon SQS and AWS Lambdas, written in Python, to efficiently load and parse large data files, reducing processing times and increasing overall system throughput."
+    ],
+    "startDate": "2021-10-01"
+  },
+  {
+    "id": "6439facb-1c42-4460-bb17-c0cb3d0d5803",
+    "title": "Lead Software Engineer",
+    "company": "EPAM Systems",
+    "companyLogoImageUrl": "../../assets/images/companies/epam-poland.png",
+    "location": "Wroclaw, Poland",
+    "countryFlagImageUrl": "../../assets/images/flags/pl.png",
+    "skillIds": [
+      "f43cba54-41e2-48e8-b584-00257f96bfec",
+      "c2ae4aeb-48c8-405c-8407-09cc31c947cf",
+      "2f66b4c4-863a-40aa-8f11-18becb7da725",
+      "d612e8d5-01f7-452d-9f8c-2f905cc13ef3",
+      "d37d4816-a1e5-49fd-bfcb-47750241be14",
+      "280fc41e-cf77-4d1a-aac4-542e052b5eac",
+      "115a7340-5110-4dd6-921d-54ac651dbd16",
+      "bd5af812-549b-4ce6-9679-669d5b5d3303",
+      "178f585d-0107-4db5-a0de-8ed87ea44edd",
+      "4c823607-d081-4561-bc5c-9c3ef09bdc0c",
+      "4f2831c8-1aac-43a1-ab5b-9e623fcf271a",
+      "5c593a35-9e2e-420a-a2c4-c7cf09cea3b2",
+      "d68e1fc9-265a-497d-9820-d85254cdd8f4",
+      "f9696ba5-8f1a-4f62-a342-e1be1ad9497b",
+      "af365eb4-cda7-4fba-926c-e3c63c4bbb36",
+      "3590eef7-19b9-4ea3-99d0-ecf14a27fb9b",
+      "547bb631-a704-4bab-83b4-f10d9c76edc3",
+      "ad43f80f-71d5-47df-b721-f4ae13f85a2b"
     ],
     "taskPerformed": [
       "Designed and developed a cloud-native microservice-based system for managing insurance claims, underwriting, and reporting.",
@@ -75,25 +70,27 @@
     "endDate": "2021-10-01"
   },
   {
-    "id": "feb5ed7e-8df7-4da3-8d86-83499d25d6da",
+    "id": "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
     "title": "Senior Software Engineer",
     "company": "Credit Suisse",
+    "companyLogoImageUrl": "../../assets/images/companies/credit-suisse.png",
     "location": "Wroclaw, Poland",
+    "countryFlagImageUrl": "../../assets/images/flags/pl.png",
     "skillIds": [
-      "1f71b23e-6eb8-444b-945f-04dc3b6e6dcc",
-      "f6fc53fe-eac7-41c0-a278-062b77a10809",
-      "c329e836-2e60-47ed-bcca-0e8b2b3cbef0",
-      "4bc1fa9d-d2f2-4aa2-a3fb-1d7760106726",
-      "6730c197-4fde-452d-a2e2-1e9b93e82872",
-      "25f84d31-59d4-41af-bba4-4a96bd67e373",
-      "16f6207a-e38c-4fa5-967d-4d4e1fd330dd",
-      "53065d38-ae20-4130-a2de-5dad4d7ab317",
-      "4087555e-8e8c-474b-8970-62b0149ed194",
-      "e705f66c-af17-4011-b9f4-77155ca17fba",
-      "19a964ee-362a-4f52-82c7-901ec92b190d",
-      "2d7e5810-b437-49b5-9801-9d57b1bd0c2f",
-      "888a9550-f2dd-4e7d-a010-bb21411ab52a",
-      "36f830dc-864f-45bd-a567-ff35d34aa403"
+      "b6f47a46-1231-45cf-9a15-173fc66cdc20",
+      "2f66b4c4-863a-40aa-8f11-18becb7da725",
+      "612f0b9e-23d3-45f7-9425-26e5d1d36428",
+      "7efceebd-cc5c-437b-8230-5819d954aa80",
+      "393d2750-f2df-41d5-b0e4-6ab9fc71487e",
+      "c6c8d228-f485-45af-896d-73acb0f7790a",
+      "6d90cdd3-58b6-4242-8b7f-8c783a7041a7",
+      "178f585d-0107-4db5-a0de-8ed87ea44edd",
+      "4f2831c8-1aac-43a1-ab5b-9e623fcf271a",
+      "4576cdf1-6cc3-432c-911d-a03003bac8bc",
+      "cf3878a7-9c27-4a4e-9c69-bbd1c0f5c811",
+      "502ca177-2510-4147-8db8-cc79f47d6ebf",
+      "3cf864dc-af87-471a-9009-f0f78195be1f",
+      "ad43f80f-71d5-47df-b721-f4ae13f85a2b"
     ],
     "taskPerformed": [
       "Created a high-performing desktop application for Credit Suisse's front office to manage market risks in real time using WPF and C#.",
@@ -105,52 +102,27 @@
     "endDate": "2019-03-01"
   },
   {
-    "id": "55181ac6-56a8-47ed-90b2-86ca0d83c7b8",
-    "title": "Software Engineer",
-    "company": "Gollard",
-    "location": "Moscow, Russia",
-    "skillIds": [
-      "f6fc53fe-eac7-41c0-a278-062b77a10809",
-      "c329e836-2e60-47ed-bcca-0e8b2b3cbef0",
-      "4bc1fa9d-d2f2-4aa2-a3fb-1d7760106726",
-      "25f84d31-59d4-41af-bba4-4a96bd67e373",
-      "0f16ede3-0bc2-47b2-8a98-4b348f4b8202",
-      "53065d38-ae20-4130-a2de-5dad4d7ab317",
-      "e705f66c-af17-4011-b9f4-77155ca17fba",
-      "19a964ee-362a-4f52-82c7-901ec92b190d",
-      "888a9550-f2dd-4e7d-a010-bb21411ab52a",
-      "a120ba72-3a02-47b0-b626-dc37208d0747",
-      "7c4cc9e6-deb5-41e7-85d5-f32ed2d5f771",
-      "36f830dc-864f-45bd-a567-ff35d34aa403"
-    ],
-    "taskPerformed": [
-      "Created a GIS desktop app for energy distribution company handling grids, stations, and facilities, improving overall operational efficiency.",
-      "Enabled real-time tracking of service transport location and engine state, enhancing the company's logistical capabilities.",
-      "Implemented an alerting system that utilizes biometric camera data and sensor events, increasing the company's security posture."
-    ],
-    "startDate": "2013-06-01",
-    "endDate": "2014-07-01"
-  },
-  {
-    "id": "540881aa-5796-4a06-8c78-c6e80179ab5b",
+    "id": "85c948f1-872d-4b47-9466-d09d5c1a9496",
     "title": "Senior Software Engineer",
     "company": "Yandex",
+    "companyLogoImageUrl": "../../assets/images/companies/yandex.png",
     "location": "Moscow, Russia",
+    "countryFlagImageUrl": "../../assets/images/flags/ru.png",
     "skillIds": [
-      "f6fc53fe-eac7-41c0-a278-062b77a10809",
-      "c329e836-2e60-47ed-bcca-0e8b2b3cbef0",
-      "4bc1fa9d-d2f2-4aa2-a3fb-1d7760106726",
-      "494ed162-b23f-4ef3-a97f-3f6770ed821e",
-      "bb99c612-e5e2-43c6-a8f6-4a8bc82fa47a",
-      "25f84d31-59d4-41af-bba4-4a96bd67e373",
-      "16f6207a-e38c-4fa5-967d-4d4e1fd330dd",
-      "e705f66c-af17-4011-b9f4-77155ca17fba",
-      "faedd3e4-ac78-455f-a2a6-8787cc5d2724",
-      "19a964ee-362a-4f52-82c7-901ec92b190d",
-      "888a9550-f2dd-4e7d-a010-bb21411ab52a",
-      "96eef699-0493-4389-8508-e0e5ac7a10ff",
-      "7c4cc9e6-deb5-41e7-85d5-f32ed2d5f771",
-      "36f830dc-864f-45bd-a567-ff35d34aa403"
+      "b6f47a46-1231-45cf-9a15-173fc66cdc20",
+      "71925c87-06d5-47e1-9ceb-1e007b75f7e9",
+      "280fc41e-cf77-4d1a-aac4-542e052b5eac",
+      "393d2750-f2df-41d5-b0e4-6ab9fc71487e",
+      "c6c8d228-f485-45af-896d-73acb0f7790a",
+      "178f585d-0107-4db5-a0de-8ed87ea44edd",
+      "4576cdf1-6cc3-432c-911d-a03003bac8bc",
+      "cf3878a7-9c27-4a4e-9c69-bbd1c0f5c811",
+      "506bfc11-061a-49ae-b657-c1e1004fcca9",
+      "502ca177-2510-4147-8db8-cc79f47d6ebf",
+      "f9696ba5-8f1a-4f62-a342-e1be1ad9497b",
+      "af365eb4-cda7-4fba-926c-e3c63c4bbb36",
+      "3cf864dc-af87-471a-9009-f0f78195be1f",
+      "ad43f80f-71d5-47df-b721-f4ae13f85a2b"
     ],
     "taskPerformed": [
       "Developed a payment system that streamlined the process of paying for lunch at nearby cafes and restaurants using the office access card (RFID tag), resulting in improved efficiency and convenience for employees.",
@@ -161,34 +133,76 @@
     "endDate": "2015-08-01"
   },
   {
-    "id": "bdc4ad5c-646f-4e79-9466-f77bac4bf6f5",
-    "title": "Lead Software Engineer",
-    "company": "EPAM Systems",
-    "location": "San Jose, CA, USA",
+    "id": "af1e99ea-6383-4e5e-909a-947753cd2bfc",
+    "title": "Software Engineer",
+    "company": "Gollard",
+    "companyLogoImageUrl": "../../assets/images/companies/gollard.png",
+    "location": "Moscow, Russia",
+    "countryFlagImageUrl": "../../assets/images/flags/ru.png",
     "skillIds": [
-      "1f71b23e-6eb8-444b-945f-04dc3b6e6dcc",
-      "f6fc53fe-eac7-41c0-a278-062b77a10809",
-      "6730c197-4fde-452d-a2e2-1e9b93e82872",
-      "db5b7c7c-e7d7-4b4a-8462-28bbc6ce2a2c",
-      "e73e86d9-8c82-4aa8-87f5-29007d4842a0",
-      "2fd77f7a-4f3e-4ba6-a1af-2ab1628471a6",
-      "0d007ad4-4379-4e5e-aa12-40c62927998c",
-      "bb99c612-e5e2-43c6-a8f6-4a8bc82fa47a",
-      "0f16ede3-0bc2-47b2-8a98-4b348f4b8202",
-      "e705f66c-af17-4011-b9f4-77155ca17fba",
-      "1dc5e010-6f0e-4651-a6e0-7e7061d6c781",
-      "faedd3e4-ac78-455f-a2a6-8787cc5d2724",
-      "e187b2ef-0a5d-4f5c-bd42-c288b0484bce",
-      "014d3588-b7d8-40a9-af5e-dfc15c339c85",
-      "96eef699-0493-4389-8508-e0e5ac7a10ff",
-      "36f830dc-864f-45bd-a567-ff35d34aa403"
+      "b6f47a46-1231-45cf-9a15-173fc66cdc20",
+      "612f0b9e-23d3-45f7-9425-26e5d1d36428",
+      "3095b2c3-72f8-4ffc-b735-54ae4cb0f7bc",
+      "c6c8d228-f485-45af-896d-73acb0f7790a",
+      "178f585d-0107-4db5-a0de-8ed87ea44edd",
+      "01597c16-b140-4133-83da-966f276c0c11",
+      "4576cdf1-6cc3-432c-911d-a03003bac8bc",
+      "cf3878a7-9c27-4a4e-9c69-bbd1c0f5c811",
+      "506bfc11-061a-49ae-b657-c1e1004fcca9",
+      "502ca177-2510-4147-8db8-cc79f47d6ebf",
+      "3cf864dc-af87-471a-9009-f0f78195be1f",
+      "ad43f80f-71d5-47df-b721-f4ae13f85a2b"
     ],
     "taskPerformed": [
-      "Created Execution Compliance and Trade Surveillance System for analysis of trading activities to ensure regulatory compliance.",
-      "Engineered a Vue.js-based web dashboard for monitoring, analyzing, and visualizing data.",
-      "Designed and developed high-performance .NET Core backend services, resulting in a scalable and maintainable architecture.",
-      "Implemented an event-driven workflow that utilized Amazon SQS and AWS Lambdas, written in Python, to efficiently load and parse large data files, reducing processing times and increasing overall system throughput."
+      "Created a GIS desktop app for energy distribution company handling grids, stations, and facilities, improving overall operational efficiency.",
+      "Enabled real-time tracking of service transport location and engine state, enhancing the company's logistical capabilities.",
+      "Implemented an alerting system that utilizes biometric camera data and sensor events, increasing the company's security posture."
     ],
-    "startDate": "2021-10-01"
+    "startDate": "2013-06-01",
+    "endDate": "2014-07-01"
+  },
+  {
+    "id": "f248d143-172f-4c6f-a41f-e242a2adb4eb",
+    "title": "Software Engineer",
+    "company": "SGC",
+    "companyLogoImageUrl": "../../assets/images/companies/sgc.png",
+    "location": "Moscow, Russia",
+    "countryFlagImageUrl": "../../assets/images/flags/ru.png",
+    "skillIds": [
+      "b6f47a46-1231-45cf-9a15-173fc66cdc20",
+      "c6c8d228-f485-45af-896d-73acb0f7790a",
+      "178f585d-0107-4db5-a0de-8ed87ea44edd",
+      "cf3878a7-9c27-4a4e-9c69-bbd1c0f5c811",
+      "502ca177-2510-4147-8db8-cc79f47d6ebf",
+      "e40f9138-42b4-4b98-ac28-fccd3b737252"
+    ],
+    "taskPerformed": [
+      "Developed software that composes accurate construction cost estimates, which resulted in a 25% reduction in estimate preparation time.",
+      "Improved software flexibility and saved valuable time by adding the ability to convert estimates from other well-known systems.",
+      "Streamlined report creation process by enabling final estimate result export to various formats, providing customization options for users."
+    ],
+    "startDate": "2012-07-01",
+    "endDate": "2013-06-01"
+  },
+  {
+    "id": "0286b7fa-35dd-403d-96ec-3645e3551b3f",
+    "title": "Software Engineer",
+    "company": "R&D Center \"Start\"",
+    "companyLogoImageUrl": "../../assets/images/companies/rosatom.png",
+    "location": "Penza, Russia",
+    "countryFlagImageUrl": "../../assets/images/flags/ru.png",
+    "skillIds": [
+      "b6f47a46-1231-45cf-9a15-173fc66cdc20",
+      "178f585d-0107-4db5-a0de-8ed87ea44edd",
+      "2aff5429-7459-4645-9299-92f85ed504f4",
+      "cf3878a7-9c27-4a4e-9c69-bbd1c0f5c811"
+    ],
+    "taskPerformed": [
+      "Developed an in-house CAD tool for designing microboards, including the ability to import AutoCAD files.",
+      "Implemented a feature that enables the printing of photomasks for microboards using specialized equipment.",
+      "Optimized the CAD tool for faster and more efficient microboard design, resulting in a 30% reduction in design time."
+    ],
+    "startDate": "2010-08-01",
+    "endDate": "2012-06-01"
   }
 ]

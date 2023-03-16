@@ -7,5 +7,5 @@ import { Skill } from './skill.model';
   styleUrls: ['./skills.component.css'],
 })
 export class SkillsComponent {
-  @Input() groupedSkills!: Map<string, Skill[]>;
+  @Input() highlightedSkills!: Skill[];
 }
