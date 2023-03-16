@@ -11,8 +11,6 @@ export class ExperienceComponent implements OnInit {
   @Input() experience!: ExperienceWithSkills[];
   public swiper!: Swiper;
 
-  constructor(private renderer: Renderer2) {}
-
   ngOnInit(): void {
     this.swiper = new Swiper('.exprns-slider', {
       spaceBetween: 30,
@@ -23,5 +21,9 @@ export class ExperienceComponent implements OnInit {
         prevEl: '.prev',
       },
     });
+  }
+
+  isActive(index: number) {
+    return this.swiper.activeIndex === index;
   }
 }

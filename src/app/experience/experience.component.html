@@ -8,42 +8,6 @@
         <div class="bg-shape">
         </div>
 
-        <!-- <div class="exprns-img">
-
-          <div class="exprns-img__item active" id="img0">
-            <img src="../../assets/images/companies/geico.png" class="exprns-img__img">
-          </div>
-
-          <div class="exprns-img__item active" id="img1">
-            <img src="../../assets/images/companies/epam-us.png" class="exprns-img__img">
-          </div>
-
-          <div class="exprns-img__item" id="img2">
-            <img src="../../assets/images/companies/epam-poland.png" class="exprns-img__img">
-          </div>
-
-          <div class="exprns-img__item" id="img3">
-            <img src="../../assets/images/companies/credit-suisse.png" class="exprns-img__img">
-          </div>
-
-          <div class="exprns-img__item" id="img4">
-            <img src="../../assets/images/companies/yandex.png" class="exprns-img__img">
-          </div>
-
-          <div class="exprns-img__item" id="img5">
-            <img src="../../assets/images/companies/gollard.png" class="exprns-img__img">
-          </div>
-
-          <div class="exprns-img__item" id="img6">
-            <img src="../../assets/images/companies/sgc.png" class="exprns-img__img">
-          </div>
-
-          <div class="exprns-img__item" id="img7">
-            <img src="../../assets/images/companies/rosatom.png" class="exprns-img__img">
-          </div>
-
-        </div> -->
-
         <div class="exprns-slider">
           <button class="prev disabled">
             <span class="icon">
@@ -62,10 +26,11 @@
 
           <div class="exprns-slider__wrp swiper-wrapper">
 
-            <div class="exprns-slider__item swiper-slide" data-target="img1" *ngFor="let exp of experience">
+            <div class="exprns-slider__item swiper-slide" data-target="img1" *ngFor="let exp of experience; index as i"
+              [@fadeInOut]="isActive(i)">
 
-              <div class="exprns-img__item">
-                <img src={{exp.companyLogoImageUrl}}>
+              <div class="exprns-img__item" id="exprns-company-logo">
+                <img [src]=exp.companyLogoImageUrl>
               </div>
 
               <div class="exprns-slider__card">
