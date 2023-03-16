@@ -61,11 +61,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   }
 
   preprocessCertData(data: Certification[]): Certification[] {
-    return [...data].sort((a, b) =>
-      a.issuer != b.issuer
-        ? b.issuer.localeCompare(a.issuer)
-        : a.name.localeCompare(b.name)
-    );
+    return [...data];
   }
 
   preprocessContactData(data: Contact[]): Map<string, Contact> {
