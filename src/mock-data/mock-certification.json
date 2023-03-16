@@ -5,7 +5,7 @@
     "issuer": "Microsoft",
     "importance": 5,
     "verificationUrl": "https://www.credly.com/badges/8ea21901-34c7-4cb4-bc48-71e0c5cf3e85",
-    "badgeImageUrl": "https://stresumeapp.blob.core.windows.net/images/certbadges/az-sa-expert.png",
+    "badgeImageUrl": "../../assets/images/certbadges/az-sa-expert.png",
     "issueDate": "2020-06-10",
     "expirationDate": "2023-05-10"
   },
@@ -15,7 +15,7 @@
     "issuer": "Google",
     "importance": 5,
     "verificationUrl": "https://www.credential.net/786961ad-0225-4bb0-883a-3c2feceb5174",
-    "badgeImageUrl": "https://stresumeapp.blob.core.windows.net/images/certbadges/google-sa-expert.png",
+    "badgeImageUrl": "../../assets/images/certbadges/google-sa-expert.png",
     "issueDate": "2020-09-27",
     "expirationDate": "2022-09-27"
   },
@@ -25,7 +25,7 @@
     "issuer": "Amazon",
     "importance": 4,
     "verificationUrl": "https://www.credly.com/badges/dc95ff2a-12d8-4816-91b2-a9292ae5df85",
-    "badgeImageUrl": "https://stresumeapp.blob.core.windows.net/images/certbadges/aws-sa-associate.png",
+    "badgeImageUrl": "../../assets/images/certbadges/aws-sa-associate.png",
     "issueDate": "2020-03-28",
     "expirationDate": "2024-03-28"
   },
@@ -35,7 +35,7 @@
     "issuer": "Microsoft",
     "importance": 3,
     "verificationUrl": "https://www.credly.com/badges/eaedb35f-5ea9-45b2-b551-acad69b94488",
-    "badgeImageUrl": "https://stresumeapp.blob.core.windows.net/images/certbadges/az-devops-expert.png",
+    "badgeImageUrl": "../../assets/images/certbadges/az-devops-expert.png",
     "issueDate": "2020-11-10",
     "expirationDate": "2023-11-10"
   },
@@ -45,7 +45,7 @@
     "issuer": "Microsoft",
     "importance": 2,
     "verificationUrl": "https://www.credly.com/badges/49ab14ad-ffe5-47ae-b3d1-9d29b00ef4dc",
-    "badgeImageUrl": "https://stresumeapp.blob.core.windows.net/images/certbadges/az-dev.png",
+    "badgeImageUrl": "../../assets/images/certbadges/az-dev.png",
     "issueDate": "2020-04-13",
     "expirationDate": "2022-04-13"
   },
@@ -55,7 +55,7 @@
     "issuer": "Google",
     "importance": 2,
     "verificationUrl": "https://www.credential.net/f4054913-d10c-4cd4-89cb-e286f00de2ae",
-    "badgeImageUrl": "https://stresumeapp.blob.core.windows.net/images/certbadges/google-eng-associate.png",
+    "badgeImageUrl": "../../assets/images/certbadges/google-eng-associate.png",
     "issueDate": "2020-08-29",
     "expirationDate": "2023-08-29"
   },
@@ -65,7 +65,7 @@
     "issuer": "Microsoft",
     "importance": 1,
     "verificationUrl": "https://www.credly.com/badges/49ab14ad-ffe5-47ae-b3d1-9d29b00ef4dc",
-    "badgeImageUrl": "https://stresumeapp.blob.core.windows.net/images/certbadges/az-admin.png",
+    "badgeImageUrl": "../../assets/images/certbadges/az-admin.png",
     "issueDate": "2020-07-15",
     "expirationDate": "2022-07-15"
   },
@@ -75,7 +75,7 @@
     "issuer": "Microsoft",
     "importance": 0,
     "verificationUrl": "https://www.credly.com/badges/49ab14ad-ffe5-47ae-b3d1-9d29b00ef4dc",
-    "badgeImageUrl": "https://stresumeapp.blob.core.windows.net/images/certbadges/az-fund.png",
+    "badgeImageUrl": "../../assets/images/certbadges/az-fund.png",
     "issueDate": "2020-03-04"
   }
 ]
