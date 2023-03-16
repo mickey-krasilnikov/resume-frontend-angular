@@ -47,7 +47,8 @@
                       <span>{{exp.location}}</span>
                       <img src={{exp.countryFlagImageUrl}} class="exprns-slider__details-location-img">
                     </div>
-                    <span>{{exp.startDate}} - {{exp.endDate ?? "Present"}}</span>
+                    <span>{{exp.startDate | date: 'MMM yyyy'}} - {{exp.endDate!=null ? (exp.endDate | date: 'MMM yyyy')
+                      : "Present"}}</span>
                   </div>
                   <div class="exprns-slider__chip-group">
                     <div class="exprns-slider__chip" *ngFor="let skill of exp.skills">{{skill.name}}</div>

@@ -44,7 +44,9 @@
         <div class="cert-items__item-title">
           <p>{{cert.name}}</p>
         </div>
-        <p class="cert-items__item-date">Expires on {{cert.expirationDate}}</p>
+        <p class="cert-items__item-date">{{cert.expirationDate != null
+          ? "Expires on " + (cert.expirationDate | date: 'MMM dd, yyyy')
+          : "Never expires"}}</p>
       </div>
     </div>
 

@@ -739,6 +739,16 @@ a {
     transform: translateY(-20%);
   }
 }
+@media screen and (max-width: 480px) {
+  .exprns-img__item {
+    height: 200px;
+    width: 200px;
+    left: 17%;
+    top: -5%;
+
+    transform: translateY(-20%);
+  }
+}
 
 @keyframes leftslide {
   from {
