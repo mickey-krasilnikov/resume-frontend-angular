@@ -1,4 +1,5 @@
 # Frontend App for the Resume API
+
 [![Azure Static Web Apps CI/CD](https://github.com/mickey-krasilnikov/resume-frontend-angular/actions/workflows/azure-static-web-apps-zealous-ground-0c120f01e.yml/badge.svg)](https://github.com/mickey-krasilnikov/resume-frontend-angular/actions/workflows/azure-static-web-apps-zealous-ground-0c120f01e.yml)
 
 This frontend app provides a user-friendly interface for accessing the information from the "Resume API". The app allows users to view and manage their resume information, such as education, experience, skills, certifications, and contacts. It is built with Angular 15, Typescript, HTML, and CSS.
@@ -23,8 +24,8 @@ The app communicates with the "Resume API" to retrieve and update data, and it u
 
 ## Contributing
 
-If you would like to contribute to this project, please reach out to the repository owner for more information.
+If you would like to contribute to this project, please reach out to me for more information.
 
 ## License
 
-This project is licensed under the MIT license.
+This project is licensed under the [WTFPL License](http://www.wtfpl.net/about/).
