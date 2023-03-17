@@ -26,8 +26,7 @@
 
           <div class="exprns-slider__wrp swiper-wrapper">
 
-            <div class="exprns-slider__item swiper-slide" data-target="img1" *ngFor="let exp of experience; index as i"
-              [@fadeInOut]="isActive(i)">
+            <div class="exprns-slider__item swiper-slide" data-target="img1" *ngFor="let exp of experience; index as i">
 
               <div class="exprns-img__item" id="exprns-company-logo">
                 <img [src]=exp.companyLogoImageUrl>
@@ -37,7 +36,7 @@
                 <img src="../../assets/images/backgrounds/swiper-bg.webp" class="exprns-slider__cover">
                 <div class="exprns-slider__content">
                   <h1 class="exprns-slider__title">
-                    {{exp.company}}
+                    {{exp.company | uppercase }}
                   </h1>
                   <h1 class="exprns-slider__subtitle">
                     {{exp.title}}

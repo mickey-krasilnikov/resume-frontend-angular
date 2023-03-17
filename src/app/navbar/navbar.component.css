@@ -20,7 +20,7 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 10px;
     border: 2px solid;
     border-color: transparent;
@@ -50,7 +50,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
   border-radius: 10px;
   border: 2px solid;
   border-color: transparent;
@@ -82,7 +82,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: none;
   color: #bcbcbc;
   transition: color 0.3s;
@@ -90,7 +90,8 @@
   transform: translate3d(0, 0, 0);
 }
 .navbar .navlink:hover {
-  color: #be78ff;
+  /* color: #be78ff; */
+  color: #ffffff;
   cursor: pointer;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);

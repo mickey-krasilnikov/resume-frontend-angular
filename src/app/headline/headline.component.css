@@ -45,11 +45,11 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 15px;
   text-decoration: none;
-  min-width: 220px;
-  height: 30px;
-  opacity: 0.8;
+  min-width: 250px;
+  height: 40px;
+  opacity: 1;
   background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
   color: #ffffff;
   transition: all 0.3s ease-in-out;
@@ -58,13 +58,14 @@
   transform: translate3d(0, 0, 0);
 }
 
-.headline-box .infobox-btn svg g path {
-  fill: #ffffff;
-}
 .headline-box .infobox-btn:hover {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+}
+
+.headline-box .infobox-btn svg g path {
+  fill: #ffffff;
 }
 
 .headline-box .infobox-btn:active {
