@@ -23,10 +23,9 @@
   grid-column-gap: 20px;
   justify-content: space-between;
 }
-
-.cert-items__item {
+.cert-items__item a {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   justify-self: center;
 }
 .cert-items__item-img {

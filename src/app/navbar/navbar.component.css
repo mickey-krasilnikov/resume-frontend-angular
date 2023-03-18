@@ -41,30 +41,55 @@
   }
 }
 
-.navbar .signinbtn {
+.navbar .email-btn {
   cursor: pointer;
-  background-color: transparent;
-  width: 126px;
-  height: 45px;
-  color: #bcbcbc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  border-radius: 10px;
+  font-size: 15px;
+  text-decoration: none;
+
+  min-width: 50px;
+  max-width: 150px;
+  padding: 0 10px;
+  height: 40px;
+  opacity: 1;
   border: 2px solid;
   border-color: transparent;
+  color: #bcbcbc;
   transition: all 0.3s ease-in-out;
 
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
-.navbar .signinbtn:hover {
+.navbar .email-btn svg {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.navbar .email-btn svg g path {
+  fill: #bcbcbc;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .email-btn:hover svg g path {
+  fill: #ffffff;
+}
+
+.navbar .email-btn:hover {
   border-color: #ffffff;
   color: #ffffff;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+}
+
+.navbar .email-btn:active {
+  -webkit-transform: translate3d(0, 0, 0) scale(0.95);
+  transform: translate3d(0, 0, 0) scale(0.95);
 }
 
 .navbar .navlogo {
@@ -78,26 +103,51 @@
   font-weight: 700;
   font-size: 18px;
 }
+.navlinkwrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+}
 .navbar .navlink {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   text-decoration: none;
+  min-width: 50px;
+  max-width: 100px;
+  padding: 0 10px;
+  height: 40px;
+  opacity: 1;
+  border: 2px solid;
+  border-color: transparent;
   color: #bcbcbc;
-  transition: color 0.3s;
+  transition: all 0.3s ease-in-out;
+
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 .navbar .navlink:hover {
-  /* color: #be78ff; */
+  border-color: #ffffff;
   color: #ffffff;
-  cursor: pointer;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 .navbar .navlink:not(:last-child) {
   margin-right: 32px;
+}
+
+.navbar .navlink:active {
+  -webkit-transform: translate3d(0, 0, 0) scale(0.95);
+  transform: translate3d(0, 0, 0) scale(0.95);
 }
 
 @media screen and (max-width: 925px) {

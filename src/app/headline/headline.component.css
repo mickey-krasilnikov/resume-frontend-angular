@@ -47,7 +47,7 @@
   font-weight: 500;
   font-size: 15px;
   text-decoration: none;
-  min-width: 250px;
+  min-width: 230px;
   height: 40px;
   opacity: 1;
   background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
@@ -58,6 +58,8 @@
   transform: translate3d(0, 0, 0);
 }
 
+/* filter: drop-shadow(0 0 16px rgba(199, 114, 255, 0.4));
+  filter: drop-shadow(0 0 4px rgba(199, 114, 255, 0.4)); */
 .headline-box .infobox-btn:hover {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
@@ -74,7 +76,7 @@
 }
 
 .headline-box .infobox-btn svg {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .headline-box .contactbox {
