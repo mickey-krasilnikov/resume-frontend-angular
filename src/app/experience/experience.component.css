@@ -46,8 +46,8 @@ a {
   width: 1em;
   height: 1em;
   stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
+  stroke: #000000;
+  fill: #000000;
 }
 
 .wrapper {
@@ -503,7 +503,7 @@ a {
   margin: 0 2px 4px 2px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   color: rgba(0, 0, 0, 0.87);
   align-items: center;
   height: 22px;
@@ -598,7 +598,7 @@ a {
   }
 
   .exprns-slider__chip {
-    font-size: 13px;
+    font-size: 12px;
     height: 20px;
   }
   .exprns-slider__tasks-caption {

@@ -1,3 +1,6 @@
+#navbar {
+  min-height: 5vh;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -62,7 +65,10 @@
   border-color: transparent;
   color: #bcbcbc;
   transition: all 0.3s ease-in-out;
-
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-select: none;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
@@ -131,7 +137,10 @@
   border-color: transparent;
   color: #bcbcbc;
   transition: all 0.3s ease-in-out;
-
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-select: none;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
