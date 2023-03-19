@@ -22,9 +22,7 @@
 }
 .footer-navigate {
   display: flex;
-
   justify-content: space-around;
-  /* width: 100%; */
 }
 .footer-navigate .nav {
   margin-left: 100px;

@@ -105,11 +105,8 @@
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
   color: #fff;
-  /* color: #282936; */
-  /* font-weight: 700; */
   line-height: 1.6;
   text-align: center;
-  /* text-transform: uppercase; */
 }
 .headline-box a:hover .circle {
   width: 100%;
@@ -148,49 +145,6 @@
     color: #fff;
   }
 }
-/*
-.headline-box .infobox-btn {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  text-decoration: none;
-  min-width: 230px;
-  height: 40px;
-  background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
-  color: #ffffff;
-  transition: all 0.3s ease-in-out;
-  -webkit-user-drag: none;
-  -moz-user-drag: none;
-  -ms-user-drag: none;
-  user-select: none;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  border-radius: 10px;
-} */
-/*
-.headline-box .infobox-btn:hover {
-  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.08);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-.headline-box .infobox-btn svg g path {
-  fill: #ffffff;
-}
-
-.headline-box .infobox-btn:active {
-  -webkit-transform: translate3d(0, 0, 0) scale(0.95);
-  transform: translate3d(0, 0, 0) scale(0.95);
-}
-
-.headline-box .infobox-btn svg {
-  margin-right: 10px;
-} */
 
 .headline-box .contactbox {
   animation-name: rightslide;
@@ -307,9 +261,14 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .headline-box {
+    margin-top: 0;
+  }
   .headline-box .infobox-boldtext {
-    font-size: 55px;
+    font-size: 45px;
     line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 40px;
   }
   .headline-box .infobox-slimtext {
     font-size: 15px;
@@ -318,13 +277,18 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .headline-box {
+    margin-top: 0;
+  }
   .headline-box .infobox-boldtext {
-    font-size: 55px;
+    font-size: 40px;
     line-height: 1.4em;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
   }
   .headline-box .infobox-slimtext {
-    text-align: center;
+    text-align: justify;
   }
 }
 @keyframes leftslide {
