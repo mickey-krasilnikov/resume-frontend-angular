@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  background-color: #252954;
+  background-color: #1f1d2b;
 }
 
 .landingpage {
   margin: 0;
   padding: 0 40px;
   position: relative;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow-y: visible;
+  overflow-x: visible;
   background-color: #1f1d2b;
 }
 .landingpage::before {
@@ -37,7 +37,16 @@ body {
   -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-
+@media (max-width: 768px) {
+  .landingpage {
+    margin: 0;
+    padding: 0 40px;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #1f1d2b;
+  }
+}
 @media screen and (max-width: 600px) {
   .landingpage {
     padding: 0 20px;
