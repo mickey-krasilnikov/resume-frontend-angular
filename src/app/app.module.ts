@@ -14,6 +14,7 @@ import { CertificationComponent } from './certification/certification.component'
 import { FooterComponent } from './footer/footer.component';
 
 import { PhonePipe } from './shared/pipes/phone.pipe';
+import { ExpirationPipe } from './shared/pipes/expiration.pipe';
 
 import { BusyIndicatorDirective } from './shared/directives/busy-indicator.directive';
 
@@ -35,6 +36,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     BusyIndicatorDirective,
     AboutComponent,
     NavbarComponent,
+    ExpirationPipe,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, NgbModule],
   providers: [],

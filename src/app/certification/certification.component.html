@@ -38,15 +38,13 @@
 
     <div class="cert-items">
       <div class="cert-items__item" *ngFor="let cert of certification">
-        <a href="https://www.credly.com/badges/dc95ff2a-12d8-4816-91b2-a9292ae5df85" target="_blank">
-          <img class="cert-items__item-img" [src]=cert.badgeImageUrl alt="unsplash-OG44d93i-NJk">
+        <a href={{cert.verificationUrl}} target="_blank">
+          <img class="cert-items__item-img" [src]=cert.badgeImageUrl alt={{cert.name}}>
         </a>
         <div class="cert-items__item-title">
           <p>{{cert.name}}</p>
         </div>
-        <p class="cert-items__item-date">{{cert.expirationDate != null
-          ? "Expires on " + (cert.expirationDate | date: 'MMM dd, yyyy')
-          : "Never expires"}}</p>
+        <p class="cert-items__item-date">{{ cert.expirationDate | expiration }}</p>
       </div>
     </div>
 
