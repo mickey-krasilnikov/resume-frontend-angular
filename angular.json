@@ -18,7 +18,13 @@
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
-            "assets": ["src/favicon.ico", "src/assets", "src/mock-data"],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              "src/mock-data",
+              "src/sitemap.xml",
+              "src/robots.txt"
+            ],
             "styles": [
               "./node_modules/normalize.css/normalize.css",
               "./node_modules/swiper/swiper-bundle.css",

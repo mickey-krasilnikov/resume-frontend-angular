@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://mickey-krasilnikov.com/sitemap.xml
