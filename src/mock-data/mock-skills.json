@@ -1,7 +1,7 @@
 [
   {
     "id": "d68e1fc9-265a-497d-9820-d85254cdd8f4",
-    "name": "Angular 8+",
+    "name": "Angular",
     "skillGroup": "Frontend",
     "priority": 101,
     "isHighlighted": true,
@@ -9,10 +9,19 @@
     "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
   },
   {
+    "id": "5dc5d6ec-4bdc-43c7-b2c1-0431ef4e076f",
+    "name": "React.js",
+    "skillGroup": "Frontend",
+    "priority": 102,
+    "isHighlighted": true,
+    "imageUrl": "../../assets/images/skills/reactjs.png",
+    "experienceIds": ["670fe84e-6e10-4b84-a5b0-af2828b22b3a"]
+  },
+  {
     "id": "6a4a375d-a175-42ae-8c28-6a5ad02344d6",
     "name": "Vue.js",
     "skillGroup": "Frontend",
-    "priority": 102,
+    "priority": 103,
     "isHighlighted": true,
     "imageUrl": "../../assets/images/skills/vuejs.png",
     "experienceIds": ["ac8d0e6b-05d9-405f-9959-a15851ea69d5"]
@@ -21,7 +30,7 @@
     "id": "f9696ba5-8f1a-4f62-a342-e1be1ad9497b",
     "name": "JavaScript",
     "skillGroup": "Frontend",
-    "priority": 103,
+    "priority": 104,
     "isHighlighted": true,
     "imageUrl": "../../assets/images/skills/js.png",
     "experienceIds": [
@@ -34,7 +43,7 @@
     "id": "547bb631-a704-4bab-83b4-f10d9c76edc3",
     "name": "TypeScript",
     "skillGroup": "Frontend",
-    "priority": 104,
+    "priority": 105,
     "isHighlighted": true,
     "imageUrl": "../../assets/images/skills/ts.png",
     "experienceIds": [
@@ -46,7 +55,7 @@
     "id": "280fc41e-cf77-4d1a-aac4-542e052b5eac",
     "name": "HTML",
     "skillGroup": "Frontend",
-    "priority": 105,
+    "priority": 106,
     "isHighlighted": true,
     "imageUrl": "../../assets/images/skills/html-5.png",
     "experienceIds": [
@@ -59,8 +68,8 @@
     "id": "af365eb4-cda7-4fba-926c-e3c63c4bbb36",
     "name": "CSS",
     "skillGroup": "Frontend",
-    "priority": 106,
-    "isHighlighted": true,
+    "priority": 107,
+    "isHighlighted": false,
     "imageUrl": "../../assets/images/skills/css-3.png",
     "experienceIds": [
       "ac8d0e6b-05d9-405f-9959-a15851ea69d5",
@@ -72,7 +81,7 @@
     "id": "406ae116-e60e-4899-a1b9-03fb99c21411",
     "name": "ASP.NET Core (Blazor)",
     "skillGroup": "Frontend",
-    "priority": 107,
+    "priority": 108,
     "isHighlighted": false,
     "experienceIds": []
   },
@@ -80,7 +89,7 @@
     "id": "71925c87-06d5-47e1-9ceb-1e007b75f7e9",
     "name": "ASP.NET",
     "skillGroup": "Frontend",
-    "priority": 108,
+    "priority": 109,
     "isHighlighted": false,
     "experienceIds": ["85c948f1-872d-4b47-9466-d09d5c1a9496"]
   },
@@ -88,7 +97,7 @@
     "id": "502ca177-2510-4147-8db8-cc79f47d6ebf",
     "name": "WPF",
     "skillGroup": "Frontend",
-    "priority": 109,
+    "priority": 110,
     "isHighlighted": false,
     "experienceIds": [
       "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
@@ -101,7 +110,7 @@
     "id": "c6c8d228-f485-45af-896d-73acb0f7790a",
     "name": "XAML",
     "skillGroup": "Frontend",
-    "priority": 110,
+    "priority": 111,
     "isHighlighted": false,
     "experienceIds": [
       "a4ac9bf7-30ae-4ae9-af01-90b95e46818b",
@@ -114,7 +123,7 @@
     "id": "2aff5429-7459-4645-9299-92f85ed504f4",
     "name": "WinForms",
     "skillGroup": "Frontend",
-    "priority": 111,
+    "priority": 112,
     "isHighlighted": false,
     "experienceIds": ["0286b7fa-35dd-403d-96ec-3645e3551b3f"]
   },
@@ -272,7 +281,10 @@
     "skillGroup": "Backend",
     "priority": 215,
     "isHighlighted": false,
-    "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
+    "experienceIds": [
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803",
+      "670fe84e-6e10-4b84-a5b0-af2828b22b3a"
+    ]
   },
   {
     "id": "3cf864dc-af87-471a-9009-f0f78195be1f",
@@ -302,7 +314,10 @@
     "priority": 301,
     "isHighlighted": true,
     "imageUrl": "../../assets/images/skills/azure.png",
-    "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
+    "experienceIds": [
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803",
+      "670fe84e-6e10-4b84-a5b0-af2828b22b3a"
+    ]
   },
   {
     "id": "57250f1c-f500-4988-8eb7-c1b26f589132",
@@ -342,7 +357,7 @@
     "name": "MySQL",
     "skillGroup": "Database",
     "priority": 402,
-    "isHighlighted": true,
+    "isHighlighted": false,
     "imageUrl": "../../assets/images/skills/mysql.png",
     "experienceIds": [
       "af1e99ea-6383-4e5e-909a-947753cd2bfc",
@@ -359,10 +374,19 @@
     "experienceIds": []
   },
   {
+    "id": "c8d4739d-e481-4516-bfec-ef65623ad902",
+    "name": "Snowflake",
+    "skillGroup": "Database",
+    "priority": 404,
+    "isHighlighted": true,
+    "imageUrl": "../../assets/images/skills/snowflake.png",
+    "experienceIds": ["670fe84e-6e10-4b84-a5b0-af2828b22b3a"]
+  },
+  {
     "id": "7efceebd-cc5c-437b-8230-5819d954aa80",
     "name": "MS SSAS",
     "skillGroup": "Database",
-    "priority": 404,
+    "priority": 405,
     "isHighlighted": false,
     "experienceIds": ["a4ac9bf7-30ae-4ae9-af01-90b95e46818b"]
   },
@@ -370,7 +394,7 @@
     "id": "d37d4816-a1e5-49fd-bfcb-47750241be14",
     "name": "Redis",
     "skillGroup": "Database",
-    "priority": 405,
+    "priority": 406,
     "isHighlighted": true,
     "imageUrl": "../../assets/images/skills/redis.png",
     "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
@@ -379,7 +403,7 @@
     "id": "4c823607-d081-4561-bc5c-9c3ef09bdc0c",
     "name": "Cosmos DB",
     "skillGroup": "Database",
-    "priority": 406,
+    "priority": 407,
     "isHighlighted": true,
     "imageUrl": "../../assets/images/skills/cosmosdb.png",
     "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
@@ -388,7 +412,7 @@
     "id": "dd770899-aa73-430a-8d0a-d607797084df",
     "name": "Mongo DB",
     "skillGroup": "Database",
-    "priority": 407,
+    "priority": 408,
     "isHighlighted": true,
     "imageUrl": "../../assets/images/skills/mongo.png",
     "experienceIds": []
@@ -397,7 +421,7 @@
     "id": "4fc96112-d7e9-45cf-85eb-261d9881d4c6",
     "name": "Dynamo DB",
     "skillGroup": "Database",
-    "priority": 408,
+    "priority": 409,
     "isHighlighted": false,
     "experienceIds": []
   },
@@ -415,7 +439,7 @@
     "skillGroup": "Tools",
     "priority": 502,
     "isHighlighted": false,
-    "experienceIds": []
+    "experienceIds": ["670fe84e-6e10-4b84-a5b0-af2828b22b3a"]
   },
   {
     "id": "3590eef7-19b9-4ea3-99d0-ecf14a27fb9b",
@@ -423,7 +447,10 @@
     "skillGroup": "Tools",
     "priority": 503,
     "isHighlighted": false,
-    "experienceIds": ["6439facb-1c42-4460-bb17-c0cb3d0d5803"]
+    "experienceIds": [
+      "6439facb-1c42-4460-bb17-c0cb3d0d5803",
+      "670fe84e-6e10-4b84-a5b0-af2828b22b3a"
+    ]
   },
   {
     "id": "06a717c6-9b92-4d43-8992-4dd6e14ca37a",
