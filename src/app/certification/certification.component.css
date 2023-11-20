@@ -2,7 +2,27 @@
   display: flex;
   flex-direction: column;
 }
-
+.cert-boldtext {
+  margin: 0;
+  align-self: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 72px;
+}
+.cert-slimtext {
+  margin: 0;
+  align-self: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: #e2e2e2;
+}
 .cert-title {
   display: flex;
   align-items: center;

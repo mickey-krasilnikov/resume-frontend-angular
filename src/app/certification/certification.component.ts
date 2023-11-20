@@ -41,6 +41,7 @@ export class CertificationComponent {
       });
     });
   }
+
   sortCertification(index: number, sortDirection: string) {
     switch (index) {
       case 0:

@@ -7,13 +7,23 @@
     "verificationUrl": "https://www.credly.com/badges/8ea21901-34c7-4cb4-bc48-71e0c5cf3e85",
     "badgeImageUrl": "../../assets/images/certbadges/az-sa-expert.png",
     "issueDate": "2020-06-10",
-    "expirationDate": "2023-05-10"
+    "expirationDate": "2024-05-10"
+  },
+  {
+    "id": "aa429d00-3231-486c-b5bd-624538e8d94e",
+    "name": "Azure DevOps Engineer Expert",
+    "issuer": "Microsoft",
+    "importance": 5,
+    "verificationUrl": "https://www.credly.com/badges/eaedb35f-5ea9-45b2-b551-acad69b94488",
+    "badgeImageUrl": "../../assets/images/certbadges/az-devops-expert.png",
+    "issueDate": "2020-11-10",
+    "expirationDate": "2024-11-10"
   },
   {
     "id": "3610a499-700c-49a7-938d-678ba309a088",
     "name": "Google Cloud Architect Expert",
     "issuer": "Google",
-    "importance": 5,
+    "importance": 4,
     "verificationUrl": "https://www.credential.net/786961ad-0225-4bb0-883a-3c2feceb5174",
     "badgeImageUrl": "../../assets/images/certbadges/google-sa-expert.png",
     "issueDate": "2020-09-27",
@@ -28,16 +38,6 @@
     "badgeImageUrl": "../../assets/images/certbadges/aws-sa-associate.png",
     "issueDate": "2020-03-28",
     "expirationDate": "2024-03-28"
-  },
-  {
-    "id": "aa429d00-3231-486c-b5bd-624538e8d94e",
-    "name": "Azure DevOps Engineer Expert",
-    "issuer": "Microsoft",
-    "importance": 3,
-    "verificationUrl": "https://www.credly.com/badges/eaedb35f-5ea9-45b2-b551-acad69b94488",
-    "badgeImageUrl": "../../assets/images/certbadges/az-devops-expert.png",
-    "issueDate": "2020-11-10",
-    "expirationDate": "2023-11-10"
   },
   {
     "id": "dd7e3e7d-59ed-4597-aed4-2c87f7c74eb0",
