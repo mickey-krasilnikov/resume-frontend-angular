@@ -19,7 +19,6 @@ import { ExpirationPipe } from './shared/pipes/expiration.pipe';
 import { BusyIndicatorDirective } from './shared/directives/busy-indicator.directive';
 
 import { register } from 'swiper/element/bundle';
-import { AboutComponent } from './about/about.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
@@ -34,7 +33,6 @@ import { NavbarComponent } from './navbar/navbar.component';
     FooterComponent,
     PhonePipe,
     BusyIndicatorDirective,
-    AboutComponent,
     NavbarComponent,
     ExpirationPipe,
   ],
